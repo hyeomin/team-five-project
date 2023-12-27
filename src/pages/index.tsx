@@ -1,27 +1,21 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import { supabase } from "./api/supabase";
+import AddGoal from '@/components/Home/AddGoal';
+import Hero from '@/components/Home/Hero';
+import HomeBody from '@/components/Home/HomeBody';
+import { addGoalState } from '@/components/recoil/atom';
+import { Inter } from 'next/font/google';
+import { useRecoilValue } from 'recoil';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 
 export default function Home() {
-  const loadData = async () => {
-    try {
-      const { data, error } = await supabase.from("resolution").select();
-      if (error) throw new Error();
-      return data;
-    } catch (err) {
-      alert("데이터를 불러오지 못했습니다");
-      return null;
-    }
-  }
-  console.log('loadData', loadData())
+  const open = useRecoilValue(addGoalState);
+
   return (
-  <div>
-    <button>목표 추가하기</button>
-    <button>수정</button>
-    <button>X</button>
-  </div>
+    <div className='mx-8'>
+      {open && <AddGoal />}
+      <Hero />
+      <HomeBody />
+    </div>
   );
 }
