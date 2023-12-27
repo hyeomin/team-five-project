@@ -1,11 +1,12 @@
-import React, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
+import Body from './Body';
 import NavBar from './NavBar';
 
 const Layout = ({ children }: PropsWithChildren) => {
   return (
     <div>
       <NavBar />
-      {children}
+      <Body>{children}</Body>
     </div>
   );
 };
