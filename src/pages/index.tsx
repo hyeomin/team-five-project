@@ -6,14 +6,15 @@ import { Inter } from 'next/font/google';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { supabase } from './api/supabase';
 import { useEffect } from 'react';
-import { fetchDataList } from '@/components/recoil/atom';
+import { fetchDataState } from '@/components/recoil/atom';
+import { resolutionType } from '@/components/recoil/atom';
 
 const inter = Inter({ subsets: ['latin'] });
 
 
 export default function Home() {
   const open = useRecoilValue(addGoalState);
-  const [fetchData, setFetchData] = useRecoilState<any>(fetchDataList)
+  const [fetchData, setFetchData] = useRecoilState<resolutionType[]>(fetchDataState)
 
   useEffect(() => {
     async function fetchData() {
@@ -28,9 +29,6 @@ export default function Home() {
     }
     fetchData()
   }, [])
-  console.log('fetchData',fetchData)
-
-
 
   return (
     <div className='mx-8'>
