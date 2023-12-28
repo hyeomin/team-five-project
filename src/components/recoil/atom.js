@@ -5,4 +5,9 @@ const addGoalState = atom({
   default: false,
 });
 
-export { addGoalState };
+const fetchDataList = atom({
+  key: 'fetchDataList',
+  default: [],
+});
+
+export { addGoalState, fetchDataList };
