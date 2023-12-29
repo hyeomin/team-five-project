@@ -1,11 +1,10 @@
-import { fetchDataState } from "@/recoil/atom";
+import { fetchDataState } from '@/recoil/atom';
 import { useRecoilState, useRecoilValue } from 'recoil';
-import MyGoal from "./MyGoal";
+import MyGoal from './MyGoal';
 
 const MyGoalList = () => {
-  const fetchData = useRecoilValue(fetchDataState)
-
-
+  const fetchData = useRecoilValue(fetchDataState);
+  console.log(fetchData);
 
   return (
     <div className='border border-current p-4'>
@@ -13,21 +12,20 @@ const MyGoalList = () => {
       <ul>
         {fetchData.map((item) => {
           return (
-            <MyGoal 
-            key={item.id}
-            id={item.id}
-            title={item.title}
-            content={item.content}
-            dueDate={item.dueDate}
-            progress={item.progress}
-            user={item.user}
+            <MyGoal
+              key={item.id}
+              id={item.id}
+              title={item.title}
+              content={item.content}
+              dueDate={item.dueDate}
+              progress={item.progress}
+              user={item.user}
             />
-          )
+          );
         })}
       </ul>
     </div>
   );
 };
-
 
 export default MyGoalList;
