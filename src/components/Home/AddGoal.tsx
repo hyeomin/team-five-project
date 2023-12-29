@@ -1,10 +1,10 @@
 'use client';
 
-import { fetchDataState } from '@/components/recoil/atom';
+import { fetchDataState } from '@/recoil/atom';
 import { supabase } from '@/pages/api/supabase';
 import { useState } from 'react';
 import { useRecoilState, useSetRecoilState } from 'recoil';
-import { addGoalState, resolutionType } from '../recoil/atom';
+import { addGoalState, resolutionType } from '../../recoil/atom';
 
 const AddGoal = () => {
   const setOpen = useSetRecoilState(addGoalState);
