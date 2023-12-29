@@ -7,9 +7,9 @@ const Hero = () => {
   const setOpen = useSetRecoilState(addGoalState);
 
   return (
-    <div className='flex justify-center items-end relative border border-solid border-current h-[400px] overflow-hidden'>
+    <div className='flex justify-center items-end relative h-[400px] overflow-hidden'>
       <button
-        className='border border-current bg-white mb-20 px-6 py-2 relative z-10'
+        className='bg-slate-300 mb-20 px-6 py-2 relative z-10 '
         onClick={() => setOpen(true)}
       >
         목표 추가하기
