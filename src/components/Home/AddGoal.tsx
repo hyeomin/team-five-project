@@ -1,24 +1,23 @@
-'use client'
+'use client';
 
-import { useSetRecoilState, useRecoilState, useRecoilValue } from 'recoil';
-import { addGoalState } from '../recoil/atom';
 import { fetchDataState } from '@/components/recoil/atom';
-import { useState } from 'react';
-import { resolutionType } from '../recoil/atom';
 import { supabase } from '@/pages/api/supabase';
-
+import { useState } from 'react';
+import { useRecoilState, useSetRecoilState } from 'recoil';
+import { addGoalState, resolutionType } from '../recoil/atom';
 
 const AddGoal = () => {
   const setOpen = useSetRecoilState(addGoalState);
-  const [fetchData, setFetchData] = useRecoilState<resolutionType[]>(fetchDataState)
+  const [fetchData, setFetchData] =
+    useRecoilState<resolutionType[]>(fetchDataState);
 
-  const [form, setForm] = useState({ title: '', content: '' })
-  const onChangeHandler = (e: { target: { name: string; value: string; }; }) => {
+  const [form, setForm] = useState({ title: '', content: '' });
+  const onChangeHandler = (e: { target: { name: string; value: string } }) => {
     const { name, value } = e.target;
-    setForm({ ...form, [name]: value })
-  }
+    setForm({ ...form, [name]: value });
+  };
 
-  const onSubmitHandler = async (e: { preventDefault: () => void; }) => {
+  const onSubmitHandler = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     const resolutionForm: resolutionType = {
       id: fetchData.length + 1,
@@ -27,37 +26,42 @@ const AddGoal = () => {
       dueDate: '',
       progress: '',
       user: '',
-    }
-    const { error } = await supabase
-      .from('resolution')
-      .insert(resolutionForm)
-      console.log(error)
+    };
+    const { error } = await supabase.from('resolution').insert(resolutionForm);
+    console.log(error);
 
-    setFetchData([...fetchData, resolutionForm])
-    setForm({ title: '', content: '' })
-  }
+    setFetchData([...fetchData, resolutionForm]);
+    setForm({ title: '', content: '' });
+    setOpen(false);
+  };
 
   return (
     <div
       className='fixed flex items-center w-screen h-screen  bg-black bg-opacity-50'
       style={{ zIndex: 20 }}
     >
-      <form className='flex flex-col w-[600px] h-[300px] m-auto bg-white p-8 gap-y-4'
-        onSubmit={onSubmitHandler}>
+      <form
+        className='flex flex-col w-[600px] h-[300px] m-auto bg-white p-8 gap-y-4'
+        onSubmit={onSubmitHandler}
+      >
         <h3>새로운 목표</h3>
         <div className='flex gap-x-4'>
           <span className='w-12'>목표</span>
-          <input className='flex-1 border border-current'
+          <input
+            className='flex-1 border border-current'
             placeholder='목표를 입력해주세요'
             name='title'
-            onChange={onChangeHandler} />
+            onChange={onChangeHandler}
+          />
         </div>
         <div className='flex gap-x-4'>
           <span className='w-12'>내용</span>
-          <textarea className='flex-1 border border-current'
+          <textarea
+            className='flex-1 border border-current'
             placeholder='내용을 입력해주세요'
             name='content'
-            onChange={onChangeHandler} />
+            onChange={onChangeHandler}
+          />
         </div>
         <div>
           <span>목표일자</span>
