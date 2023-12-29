@@ -1,7 +1,6 @@
 import React from 'react';
 import { useRecoilState } from 'recoil';
-import { resolutionType, fetchDataState } from '@/recoil/atom';
-import { Paper } from '@mui/material';
+import { fetchDataState } from '@/recoil/atom';
 import MuiCard from './MuiCard';
 import { useQuery } from '@tanstack/react-query';
 import { fetchData } from '@/pages/api/resolutions';
