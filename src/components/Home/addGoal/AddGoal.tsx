@@ -1,10 +1,11 @@
 'use client';
 
-import { fetchDataState } from '@/recoil/atom';
 import { supabase } from '@/pages/api/supabase';
+import { fetchDataState } from '@/recoil/atom';
 import { useState } from 'react';
+import DatePicker from 'react-datepicker';
 import { useRecoilState, useSetRecoilState } from 'recoil';
-import { addGoalState, resolutionType } from '../../recoil/atom';
+import { addGoalState, resolutionType } from '../../../recoil/atom';
 
 const AddGoal = () => {
   const setOpen = useSetRecoilState(addGoalState);
@@ -12,6 +13,7 @@ const AddGoal = () => {
     useRecoilState<resolutionType[]>(fetchDataState);
 
   const [form, setForm] = useState({ title: '', content: '' });
+  const [startDate, setStartDate] = useState<Date | null>(new Date());
 
   const onChangeHandler = (e: { target: { name: string; value: string } }) => {
     const { name, value } = e.target;
@@ -49,7 +51,7 @@ const AddGoal = () => {
         <div className='flex gap-x-4'>
           <span className='w-12'>목표</span>
           <input
-            className='flex-1 border border-current'
+            className='flex-1 border border-current text-black'
             placeholder='목표를 입력해주세요'
             name='title'
             onChange={onChangeHandler}
@@ -58,16 +60,17 @@ const AddGoal = () => {
         <div className='flex gap-x-4'>
           <span className='w-12'>내용</span>
           <textarea
-            className='flex-1 border border-current'
+            className='flex-1 border border-current text-black'
             placeholder='내용을 입력해주세요'
             name='content'
             onChange={onChangeHandler}
           />
         </div>
-        <div>
-          <span>목표일자</span>
-          <select>날짜 선택하기</select>
-        </div>
+        <div className='text-black bg-white'></div>
+        <DatePicker
+          selected={startDate}
+          onChange={(date) => setStartDate(date)}
+        />
         <div className='flex gap-x-4'>
           <button className='flex-1 bg-gray-300' onClick={() => setOpen(false)}>
             취소

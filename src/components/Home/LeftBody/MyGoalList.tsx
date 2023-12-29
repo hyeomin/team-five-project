@@ -1,10 +1,9 @@
 import { fetchDataState } from '@/recoil/atom';
-import { useRecoilState, useRecoilValue } from 'recoil';
+import { useRecoilValue } from 'recoil';
 import MyGoal from './MyGoal';
 
 const MyGoalList = () => {
   const fetchData = useRecoilValue(fetchDataState);
-  console.log(fetchData);
 
   return (
     <div className='border border-current p-4'>
