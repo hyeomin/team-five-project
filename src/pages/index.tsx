@@ -1,15 +1,12 @@
-import AddGoal from '@/components/Home/AddGoal';
 import Hero from '@/components/Home/Hero';
 import HomeBody from '@/components/Home/HomeBody';
-import { addGoalState } from '@/recoil/atom';
-import { Inter } from 'next/font/google';
+import AddGoal from '@/components/Home/addGoal/AddGoal';
+import { addGoalState, fetchDataState } from '@/recoil/atom';
+import { resolutionType } from '@/types/ResoultionTypes';
+import { useEffect } from 'react';
+import 'react-datepicker/dist/react-datepicker.css';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { supabase } from './api/supabase';
-import { useEffect } from 'react';
-import { fetchDataState } from '@/recoil/atom';
-import { resolutionType } from '@/recoil/atom';
-
-const inter = Inter({ subsets: ['latin'] });
 
 type Props = {
   resolutions: resolutionType[];
