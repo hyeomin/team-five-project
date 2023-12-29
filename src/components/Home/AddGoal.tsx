@@ -12,12 +12,13 @@ const AddGoal = () => {
     useRecoilState<resolutionType[]>(fetchDataState);
 
   const [form, setForm] = useState({ title: '', content: '' });
+
   const onChangeHandler = (e: { target: { name: string; value: string } }) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
 
-  const onSubmitHandler = async (e: { preventDefault: () => void }) => {
+  const onSubmitHandler = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const resolutionForm: resolutionType = {
       id: fetchData.length + 1,
@@ -29,8 +30,8 @@ const AddGoal = () => {
     };
     const { error } = await supabase.from('resolution').insert(resolutionForm);
     console.log(error);
-
-    setFetchData([...fetchData, resolutionForm]);
+    console.log(resolutionForm);
+    setFetchData((prev) => [...prev, resolutionForm]);
     setForm({ title: '', content: '' });
     setOpen(false);
   };
@@ -41,7 +42,7 @@ const AddGoal = () => {
       style={{ zIndex: 20 }}
     >
       <form
-        className='flex flex-col w-[600px] h-[300px] m-auto bg-white p-8 gap-y-4'
+        className='flex flex-col w-[600px] h-[300px] m-auto bg-black p-8 gap-y-4'
         onSubmit={onSubmitHandler}
       >
         <h3>새로운 목표</h3>
