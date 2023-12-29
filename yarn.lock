@@ -776,6 +776,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.14.2":
+  version: 5.14.2
+  resolution: "@tanstack/query-core@npm:5.14.2"
+  checksum: 1171510ecfaf51693de021c164dc94297260bd88f560705cda2cae460c869cf1bbe5f08389fcf36d69c3b8cfe6b24fec492bfa962afdbaabbe3c9e99065df6fd
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.15.0":
+  version: 5.15.0
+  resolution: "@tanstack/react-query@npm:5.15.0"
+  dependencies:
+    "@tanstack/query-core": "npm:5.14.2"
+  peerDependencies:
+    react: ^18.0.0
+  checksum: 29590d1919a0f0ea3970fc25bc342af0875e098af408ee280149de3015dbc480fa6452537035a3889ff70566e0299fa7e61a47ff4ee55ada4aade8307d2109e4
+  languageName: node
+  linkType: hard
+
 "@types/json5@npm:^0.0.29":
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
@@ -4473,6 +4491,7 @@ __metadata:
     "@emotion/styled": "npm:^11.11.0"
     "@mui/material": "npm:^5.15.2"
     "@supabase/supabase-js": "npm:^2.39.1"
+    "@tanstack/react-query": "npm:^5.15.0"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"

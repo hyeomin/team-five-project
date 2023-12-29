@@ -1,6 +1,5 @@
 import { atom } from 'recoil';
 
-
 export interface resolutionType {
   id: number;
   title: string;
