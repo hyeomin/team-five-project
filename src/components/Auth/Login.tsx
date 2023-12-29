@@ -8,7 +8,9 @@ import {
   TextField,
 } from '@mui/material';
 import React from 'react';
-import { signInHndlr, signOutHndlr } from '@/pages/api/login';
+import { useEffect } from 'react';
+import { supabase } from '@/pages/api/login';
+import { signInHndlr, signOutHndlr, signUpHndlr } from '@/pages/api/login';
 
 export default function Login() {
   const [isUser, setIsUser] = React.useState(false);
@@ -16,8 +18,12 @@ export default function Login() {
   const [open, setOpen] = React.useState(false);
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
+  const [nickname, setNickname] = React.useState('');
+
   const handleOpen = () => setOpen(true);
-  const handleCancel = () => setOpen(false);
+  const handleCancel = () => {
+    setOpen(false);
+  };
 
   return (
     <React.Fragment>
@@ -103,6 +109,61 @@ export default function Login() {
           </Button>
           <Dialog open={open} onClose={handleCancel}>
             <DialogTitle>Join </DialogTitle>
+            <DialogContent>
+              <DialogContentText>
+                M5MENTOM에 오신 것을 환영합니다.
+              </DialogContentText>
+              <TextField
+                autoFocus
+                margin='dense'
+                id='email'
+                label='Email'
+                type='email'
+                fullWidth
+                variant='standard'
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <TextField
+                autoFocus
+                margin='dense'
+                id='password'
+                label='Password'
+                type='password'
+                fullWidth
+                variant='standard'
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <TextField
+                autoFocus
+                margin='dense'
+                id='nickname'
+                label='닉네임'
+                type='text'
+                fullWidth
+                variant='standard'
+                value={nickname}
+                onChange={(e) => setNickname(e.target.value)}
+              />
+            </DialogContent>
+            <DialogActions>
+              <button onClick={handleCancel}>취소</button>
+              <button
+                onClick={signUpHndlr.bind(
+                  null,
+                  email,
+                  password,
+                  nickname,
+                  setEmail,
+                  setPassword,
+                  setNickname,
+                  setIsUser,
+                )}
+              >
+                join
+              </button>
+            </DialogActions>
           </Dialog>
         </React.Fragment>
       )}

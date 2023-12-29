@@ -1,33 +1,38 @@
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from './supabase';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL as string;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string;
-const supabase = createClient(supabaseUrl, supabaseKey);
+//회원가입
+export const signUpHndlr = async (
+  id: string,
+  pw: string,
+  nick: string,
+  setEmail: React.Dispatch<React.SetStateAction<string>>,
+  setPassword: React.Dispatch<React.SetStateAction<string>>,
+  setNickname: React.Dispatch<React.SetStateAction<string>>,
+  setIsUser: React.Dispatch<React.SetStateAction<boolean>>,
+) => {
+  console.log('이것도 연결됨');
+  try {
+    const { data, error } = await supabase.auth.signUp({
+      email: id,
+      password: pw,
+      options: {
+        data: {
+          nickname: nick,
+        },
+      },
+    });
+    if (error) console.error(error);
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+  setIsUser((prev: boolean) => !prev);
+  setEmail('');
+  setPassword('');
+  setNickname('');
+};
 
-// //회원가입
-// const signUpHndlr = async () => {
-//   console.log('이것도 연결됨');
-//   const { data, error } = await supabase.auth.signUp({
-//     email: id,
-//     password: pw,
-//     options: {
-//       data: {
-//         nickname: nick,
-//       },
-//     },
-//   });
-// };
-
-//로그인
-// const signInHndlr = async (e: React.FormEvent<HTMLFormElement>) => {
-//   e.preventDefault();
-//   const { data, error } = await supabase.auth.signInWithPassword({
-//     email: id,
-//     password: pw,
-//   });
-//   console.log('데이터', data, '에러', error);
-// };
-
+// 로그인
 export const signInHndlr = async (
   id: string,
   pw: string,
@@ -59,6 +64,7 @@ export const signOutHndlr = async (
 ) => {
   const { error } = await supabase.auth.signOut();
   console.log('에러', error);
+  console.log('로그아웃 성공');
   setLogin((prev: boolean) => !prev);
 };
 
