@@ -10,6 +10,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bebas: ['Bebas Neue', 'cursive'],
+        orbitron: ['Orbitron', 'cursive'],
+      },
+      colors: {
+        main: '#3C205D',
+        mainNavy: '#1D3263',
+      },
       backgroundImage: {
         main: "url('/bg-image.png')",
         // 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
