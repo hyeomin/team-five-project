@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className='flex justify-center items-end relative h-[400px] overflow-hidden'>
       <button
-        className='bg-slate-300 mb-20 px-6 py-2 relative z-10 '
+        className='bg-violet-100 text-main rounded-xl mb-20 px-6 py-2 relative z-10 hover:bg-slate-300'
         onClick={() => setOpen(true)}
       >
         목표 추가하기

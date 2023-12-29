@@ -1,13 +1,5 @@
-import { atom, selectorFamily } from 'recoil';
-
-export interface resolutionType {
-  id: number;
-  title: string;
-  content: string;
-  dueDate: string;
-  progress: string;
-  user: string;
-}
+import { resolutionType } from '@/types/ResoultionTypes';
+import { atom } from 'recoil';
 
 const addGoalState = atom({
   key: 'addGoalState',
