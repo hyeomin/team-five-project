@@ -1,6 +1,11 @@
 import { supabase } from './supabase';
 import { resolutionType } from '@/recoil/atom';
 
+interface editResolutionType {
+  id: number;
+  content: string;
+}
+
 export const fetchData = async () => {
   try {
     const { data, error } = await supabase.from('resolution').select('*');
@@ -17,3 +22,15 @@ export const addResoultion = async (newResolution: resolutionType) => {
     console.log('Error', error);
   }
 };
+
+export const editResolution = async ({id, content }: editResolutionType) => {
+  try {
+    console.log(content)
+    const { error } = await supabase
+    .from('resolution')
+    .update({ content: content })
+    .eq('id', id)
+  } catch (error) {
+    console.log('Error', error)
+  }
+}
