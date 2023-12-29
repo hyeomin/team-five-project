@@ -5,9 +5,19 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,jsx,ts,tsx}',
+    './node_modules/react-tailwindcss-datepicker/dist/index.esm.js',
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bebas: ['Bebas Neue', 'cursive'],
+        orbitron: ['Orbitron', 'cursive'],
+      },
+      colors: {
+        main: '#3C205D',
+        mainNavy: '#1D3263',
+      },
       backgroundImage: {
         main: "url('/bg-image.png')",
         // 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
