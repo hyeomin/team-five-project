@@ -1,7 +1,8 @@
-import React from "react";
+import Commubody from '@/components/community/commubody';
+import React from 'react';
 
 const CommunityPage = () => {
-  return <div>CommunityPage</div>;
+  return <Commubody />;
 };
 
 export default CommunityPage;
