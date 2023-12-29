@@ -1,4 +1,4 @@
-import { fetchDataState } from "@/components/recoil/atom";
+import { fetchDataState } from "@/recoil/atom";
 import { useRecoilState, useRecoilValue } from 'recoil';
 import MyGoal from "./MyGoal";
 

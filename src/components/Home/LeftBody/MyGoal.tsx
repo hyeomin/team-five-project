@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { resolutionType, fetchDataState } from "@/components/recoil/atom";
+import { resolutionType, fetchDataState } from "@/recoil/atom";
 import { useRecoilValue, useRecoilState, useSetRecoilState } from 'recoil';
 import { supabase } from '@/pages/api/supabase';
 

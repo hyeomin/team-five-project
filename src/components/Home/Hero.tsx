@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useSetRecoilState } from 'recoil';
 import hero from '../../../public/hero-image.jpg';
-import { addGoalState } from '../recoil/atom';
+import { addGoalState } from '../../recoil/atom';
 
 const Hero = () => {
   const setOpen = useSetRecoilState(addGoalState);
