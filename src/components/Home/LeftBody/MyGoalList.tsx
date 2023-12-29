@@ -1,9 +1,9 @@
 import { fetchDataState } from "@/components/recoil/atom";
-import { useRecoilState } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 import MyGoal from "./MyGoal";
 
 const MyGoalList = () => {
-  const [fetchData, setFetchData] = useRecoilState(fetchDataState)
+  const fetchData = useRecoilValue(fetchDataState)
 
 
 
