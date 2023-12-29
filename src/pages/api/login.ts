@@ -40,12 +40,21 @@ export const signInHndlr = async (
   setEmail: React.Dispatch<React.SetStateAction<string>>,
   setPassword: React.Dispatch<React.SetStateAction<string>>,
 ) => {
-  const { data, error } = await supabase.auth.signInWithPassword({
-    email: id,
-    password: pw,
-  });
-  console.log('데이터', data, '에러', error);
-  setLogin((prev: boolean) => !prev);
+  try {
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email: id,
+      password: pw,
+    });
+    if (error) {
+      console.error('로그인 실패:', error.message);
+    } else {
+      console.log('로그인 성공:', data);
+    }
+  } catch (error) {
+    console.error('데이터', error);
+  }
+
+  setLogin(true);
   setEmail('');
   setPassword('');
 };
@@ -65,10 +74,10 @@ export const signOutHndlr = async (
   const { error } = await supabase.auth.signOut();
   console.log('에러', error);
   console.log('로그아웃 성공');
-  setLogin((prev: boolean) => !prev);
+  setLogin(false);
 };
 
-// //조회
+//조회
 // const getCurrentSession = async () => {
 //   const { data, error } = await supabase.auth.getSession();
 //   console.log('데이터', data, '에러', error);

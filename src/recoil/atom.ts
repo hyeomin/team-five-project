@@ -1,5 +1,4 @@
-import { atom } from 'recoil';
-
+import { atom, selectorFamily } from 'recoil';
 
 export interface resolutionType {
   id: number;

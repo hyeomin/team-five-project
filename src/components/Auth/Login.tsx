@@ -8,8 +8,6 @@ import {
   TextField,
 } from '@mui/material';
 import React from 'react';
-import { useEffect } from 'react';
-import { supabase } from '@/pages/api/login';
 import { signInHndlr, signOutHndlr, signUpHndlr } from '@/pages/api/login';
 
 export default function Login() {
