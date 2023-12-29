@@ -11,27 +11,25 @@ import { resolutionType } from '@/components/recoil/atom';
 
 const inter = Inter({ subsets: ['latin'] });
 
-
 export default function Home() {
   const open = useRecoilValue(addGoalState);
-  const [fetchData, setFetchData] = useRecoilState<resolutionType[]>(fetchDataState)
+  const [fetchData, setFetchData] =
+    useRecoilState<resolutionType[]>(fetchDataState);
 
   useEffect(() => {
     async function fetchData() {
       try {
-        const { data, error } = await supabase
-          .from("resolution")
-          .select("*")
-        setFetchData(data)       
+        const { data, error } = await supabase.from('resolution').select('*');
+        setFetchData(data);
       } catch (err) {
-        alert(err)
+        alert(err);
       }
     }
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
 
   return (
-    <div className='mx-8'>
+    <div className=' mx-8'>
       {open && <AddGoal />}
       <Hero />
       <HomeBody />
