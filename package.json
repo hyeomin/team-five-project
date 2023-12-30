@@ -14,6 +14,7 @@
     "@mui/material": "^5.15.2",
     "@supabase/supabase-js": "^2.39.1",
     "@tanstack/react-query": "^5.15.0",
+    "@tanstack/react-query-devtools": "^5.15.5",
     "next": "14.0.4",
     "react": "^18",
     "react-datepicker": "^4.25.0",

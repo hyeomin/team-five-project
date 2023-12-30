@@ -77,17 +77,21 @@ export const signOutHndlr = async (
   setLogin(false);
 };
 
-//조회
-// const getCurrentSession = async () => {
-//   const { data, error } = await supabase.auth.getSession();
-//   console.log('데이터', data, '에러', error);
-//   if (!data.session) {
-//     setUser('로그인 상태가 아님');
-//   }
-//   if (data.session) {
-//     setUser(data.session?.user.email as string);
-//     setUserNick(data.session?.user.user_metadata?.nickname as string);
-//   }
-// };
+// 조회
+export const getCurrentSession = async () => {
+  const { data, error } = await supabase.auth.getSession();
+  console.log('데이터', data, '에러', error);
+  if (!data.session) {
+    console.log('로그인 상태가 아님');
+  }
+  if (data.session) {
+    console.log('유저이메일 >>', data.session?.user.email as string);
+    console.log(
+      '유저닉네임 >>',
+      data.session?.user.user_metadata?.nickname as string,
+    );
+    return data.session;
+  }
+};
 
 export { supabase };

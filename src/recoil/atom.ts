@@ -6,9 +6,14 @@ const addGoalState = atom({
   default: false,
 });
 
+const isLoggedInState = atom<boolean>({
+  key: 'isLoggedInState',
+  default: false,
+});
+
 const fetchDataState = atom<resolutionType[]>({
   key: 'fetchDataState',
   default: [],
 });
 
-export { addGoalState, fetchDataState };
+export { addGoalState, fetchDataState, isLoggedInState };
