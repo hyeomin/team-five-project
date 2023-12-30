@@ -74,7 +74,7 @@ export default function Login() {
         )}
         {login && (
           <Button
-            onClick={signOutHndlr.bind(null, setLogin, setIsUser)}
+            onClick={signOutHndlr.bind(null, setLogin)}
             className='text-base text-white font-sans'
           >
             Log out
