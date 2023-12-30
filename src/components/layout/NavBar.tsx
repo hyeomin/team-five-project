@@ -4,7 +4,7 @@ import Login from '../Auth/Login';
 
 const NavBar = () => {
   return (
-    <nav className='flex gap-[100px] justify-center'>
+    <nav className='flex gap-[100px] justify-center items-center'>
       <Link href='/'>HOME</Link>
       <Link href='/community'>COMMUNITY</Link>
       <Link href='/about'>ABOUT</Link>
