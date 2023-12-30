@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutPage = () => {
   return (
-    <div className='flex-jestify-center'>
+    <div className='flex-justify-center'>
       <AboutBody />
     </div>
   );
