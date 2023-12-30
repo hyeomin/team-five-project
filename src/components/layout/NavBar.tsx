@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Login from '../Auth/Login';
+import SingUp from '../Auth/SingUp';
 
 const NavBar = () => {
   return (
@@ -8,6 +9,7 @@ const NavBar = () => {
       <Link href='/'>HOME</Link>
       <Link href='/community'>COMMUNITY</Link>
       <Link href='/about'>ABOUT</Link>
+      <SingUp />
       <Login />
     </nav>
   );
