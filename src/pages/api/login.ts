@@ -1,5 +1,17 @@
 import { supabase } from './supabase';
 
+interface Validation {
+  isValid: boolean;
+  message: string;
+}
+
+export interface ValidationState {
+  email: Validation;
+  password: Validation;
+  confirmPassword: Validation;
+  nickname: Validation;
+}
+
 //회원가입
 export const signUpHndlr = async (
   id: string,
@@ -10,7 +22,6 @@ export const signUpHndlr = async (
   setNickname: React.Dispatch<React.SetStateAction<string>>,
   setIsUser: React.Dispatch<React.SetStateAction<boolean>>,
 ) => {
-  console.log('이것도 연결됨');
   try {
     const { data, error } = await supabase.auth.signUp({
       email: id,
@@ -59,6 +70,18 @@ export const signInHndlr = async (
   setPassword('');
 };
 
+// //로그아웃
+export const signOutHndlr = async (
+  setLogin: React.Dispatch<React.SetStateAction<boolean>>,
+  setIsUser: React.Dispatch<React.SetStateAction<boolean>>,
+) => {
+  const { error } = await supabase.auth.signOut();
+  console.log('에러', error);
+  console.log('로그아웃 성공');
+  setLogin(false);
+  setIsUser(false);
+};
+
 // //소셜로그인
 // const signInWithKakao = async () => {
 //   const { data, error } = await supabase.auth.signInWithOAuth({
@@ -66,16 +89,6 @@ export const signInHndlr = async (
 //   });
 //   console.log('카카오로그인정보', data);
 // };
-
-// //로그아웃
-export const signOutHndlr = async (
-  setLogin: React.Dispatch<React.SetStateAction<boolean>>,
-) => {
-  const { error } = await supabase.auth.signOut();
-  console.log('에러', error);
-  console.log('로그아웃 성공');
-  setLogin(false);
-};
 
 //조회
 // const getCurrentSession = async () => {
