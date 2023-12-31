@@ -41,6 +41,7 @@ export default function Login() {
 
   const signInHelperFn = async () => {
     await signInHndlr(email, password);
+
     setLogin(true);
     setEmail('');
     setPassword('');
