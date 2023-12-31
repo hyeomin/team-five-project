@@ -24,6 +24,7 @@ function MyGoal({
       }
   })
   const [fetchData, setFetchData] = useRecoilState<resolutionType[]>(fetchDataState)
+  const [modalState, setModalState] = useState(false)
 
   // UpDate
   const [editState, setEditState] = useState(false)
