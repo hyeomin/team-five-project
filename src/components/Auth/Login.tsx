@@ -8,7 +8,9 @@ import {
   TextField,
 } from '@mui/material';
 import React, { useEffect } from 'react';
-import { signInHndlr, signOutHndlr, signUpHndlr } from '@/pages/api/login';
+import { signInHndlr, signOutHndlr } from '@/pages/api/login';
+import { useSetRecoilState } from 'recoil';
+import { isLoggedInState } from '@/recoil/atom';
 
 export default function Login() {
   const [isUser, setIsUser] = React.useState(false);
@@ -16,6 +18,8 @@ export default function Login() {
   const [open, setOpen] = React.useState(false);
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
+
+  const setIsLoggedIn = useSetRecoilState(isLoggedInState);
 
   const handleOpen = () => {
     setOpen(true);
@@ -34,6 +38,21 @@ export default function Login() {
       message: '비밀번호는 6자 이상 적어주세요.',
     },
   });
+
+  const signInHelperFn = async () => {
+    await signInHndlr(email, password);
+    setLogin(true);
+    setEmail('');
+    setPassword('');
+    setIsLoggedIn((prevLoggedIn) => !prevLoggedIn);
+  };
+  const signOutHelperFn = async () => {
+    await signOutHndlr();
+    setLogin(false);
+    // setEmail('');
+    // setPassword('');
+    setIsLoggedIn((prevLoggedIn) => !prevLoggedIn);
+  };
 
   useEffect(() => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -74,7 +93,10 @@ export default function Login() {
         )}
         {login && (
           <Button
-            onClick={signOutHndlr.bind(null, setLogin)}
+            onClick={
+              // signOutHndlr.bind(null, setLogin)
+              signOutHelperFn
+            }
             className='text-base text-white font-sans'
           >
             Log out
@@ -139,14 +161,17 @@ export default function Login() {
               </button>
             ) : (
               <button
-                onClick={signInHndlr.bind(
-                  null,
-                  email,
-                  password,
-                  setLogin,
-                  setEmail,
-                  setPassword,
-                )}
+                onClick={
+                  //   signInHndlr.bind(
+                  //   null,
+                  //   email,
+                  //   password,
+                  //   setLogin,
+                  //   setEmail,
+                  //   setPassword,
+                  // )
+                  signInHelperFn
+                }
                 className='mr-4 bg-violet-900 w-14 h-8 text-white text-xs'
               >
                 login

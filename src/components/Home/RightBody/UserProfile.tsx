@@ -1,23 +1,16 @@
 import Image from 'next/image';
 import { getCurrentSession } from '@/pages/api/login';
-import { useEffect, useState } from 'react';
-import { useRecoilValue } from 'recoil';
-import { isLoggedInState } from '@/recoil/atom';
+import { useQuery } from '@tanstack/react-query';
+import { useState } from 'react';
 
 const UserProfile = () => {
-  const isLoggedIn = useRecoilValue(isLoggedInState);
   const [nickname, setNickname] = useState('');
+  const { data, isLoading } = useQuery({
+    queryKey: ['session'],
+    queryFn: getCurrentSession,
+  });
 
-  useEffect(() => {
-    const getSession = async () => {
-      const FetchedSessionData = await getCurrentSession();
-      if (!FetchedSessionData) return;
-      console.log('useEffect 안에서 조회', FetchedSessionData);
-      const { email, user_metadata } = FetchedSessionData?.user;
-      setNickname(user_metadata.nickname);
-    };
-    if (!isLoggedIn) getSession();
-  }, [isLoggedIn]);
+  console.log(data);
 
   return (
     <div className='flex flex-1 flex-row border border-current p-4 gap-x-4'>
@@ -28,10 +21,16 @@ const UserProfile = () => {
         height={150}
         style={imageStyle}
       ></Image>
-      <p className='flex items-center border border-current'>{nickname}</p>
-      <button className='border' onClick={getCurrentSession}>
-        임시 세션 체크
-      </button>
+      {isLoading && (
+        <p className='flex items-center border border-current'>
+          유저 정보를 읽어오는중
+        </p>
+      )}
+      {!isLoading && (
+        <p className='flex items-center border border-current'>
+          {data?.user.user_metadata.nickname}
+        </p>
+      )}
     </div>
   );
 };

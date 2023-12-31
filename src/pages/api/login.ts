@@ -36,9 +36,9 @@ export const signUpHndlr = async (
 export const signInHndlr = async (
   id: string,
   pw: string,
-  setLogin: React.Dispatch<React.SetStateAction<boolean>>,
-  setEmail: React.Dispatch<React.SetStateAction<string>>,
-  setPassword: React.Dispatch<React.SetStateAction<string>>,
+  // setLogin: React.Dispatch<React.SetStateAction<boolean>>,
+  // setEmail: React.Dispatch<React.SetStateAction<string>>,
+  // setPassword: React.Dispatch<React.SetStateAction<string>>,
 ) => {
   try {
     const { data, error } = await supabase.auth.signInWithPassword({
@@ -54,9 +54,9 @@ export const signInHndlr = async (
     console.error('데이터', error);
   }
 
-  setLogin(true);
-  setEmail('');
-  setPassword('');
+  // setLogin(true);
+  // setEmail('');
+  // setPassword('');
 };
 
 // //소셜로그인
@@ -68,14 +68,14 @@ export const signInHndlr = async (
 // };
 
 // //로그아웃
-export const signOutHndlr = async (
-  setLogin: React.Dispatch<React.SetStateAction<boolean>>,
-) => {
-  const { error } = await supabase.auth.signOut();
-  console.log('에러', error);
-  console.log('로그아웃 성공');
-  setLogin(false);
-};
+export const signOutHndlr = async () =>
+  // setLogin: React.Dispatch<React.SetStateAction<boolean>>,
+  {
+    const { error } = await supabase.auth.signOut();
+    console.log('에러', error);
+    console.log('로그아웃 성공');
+    // setLogin(false);
+  };
 
 // 조회
 export const getCurrentSession = async () => {
