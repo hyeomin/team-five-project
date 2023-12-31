@@ -783,6 +783,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-devtools@npm:5.15.0":
+  version: 5.15.0
+  resolution: "@tanstack/query-devtools@npm:5.15.0"
+  checksum: f4582a032ab0f72f9561b6bd1fd99e40e3cfb6b0cda56921628e31625f11d3d114ea5135ab2886e443b3c88b2923c8594bf80cc60158d9d5e655857795e93ab0
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query-devtools@npm:^5.15.5":
+  version: 5.15.5
+  resolution: "@tanstack/react-query-devtools@npm:5.15.5"
+  dependencies:
+    "@tanstack/query-devtools": "npm:5.15.0"
+  peerDependencies:
+    "@tanstack/react-query": ^5.15.5
+    react: ^18.0.0
+  checksum: 6c8003c6d73db73a0dcba7ee3514dd820ee65b9e0d2450cf5c38db42eda2599cfdf7555a8933e7cd5197fca3aa64c105caf119f45c130beb4bf84ebd82dc57df
+  languageName: node
+  linkType: hard
+
 "@tanstack/react-query@npm:^5.15.0":
   version: 5.15.0
   resolution: "@tanstack/react-query@npm:5.15.0"
@@ -4568,6 +4587,7 @@ __metadata:
     "@mui/material": "npm:^5.15.2"
     "@supabase/supabase-js": "npm:^2.39.1"
     "@tanstack/react-query": "npm:^5.15.0"
+    "@tanstack/react-query-devtools": "npm:^5.15.5"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-datepicker": "npm:^4"

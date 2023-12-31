@@ -1,6 +1,13 @@
 import Image from 'next/image';
+import { getCurrentSession } from '@/pages/api/login';
+import { useQuery } from '@tanstack/react-query';
 
 const UserProfile = () => {
+  const { data, isLoading } = useQuery({
+    queryKey: ['session'],
+    queryFn: getCurrentSession,
+  });
+
   return (
     <div className='flex flex-1 flex-row border border-current p-4 gap-x-4'>
       <Image
@@ -10,7 +17,16 @@ const UserProfile = () => {
         height={150}
         style={imageStyle}
       ></Image>
-      <p className='flex items-center border border-current'>닉네임</p>
+      {isLoading && (
+        <p className='flex items-center border border-current'>
+          유저 정보를 읽어오는중
+        </p>
+      )}
+      {!isLoading && (
+        <p className='flex items-center border border-current'>
+          {data?.user.user_metadata.nickname}
+        </p>
+      )}
     </div>
   );
 };
