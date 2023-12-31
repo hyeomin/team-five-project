@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@mui/material", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.2"],\
           ["@supabase/supabase-js", "npm:2.39.1"],\
           ["@tanstack/react-query", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.0"],\
+          ["@tanstack/react-query-devtools", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.5"],\
           ["@types/node", "npm:20.10.5"],\
           ["@types/react", "npm:18.2.45"],\
           ["@types/react-datepicker", "npm:4.19.4"],\
@@ -1067,6 +1068,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@tanstack/query-devtools", [\
+      ["npm:5.15.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-query-devtools-npm-5.15.0-f0e43fa206-10c0.zip/node_modules/@tanstack/query-devtools/",\
+        "packageDependencies": [\
+          ["@tanstack/query-devtools", "npm:5.15.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@tanstack/react-query", [\
       ["npm:5.15.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-react-query-npm-5.15.0-665a5182b1-10c0.zip/node_modules/@tanstack/react-query/",\
@@ -1085,6 +1095,33 @@ const RAW_RUNTIME_STATE =
         ],\
         "packagePeers": [\
           "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tanstack/react-query-devtools", [\
+      ["npm:5.15.5", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-react-query-devtools-npm-5.15.5-95271b4a89-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
+        "packageDependencies": [\
+          ["@tanstack/react-query-devtools", "npm:5.15.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.5", {\
+        "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-devtools-virtual-1f69e6bcfc/4/AppData/Local/Yarn/Berry/cache/@tanstack-react-query-devtools-npm-5.15.5-95271b4a89-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
+        "packageDependencies": [\
+          ["@tanstack/react-query-devtools", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.5"],\
+          ["@tanstack/query-devtools", "npm:5.15.0"],\
+          ["@tanstack/react-query", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.0"],\
+          ["@types/react", "npm:18.2.45"],\
+          ["@types/tanstack__react-query", null],\
+          ["react", "npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@tanstack/react-query",\
+          "@types/react",\
+          "@types/tanstack__react-query",\
           "react"\
         ],\
         "linkType": "HARD"\
@@ -5612,6 +5649,7 @@ const RAW_RUNTIME_STATE =
           ["@mui/material", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.2"],\
           ["@supabase/supabase-js", "npm:2.39.1"],\
           ["@tanstack/react-query", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.0"],\
+          ["@tanstack/react-query-devtools", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.5"],\
           ["@types/node", "npm:20.10.5"],\
           ["@types/react", "npm:18.2.45"],\
           ["@types/react-datepicker", "npm:4.19.4"],\
