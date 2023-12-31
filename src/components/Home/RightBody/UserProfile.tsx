@@ -1,16 +1,12 @@
 import Image from 'next/image';
 import { getCurrentSession } from '@/pages/api/login';
 import { useQuery } from '@tanstack/react-query';
-import { useState } from 'react';
 
 const UserProfile = () => {
-  const [nickname, setNickname] = useState('');
   const { data, isLoading } = useQuery({
     queryKey: ['session'],
     queryFn: getCurrentSession,
   });
-
-  console.log(data);
 
   return (
     <div className='flex flex-1 flex-row border border-current p-4 gap-x-4'>

@@ -2,14 +2,17 @@
 
 import { supabase } from '@/pages/api/supabase';
 import { fetchDataState } from '@/recoil/atom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { resolutionType } from '@/types/ResoultionTypes';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 import { addGoalState } from '../../../recoil/atom';
 import DueDate from './DueDate';
+import { useQuery } from '@tanstack/react-query';
+import { getCurrentSession } from '@/pages/api/login';
 
 const AddGoal = () => {
+  const [email, setEmail] = useState('');
   const setOpen = useSetRecoilState(addGoalState);
   const [fetchData, setFetchData] =
     useRecoilState<resolutionType[]>(fetchDataState);
@@ -20,6 +23,18 @@ const AddGoal = () => {
     dueDate: new Date(),
   });
 
+  const { data } = useQuery({
+    queryKey: ['session'],
+    queryFn: getCurrentSession,
+  });
+
+  useEffect(() => {
+    if (data) {
+      const { email: userEmail } = data?.user;
+      setEmail(userEmail as string);
+    }
+  }, [data]);
+
   const onChangeHandler = (e: { target: { name: string; value: string } }) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
@@ -28,12 +43,12 @@ const AddGoal = () => {
   const onSubmitHandler = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     const resolutionForm: resolutionType = {
-      id: fetchData.length + 1,
+      // id: fetchData.length + 1,
       title: form.title,
       content: form.content,
       dueDate: form.dueDate.toISOString(),
       progress: 0,
-      user: '',
+      user: email,
     };
     const { error } = await supabase.from('resolution').insert(resolutionForm);
     console.log(error);
