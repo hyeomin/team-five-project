@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import React, { useEffect } from 'react';
 import { signInHndlr, signOutHndlr } from '@/pages/api/login';
-import { useSetRecoilState } from 'recoil';
+import { useRecoilState, useSetRecoilState } from 'recoil';
 import { isLoggedInState } from '@/recoil/atom';
 
 export default function Login() {
@@ -19,7 +19,8 @@ export default function Login() {
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
 
-  const setIsLoggedIn = useSetRecoilState(isLoggedInState);
+  // const setIsLoggedIn = useSetRecoilState(isLoggedInState);
+  const [isLoggedIn, setIsLoggedIn] = useRecoilState(isLoggedInState);
 
   const handleOpen = () => {
     setOpen(true);
@@ -45,14 +46,14 @@ export default function Login() {
     setLogin(true);
     setEmail('');
     setPassword('');
-    setIsLoggedIn((prevLoggedIn) => !prevLoggedIn);
+    setIsLoggedIn(true);
   };
   const signOutHelperFn = async () => {
     await signOutHndlr();
     setLogin(false);
     // setEmail('');
     // setPassword('');
-    setIsLoggedIn((prevLoggedIn) => !prevLoggedIn);
+    setIsLoggedIn(false);
   };
 
   useEffect(() => {
@@ -84,7 +85,7 @@ export default function Login() {
   return (
     <React.Fragment>
       <React.Fragment>
-        {!login && (
+        {!isLoggedIn && (
           <Button
             onClick={handleOpen}
             className='text-base text-white font-sans'
@@ -92,7 +93,7 @@ export default function Login() {
             Login
           </Button>
         )}
-        {login && (
+        {isLoggedIn && (
           <Button
             onClick={
               // signOutHndlr.bind(null, setLogin)

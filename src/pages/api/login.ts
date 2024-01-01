@@ -5,12 +5,11 @@ export const signUpHndlr = async (
   id: string,
   pw: string,
   nick: string,
-  setEmail: React.Dispatch<React.SetStateAction<string>>,
-  setPassword: React.Dispatch<React.SetStateAction<string>>,
-  setNickname: React.Dispatch<React.SetStateAction<string>>,
-  setIsUser: React.Dispatch<React.SetStateAction<boolean>>,
+  // setEmail: React.Dispatch<React.SetStateAction<string>>,
+  // setPassword: React.Dispatch<React.SetStateAction<string>>,
+  // setNickname: React.Dispatch<React.SetStateAction<string>>,
+  // setIsUser: React.Dispatch<React.SetStateAction<boolean>>,
 ) => {
-  console.log('이것도 연결됨');
   try {
     const { data, error } = await supabase.auth.signUp({
       email: id,
@@ -26,10 +25,10 @@ export const signUpHndlr = async (
   } catch (error) {
     console.error(error);
   }
-  setIsUser((prev: boolean) => !prev);
-  setEmail('');
-  setPassword('');
-  setNickname('');
+  // setIsUser((prev: boolean) => !prev);
+  // setEmail('');
+  // setPassword('');
+  // setNickname('');
 };
 
 // 로그인

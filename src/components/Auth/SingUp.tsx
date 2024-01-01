@@ -9,6 +9,8 @@ import {
 } from '@mui/material';
 import React, { useEffect } from 'react';
 import { signInHndlr, signOutHndlr, signUpHndlr } from '@/pages/api/login';
+import { useSetRecoilState } from 'recoil';
+import { isLoggedInState } from '@/recoil/atom';
 
 export default function Login() {
   const [isUser, setIsUser] = React.useState(false);
@@ -17,6 +19,8 @@ export default function Login() {
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
   const [nickname, setNickname] = React.useState('');
+
+  const setIsLoggedIn = useSetRecoilState(isLoggedInState);
 
   const handleOpen = () => {
     setOpen(true);
@@ -35,6 +39,12 @@ export default function Login() {
       message: '비밀번호는 6자 이상 적어주세요.',
     },
   });
+
+  const singUpHelperFn = async () => {
+    await signUpHndlr(email, password, nickname);
+    handleCancel();
+    setIsLoggedIn(true);
+  };
 
   useEffect(() => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -120,16 +130,19 @@ export default function Login() {
           </button>
           <button
             className='mr-4 bg-violet-900 w-14 h-8 text-white text-xs'
-            onClick={signUpHndlr.bind(
-              null,
-              email,
-              password,
-              nickname,
-              setEmail,
-              setPassword,
-              setNickname,
-              setIsUser,
-            )}
+            onClick={
+              singUpHelperFn
+              // signUpHndlr.bind(
+              // null,
+              // email,
+              // password,
+              // nickname,
+              // setEmail,
+              // setPassword,
+              // setNickname,
+              // setIsUser,
+              // )
+            }
           >
             join
           </button>

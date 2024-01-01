@@ -21,40 +21,38 @@ function MyGoal({
   const mutation = useMutation({
     mutationFn: editResolution,
     onSuccess: () => {
-      queryClient.invalidateQueries()
-    }
-  })
-  const [fetchData, setFetchData] = useRecoilState<resolutionType[]>(fetchDataState)
-  const [modalState, setModalState] = useState(false)
+      queryClient.invalidateQueries();
+    },
+  });
+  const [fetchData, setFetchData] =
+    useRecoilState<resolutionType[]>(fetchDataState);
+  const [modalState, setModalState] = useState(false);
 
   // UpDate
-  const [editState, setEditState] = useState(false)
-  const [editValueState, setEditValueState] = useState(content)
+  const [editState, setEditState] = useState(false);
+  const [editValueState, setEditValueState] = useState(content);
   const onChangeHandler = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    setEditValueState(e.target.value)
-  }
+    setEditValueState(e.target.value);
+  };
   const onClickEditHandler = async () => {
-    setEditState(!editState)
-    const params = { id: id, content: editValueState }
+    setEditState(!editState);
+    const params = { id: id, content: editValueState };
     if (editState) {
       const editContents = fetchData.map((item) => {
-        return item.id === id ? { ...item, content: editValueState } : item
-      })
-      mutation.mutate(params)
-      setFetchData(editContents)
-      setEditState(false)
+        return item.id === id ? { ...item, content: editValueState } : item;
+      });
+      mutation.mutate(params);
+      setFetchData(editContents);
+      setEditState(false);
     }
-  }
+  };
 
   // Delete
   const onClickDeleteHandler = async (id: number) => {
-    const { error } = await supabase
-      .from('resolution')
-      .delete()
-      .eq('id', id)
-    console.log(error)
-    setFetchData(fetchData.filter((item) => item.id !== id))
-  }
+    const { error } = await supabase.from('resolution').delete().eq('id', id);
+    console.log(error);
+    setFetchData(fetchData.filter((item) => item.id !== id));
+  };
 
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
@@ -67,15 +65,15 @@ function MyGoal({
 
   // Modal
   const onClickModalHandler = () => {
-    setModalState(!modalState)
-  }
+    setModalState(!modalState);
+  };
 
   const diffDateHandler = (dateStr: string) => {
-    const dueDate = new Date(dateStr)
-    const diffSec = dueDate.getTime() - Date.now()
-    const diffDate = diffSec / (24 * 60 * 60 * 1000)
-    return Math.trunc(diffDate)
-  }
+    const dueDate = new Date(dateStr);
+    const diffSec = dueDate.getTime() - Date.now();
+    const diffDate = diffSec / (24 * 60 * 60 * 1000);
+    return Math.trunc(diffDate);
+  };
 
   return (
     <>
@@ -86,12 +84,17 @@ function MyGoal({
       >
         <section className='flex flex-1 flex-col gap-y-4'>
           <p className='text-2xl text-bold'>{title}</p>
-          {
-            editState
-              ? <textarea value={editValueState} onChange={onChangeHandler} ></textarea>
-              : <p>{editValueState}</p>
-          }
-          <span>목표일: {formatDate(dueDate)} / D-{diffDateHandler(dueDate)}</span>
+          {editState ? (
+            <textarea
+              value={editValueState}
+              onChange={onChangeHandler}
+            ></textarea>
+          ) : (
+            <p>{editValueState}</p>
+          )}
+          <span>
+            목표일: {formatDate(dueDate)} / D-{diffDateHandler(dueDate)}
+          </span>
           <div>Progress Bar</div>
         </section>
         <div className='flex items-center gap-x-4'>
@@ -103,15 +106,21 @@ function MyGoal({
           >
             삭제
           </button>
-          <button onClick={onClickEditHandler} className='flex-1 bg-slate-400 py-2 px-4 rounded text-xs text-white hover:bg-slate-800'>
+          <button
+            onClick={onClickEditHandler}
+            className='flex-1 bg-slate-400 py-2 px-4 rounded text-xs text-white hover:bg-slate-800'
+          >
             {editState ? '완료' : '수정'}
           </button>
         </div>
       </li>
-      {modalState ? <HabitTracker onClickModalHandler={onClickModalHandler} decimalDate={diffDateHandler(dueDate)}/> : null}
+      {modalState ? (
+        <HabitTracker
+          onClickModalHandler={onClickModalHandler}
+          decimalDate={diffDateHandler(dueDate)}
+        />
+      ) : null}
     </>
-
-
   );
 }
 
