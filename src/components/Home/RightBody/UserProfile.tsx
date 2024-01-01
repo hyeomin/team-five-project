@@ -8,6 +8,8 @@ const UserProfile = () => {
     queryFn: getCurrentSession,
   });
 
+  console.log('닉네임 확인', data);
+
   return (
     <div className='flex flex-1 flex-row border border-current p-4 gap-x-4'>
       <Image
