@@ -1070,7 +1070,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tanstack/query-devtools", [\
       ["npm:5.15.0", {\
-        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-query-devtools-npm-5.15.0-f0e43fa206-10c0.zip/node_modules/@tanstack/query-devtools/",\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@tanstack-query-devtools-npm-5.15.0-f0e43fa206-10c0.zip/node_modules/@tanstack/query-devtools/",\
         "packageDependencies": [\
           ["@tanstack/query-devtools", "npm:5.15.0"]\
         ],\
@@ -1102,14 +1102,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tanstack/react-query-devtools", [\
       ["npm:5.15.5", {\
-        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-react-query-devtools-npm-5.15.5-95271b4a89-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@tanstack-react-query-devtools-npm-5.15.5-95271b4a89-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
         "packageDependencies": [\
           ["@tanstack/react-query-devtools", "npm:5.15.5"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.5", {\
-        "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-devtools-virtual-1f69e6bcfc/4/AppData/Local/Yarn/Berry/cache/@tanstack-react-query-devtools-npm-5.15.5-95271b4a89-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
+        "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-devtools-virtual-1f69e6bcfc/8/AppData/Local/Yarn/Berry/cache/@tanstack-react-query-devtools-npm-5.15.5-95271b4a89-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
         "packageDependencies": [\
           ["@tanstack/react-query-devtools", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.5"],\
           ["@tanstack/query-devtools", "npm:5.15.0"],\

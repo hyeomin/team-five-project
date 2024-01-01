@@ -2,7 +2,7 @@ import { supabase } from './supabase';
 import { resolutionType } from '@/types/ResoultionTypes';
 
 interface editResolutionType {
-  id: number;
+  id: number | undefined;
   content: string;
 }
 
@@ -25,7 +25,6 @@ export const addResoultion = async (newResolution: resolutionType) => {
 
 export const editResolution = async ({id, content }: editResolutionType) => {
   try {
-    console.log(content)
     const { error } = await supabase
     .from('resolution')
     .update({ content: content })
