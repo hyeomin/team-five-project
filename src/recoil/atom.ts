@@ -27,4 +27,9 @@ export const completedGoalsState = selector({
   },
 });
 
-export { addGoalState, fetchDataState };
+const progressByResolution = atom({
+  key: 'progressByResolution',
+  default: {},
+});
+
+export { addGoalState, fetchDataState, progressByResolution };

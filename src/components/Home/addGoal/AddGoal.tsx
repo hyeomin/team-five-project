@@ -1,18 +1,15 @@
-'use client';
+// 'use client';
 
-import { supabase } from '@/pages/api/supabase';
-import { fetchDataState } from '@/recoil/atom';
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 
-import { resolutionType } from '@/types/ResoultionTypes';
-import { useRecoilState, useSetRecoilState } from 'recoil';
+import { addResoultion } from '@/pages/api/resolutions';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { useSetRecoilState } from 'recoil';
 import { addGoalState } from '../../../recoil/atom';
 import DueDate from './DueDate';
 
 const AddGoal = () => {
   const setOpen = useSetRecoilState(addGoalState);
-  const [fetchData, setFetchData] =
-    useRecoilState<resolutionType[]>(fetchDataState);
 
   const [form, setForm] = useState({
     title: '',
@@ -25,20 +22,24 @@ const AddGoal = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const onSubmitHandler = async (e: { preventDefault: () => void }) => {
+  const queryClient = useQueryClient();
+  const addMutation = useMutation({
+    mutationFn: addResoultion,
+    onSuccess: async () => {
+      queryClient.invalidateQueries({ queryKey: ['resolutions'] });
+    },
+  });
+
+  const onSubmitHandler = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const resolutionForm: resolutionType = {
-      id: fetchData.length + 1,
+    const resolutionForm = {
       title: form.title,
       content: form.content,
       dueDate: form.dueDate.toISOString(),
       progress: 0,
       user: '',
     };
-    const { error } = await supabase.from('resolution').insert(resolutionForm);
-    console.log(error);
-
-    setFetchData([...fetchData, resolutionForm]);
+    addMutation.mutate(resolutionForm);
     setOpen(false);
   };
 

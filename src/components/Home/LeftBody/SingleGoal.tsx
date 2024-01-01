@@ -1,10 +1,10 @@
-import { editResolution } from '@/pages/api/resolutions';
-import { supabase } from '@/pages/api/supabase';
+import { deleteResolution, editResolution } from '@/pages/api/resolutions';
 import { fetchDataState } from '@/recoil/atom';
 import { resolutionType } from '@/types/ResoultionTypes';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useState } from 'react';
 import { useRecoilState } from 'recoil';
+import Progress from './Progress';
 
 type Props = {
   goal: resolutionType;
@@ -42,11 +42,16 @@ const SingleGoal = ({ goal }: Props) => {
     }
   };
 
+  const deleteMutation = useMutation({
+    mutationFn: deleteResolution,
+    onSuccess: async () => {
+      queryClient.invalidateQueries({ queryKey: ['resolutions'] });
+    },
+  });
+
   // Delete
   const onClickDeleteHandler = async (id: number) => {
-    const { error } = await supabase.from('resolution').delete().eq('id', id);
-    console.log(error);
-    setFetchData(fetchData.filter((item) => item.id !== id));
+    deleteMutation.mutate(id);
   };
 
   const formatDate = (dateStr: string) => {
@@ -71,7 +76,10 @@ const SingleGoal = ({ goal }: Props) => {
           <p>{editValueState}</p>
         )}
         <span>목표일: {formatDate(goal.dueDate)}</span>
-        <div>Progress Bar</div>
+        <div className=''>
+          <span>달성 현황:</span>
+          <Progress progress={goal.progress} />
+        </div>
       </section>
       <div className='flex items-center gap-x-4'>
         <button

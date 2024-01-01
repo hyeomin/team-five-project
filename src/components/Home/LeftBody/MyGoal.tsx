@@ -1,12 +1,11 @@
 'use client';
 
-import { supabase } from '@/pages/api/supabase';
+import { deleteResolution, editResolution } from '@/pages/api/resolutions';
 import { fetchDataState } from '@/recoil/atom';
 import { resolutionType } from '@/types/ResoultionTypes';
-import { useRecoilState } from 'recoil';
-import { useState } from 'react';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { editResolution } from '@/pages/api/resolutions';
+import { useState } from 'react';
+import { useRecoilState } from 'recoil';
 
 function MyGoal({
   id,
@@ -18,41 +17,47 @@ function MyGoal({
 }: resolutionType) {
   const queryClient = useQueryClient();
   const mutation = useMutation({
-      mutationFn: editResolution,
-      onSuccess: () => {
-          queryClient.invalidateQueries()
-      }
-  })
-  const [fetchData, setFetchData] = useRecoilState<resolutionType[]>(fetchDataState)
+    mutationFn: editResolution,
+    onSuccess: () => {
+      queryClient.invalidateQueries();
+    },
+  });
+  const [fetchData, setFetchData] =
+    useRecoilState<resolutionType[]>(fetchDataState);
 
   // UpDate
-  const [editState, setEditState] = useState(false)
-  const [editValueState, setEditValueState] = useState(content)
+  const [editState, setEditState] = useState(false);
+  const [editValueState, setEditValueState] = useState(content);
   const onChangeHandler = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-      setEditValueState(e.target.value)
-  }
+    setEditValueState(e.target.value);
+  };
   const onClickEditHandler = async () => {
-      setEditState(!editState)
-      const params = { id: id, content: editValueState }
-      if (editState) {
-          const editContents = fetchData.map((item) => {
-              return item.id === id ? { ...item, content: editValueState } : item
-          })
-          mutation.mutate(params)
-          setFetchData(editContents)
-          setEditState(false)
-      }
-  }
+    setEditState(!editState);
+    const params = { id: id, content: editValueState };
+    if (editState) {
+      const editContents = fetchData.map((item) => {
+        return item.id === id ? { ...item, content: editValueState } : item;
+      });
+      mutation.mutate(params);
+      setFetchData(editContents);
+      setEditState(false);
+    }
+  };
+
+  const deleteMutation = useMutation({
+    mutationFn: deleteResolution,
+    onSuccess: async () => {
+      queryClient.invalidateQueries({ queryKey: ['resolutions'] });
+    },
+  });
 
   // Delete
   const onClickDeleteHandler = async (id: number) => {
-      const { error } = await supabase
-          .from('resolution')
-          .delete()
-          .eq('id', id)
-      console.log(error)
-      setFetchData(fetchData.filter((item) => item.id !== id))
-  }
+    const confirmation = window.confirm('삭제하시겠습니까?');
+    if (confirmation) {
+      deleteMutation.mutate(id);
+    }
+  };
 
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
@@ -70,11 +75,14 @@ function MyGoal({
     >
       <section className='flex flex-1 flex-col gap-y-4'>
         <p className='text-2xl text-bold'>{title}</p>
-        {
-          editState
-            ? <textarea value={editValueState} onChange={onChangeHandler} ></textarea>
-            : <p>{editValueState}</p>
-        }        
+        {editState ? (
+          <textarea
+            value={editValueState}
+            onChange={onChangeHandler}
+          ></textarea>
+        ) : (
+          <p>{editValueState}</p>
+        )}
         <span>목표일: {formatDate(dueDate)}</span>
         <div>Progress Bar</div>
       </section>
@@ -87,8 +95,11 @@ function MyGoal({
         >
           삭제
         </button>
-        <button onClick={onClickEditHandler} className='flex-1 bg-slate-400 py-2 px-4 rounded text-xs text-white hover:bg-slate-800'>
-        {editState ? '완료' : '수정'}
+        <button
+          onClick={onClickEditHandler}
+          className='flex-1 bg-slate-400 py-2 px-4 rounded text-xs text-white hover:bg-slate-800'
+        >
+          {editState ? '완료' : '수정'}
         </button>
       </div>
     </li>

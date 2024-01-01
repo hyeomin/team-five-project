@@ -1,17 +1,22 @@
-import {
-  completedGoalsState,
-  fetchDataState,
-  inProgressGoalsState,
-} from '@/recoil/atom';
+import { fetchData } from '@/pages/api/resolutions';
+import { completedGoalsState, inProgressGoalsState } from '@/recoil/atom';
+import { useQuery } from '@tanstack/react-query';
 import { useRecoilValue } from 'recoil';
 import MyGoal from './MyGoal';
 import SingleGoal from './SingleGoal';
 
 const MyGoalList = () => {
-  const fetchData = useRecoilValue(fetchDataState);
-
   const inProgressGoals = useRecoilValue(inProgressGoalsState);
   const completedGoals = useRecoilValue(completedGoalsState);
+
+  const { data: resoultionList, isLoading } = useQuery({
+    queryKey: ['resolutions'],
+    queryFn: fetchData,
+  });
+
+  if (isLoading) {
+    return <div>로딩 중입니다...</div>;
+  }
 
   return (
     <div className='border border-current p-4'>
@@ -20,19 +25,20 @@ const MyGoalList = () => {
       </h2>
       <span className='font-orbitron text-2xl'>In Progress</span>
       <ul className='flex flex-col gap-y-4 my-4'>
-        {fetchData.map((item) => {
-          return (
-            <MyGoal
-              key={item.id}
-              id={item.id}
-              title={item.title}
-              content={item.content}
-              dueDate={item.dueDate}
-              progress={item.progress}
-              user={item.user}
-            />
-          );
-        })}
+        {resoultionList &&
+          resoultionList.map((item) => {
+            return (
+              <MyGoal
+                key={item.id}
+                id={item.id}
+                title={item.title}
+                content={item.content}
+                dueDate={item.dueDate}
+                progress={item.progress}
+                user={item.user}
+              />
+            );
+          })}
       </ul>
       <p>---</p>
       <div className='flex flex-col gap-y-4'>
