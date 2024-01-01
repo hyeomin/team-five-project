@@ -6,7 +6,7 @@ const HomeBody = () => {
   return (
     <div className='flex my-4 gap-x-8'>
       <div className='flex flex-col flex-1 border border-current p-4 gap-y-8'>
-        <FullProgress />
+        {/* <FullProgress /> */}
         <MyGoalList />
       </div>
       <div className='border border-current w-[360px] p-4'>
