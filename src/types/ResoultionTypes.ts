@@ -1,5 +1,5 @@
 export interface resolutionType {
-  id?: number | undefined;
+  id: number;
   title: string;
   content: string;
   dueDate: string;

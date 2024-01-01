@@ -1,8 +1,8 @@
-import { supabase } from './supabase';
 import { resolutionType } from '@/types/ResoultionTypes';
+import { supabase } from './supabase';
 
 interface editResolutionType {
-  id: number | undefined;
+  id: number;
   content: string;
 }
 
@@ -15,7 +15,9 @@ export const fetchData = async () => {
   }
 };
 
-export const addResoultion = async (newResolution: resolutionType) => {
+export const addResoultion = async (
+  newResolution: Omit<resolutionType, 'id'>,
+) => {
   try {
     const { error } = await supabase.from('resolution').insert(newResolution);
   } catch (error) {
@@ -23,13 +25,21 @@ export const addResoultion = async (newResolution: resolutionType) => {
   }
 };
 
-export const editResolution = async ({id, content }: editResolutionType) => {
+export const editResolution = async ({ id, content }: editResolutionType) => {
   try {
     const { error } = await supabase
-    .from('resolution')
-    .update({ content: content })
-    .eq('id', id)
+      .from('resolution')
+      .update({ content: content })
+      .eq('id', id);
   } catch (error) {
-    console.log('Error', error)
+    console.log('Error', error);
   }
-}
+};
+
+export const deleteResolution = async (id: number) => {
+  try {
+    await supabase.from('resolution').delete().eq('id', id);
+  } catch (error) {
+    console.log('Error', error);
+  }
+};
