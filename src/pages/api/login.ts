@@ -1,15 +1,7 @@
 import { supabase } from './supabase';
 
 //회원가입
-export const signUpHndlr = async (
-  id: string,
-  pw: string,
-  nick: string,
-  // setEmail: React.Dispatch<React.SetStateAction<string>>,
-  // setPassword: React.Dispatch<React.SetStateAction<string>>,
-  // setNickname: React.Dispatch<React.SetStateAction<string>>,
-  // setIsUser: React.Dispatch<React.SetStateAction<boolean>>,
-) => {
+export const signUpHndlr = async (id: string, pw: string, nick: string) => {
   try {
     const { data, error } = await supabase.auth.signUp({
       email: id,
@@ -25,20 +17,10 @@ export const signUpHndlr = async (
   } catch (error) {
     console.error(error);
   }
-  // setIsUser((prev: boolean) => !prev);
-  // setEmail('');
-  // setPassword('');
-  // setNickname('');
 };
 
 // 로그인
-export const signInHndlr = async (
-  id: string,
-  pw: string,
-  // setLogin: React.Dispatch<React.SetStateAction<boolean>>,
-  // setEmail: React.Dispatch<React.SetStateAction<string>>,
-  // setPassword: React.Dispatch<React.SetStateAction<string>>,
-) => {
+export const signInHndlr = async (id: string, pw: string) => {
   try {
     const { data, error } = await supabase.auth.signInWithPassword({
       email: id,
@@ -52,10 +34,6 @@ export const signInHndlr = async (
   } catch (error) {
     console.error('데이터', error);
   }
-
-  // setLogin(true);
-  // setEmail('');
-  // setPassword('');
 };
 
 // //소셜로그인
@@ -67,19 +45,21 @@ export const signInHndlr = async (
 // };
 
 // //로그아웃
-export const signOutHndlr = async () =>
-  // setLogin: React.Dispatch<React.SetStateAction<boolean>>,
-  {
-    const { error } = await supabase.auth.signOut();
-    console.log('에러', error);
-    console.log('로그아웃 성공');
-    // setLogin(false);
-  };
+export const signOutHndlr = async () => {
+  const { error } = await supabase.auth.signOut();
+  console.log('에러', error);
+  console.log('로그아웃 성공');
+};
 
 // 조회
 export const getCurrentSession = async () => {
   const { data, error } = await supabase.auth.getSession();
   console.log('데이터', data, '에러', error);
+
+  if (error) {
+    console.error('에러 발생:', error.message);
+    window.confirm('이미 등록된 이메일 입니다.');
+  }
   if (!data.session) {
     console.log('로그인 상태가 아님');
   }

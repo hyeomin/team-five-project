@@ -148,12 +148,6 @@ export default function Login() {
             )}
           </DialogContent>
           <DialogActions>
-            <button
-              onClick={handleCancel}
-              className='mr-2 bg-gray-200 w-14 h-8 text-black text-xs'
-            >
-              취소
-            </button>
             {login ? (
               <button
                 onClick={handleCancel}
