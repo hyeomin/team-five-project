@@ -9,7 +9,7 @@ interface editResolutionType {
 interface editProgressnType {
   id: number;
   progress: number;
-  checkedList: []
+  checkedList: [];
 }
 
 export const fetchData = async () => {
@@ -22,7 +22,7 @@ export const fetchData = async () => {
 };
 
 export const addResoultion = async (
-  newResolution: Omit<resolutionType, 'id'>,
+  newResolution: Omit<resolutionType, 'id' | 'created_at'>,
 ) => {
   try {
     const { error } = await supabase.from('resolution').insert(newResolution);
@@ -50,35 +50,36 @@ export const deleteResolution = async (id: number) => {
   }
 };
 
-
 // Habit Tracker
-export const fetchCheckListData = async (id : any) => {
+export const fetchCheckListData = async (id: any) => {
   try {
     const { data, error } = await supabase
       .from('resolution')
       .select(`checkedList`)
-      .eq('id', id.queryKey[1])
-      return data;
-
+      .eq('id', id.queryKey[1]);
+    return data;
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
-}
+};
 
-export const fetchProgressData = async (id : any) => {
+export const fetchProgressData = async (id: any) => {
   try {
     const { data, error } = await supabase
       .from('resolution')
       .select(`progress`)
-      .eq('id', id.queryKey[1])
-      return data;
-
+      .eq('id', id.queryKey[1]);
+    return data;
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
-}
+};
 
-export const editProgress = async ({ id, progress, checkedList }: editProgressnType) => {
+export const editProgress = async ({
+  id,
+  progress,
+  checkedList,
+}: editProgressnType) => {
   try {
     const { error } = await supabase
       .from('resolution')
