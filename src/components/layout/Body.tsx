@@ -5,7 +5,7 @@ type Props = {
 };
 
 const Body = ({ children }: Props) => {
-  return <div className=''>{children}</div>;
+  return <div>{children}</div>;
 };
 
 export default Body;
