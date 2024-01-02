@@ -1,40 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 모멘텀(M5MENTUM)
 
-## Getting Started
+## <b>프로젝트 소개</b>
 
-First, run the development server:
+모멘텀(M5MENTUM) 새해 결심 지원 웹 어플리케이션.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## <b>개발 일정</b>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2023.12.26 - 2024.1.2
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## <b>팀원</b>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+| 팀원   | 블로그                             | GitHub                        |
+| ------ | ---------------------------------- | ----------------------------- |
+| 김래준 | https://velog.io/@laejunkim        | https://github.com/Laejun-Kim |
+| 박혜민 | https://hyeomin-codex.tistory.com/ | https://github.com/hyeomin    |
+| 이경욱 | https://makeit80.tistory.com/      | https://github.com/makeit80   |
+| 이희원 | https://velog.io/@im2hw            | https://github.com/im2hw      |
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## <b>사용 기술 스택</b>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><br/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"><img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=React_Query&logoColor=white"><img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
 
-## Learn More
+## 서버
 
-To learn more about Next.js, take a look at the following resources:
+ <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 사용 라이브러리
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- react-toastify
+- MUI
 
-## Deploy on Vercel
+## <b>버전 관리</b>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 협업툴
+
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+
+# 모멘텀(M5MENTUM) 페이지 소개
