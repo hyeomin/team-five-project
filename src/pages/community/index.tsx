@@ -1,7 +1,11 @@
-import React from "react";
+import Commubody from '@/components/community/commubody';
+import { resolutionType } from '@/types/ResoultionTypes';
 
+type Props = {
+  resolutions: resolutionType[];
+};
 const CommunityPage = () => {
-  return <div>CommunityPage</div>;
+  return <Commubody />;
 };
 
 export default CommunityPage;
