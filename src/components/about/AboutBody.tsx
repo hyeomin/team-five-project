@@ -28,8 +28,8 @@ const AboutBody = () => {
       <Spacer y={15} />
       <div className='flex flex-col items-center'>
         <p>
-          실패의 원인은 여러 곳에서 찾을 수 있겠지만, 저희는 &apos;목표의 구체화
-          &apos; 및 &apos;동기부여&apos;에 주목했습니다.
+          실패의 원인은 곳에서 찾을 수 있겠지만, 저희는 &apos;목표의 구체화
+          &apos; 및 &apos;동기부여&apos; 에 주목했습니다.
         </p>
         <p className='flex text-center'>
           목표를 정했지만 그것이 자신의 마음속에만 있으니 구체적이지 못하고,
