@@ -106,10 +106,7 @@ export default function Login() {
         )}
         {isLoggedIn && (
           <Button
-            onClick={
-              // signOutHndlr.bind(null, setLogin)
-              signOutHelperFn
-            }
+            onClick={signOutHelperFn}
             className='text-base text-white font-bebas text-xl'
           >
             Log out
@@ -137,6 +134,8 @@ export default function Login() {
                   type='email'
                   fullWidth
                   variant='standard'
+                  error={!isEmailValid}
+                  helperText={validation.email.message}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -148,6 +147,8 @@ export default function Login() {
                   type='password'
                   fullWidth
                   variant='standard'
+                  error={!isPasswordValid}
+                  helperText={validation.password.message}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
