@@ -100,7 +100,7 @@ const MyGoal = ({ resolution }: Props) => {
     <>
       <li
         key={resolution.id}
-        className='flex rounded-xl bg-violet-100 text-black gap-y-4 px-8 py-4'
+        className='flex rounded-xl bg-violet-100 text-black gap-y-4 gap-x-16 px-8 py-4'
         onClick={onClickModalHandler}
       >
         <section className='flex flex-1 flex-col gap-y-4'>
@@ -110,6 +110,7 @@ const MyGoal = ({ resolution }: Props) => {
               value={editValueState}
               onChange={onChangeHandler}
               onClick={onInputClick}
+              className='p-2'
             ></textarea>
           ) : (
             <p>{resolution.content}</p>
@@ -125,16 +126,16 @@ const MyGoal = ({ resolution }: Props) => {
         </section>
         <div className='flex items-center gap-x-4'>
           <button
-            onClick={onClickDeleteHandler}
-            className='flex-1 bg-slate-800 py-2 px-4 rounded text-xs text-white hover:bg-slate-400'
-          >
-            삭제
-          </button>
-          <button
             onClick={onClickEditHandler}
             className='flex-1 bg-slate-400 py-2 px-4 rounded text-xs text-white hover:bg-slate-800'
           >
             {editState ? '완료' : '수정'}
+          </button>
+          <button
+            onClick={onClickDeleteHandler}
+            className='flex-1 bg-slate-800 py-2 px-4 rounded text-xs text-white hover:bg-slate-400'
+          >
+            삭제
           </button>
         </div>
       </li>
