@@ -13,8 +13,9 @@ type Props = {
   resolution: resolutionType;
 };
 
-const MyGoalDummy = ({ resolution }: Props) => {
+const MyGoal = ({ resolution }: Props) => {
   const [modalState, setModalState] = useState(false);
+
   const { data: resolutionList } = useQuery({
     queryKey: ['resolutions'],
     queryFn: fetchData,
@@ -83,10 +84,9 @@ const MyGoalDummy = ({ resolution }: Props) => {
     setModalState(!modalState);
   };
 
-  const diffDateHandler = (dateStr: string, dateType: boolean) => {
-    const createdDate = new Date(resolution.created_at)
+  const diffDateHandler = (dateStr: string) => {
     const dueDate = new Date(dateStr);
-    const diffSec = dueDate.getTime() - (dateType ? createdDate.getTime() : Date.now());
+    const diffSec = dueDate.getTime() - Date.now();
     const diffDate = diffSec / (24 * 60 * 60 * 1000);
     return Math.trunc(diffDate);
   };
@@ -114,12 +114,12 @@ const MyGoalDummy = ({ resolution }: Props) => {
             <p>{resolution.content}</p>
           )}
           <span>
-            목표일: {formatDate(resolution.dueDate)} / D- 
-            {diffDateHandler(resolution.dueDate, false)}
+            목표일: {formatDate(resolution.dueDate)} / D-
+            {diffDateHandler(resolution.dueDate)}
           </span>
           <div className=''>
             <span>달성 현황:</span>
-            <Progress progress={resolution.progress} id={resolution.id} />
+            <Progress progress={resolution.progress} />
           </div>
         </section>
         <div className='flex items-center gap-x-4'>
@@ -141,9 +141,7 @@ const MyGoalDummy = ({ resolution }: Props) => {
         {modalState ? (
           <HabitTracker
             onClickModalHandler={onClickModalHandler}
-            decimalDate={diffDateHandler(resolution.dueDate, true)}
-            id={resolution.id}
-            title={resolution.title}
+            decimalDate={diffDateHandler(resolution.dueDate)}
           />
         ) : null}
       </div>
@@ -151,4 +149,4 @@ const MyGoalDummy = ({ resolution }: Props) => {
   );
 };
 
-export default MyGoalDummy;
+export default MyGoal;
