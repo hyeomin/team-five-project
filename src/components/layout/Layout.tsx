@@ -1,5 +1,6 @@
 import { PropsWithChildren } from 'react';
 import Body from './Body';
+import Footer from './Footer';
 import NavBar from './NavBar';
 
 const Layout = ({ children }: PropsWithChildren) => {
@@ -7,6 +8,7 @@ const Layout = ({ children }: PropsWithChildren) => {
     <div className='bg-main bg-scroll'>
       <NavBar />
       <Body>{children}</Body>
+      <Footer />
     </div>
   );
 };
