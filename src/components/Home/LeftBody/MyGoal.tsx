@@ -13,7 +13,7 @@ type Props = {
   resolution: resolutionType;
 };
 
-const MyGoalDummy = ({ resolution }: Props) => {
+const MyGoal = ({ resolution }: Props) => {
   const [modalState, setModalState] = useState(false);
   const { data: resolutionList } = useQuery({
     queryKey: ['resolutions'],
@@ -84,9 +84,10 @@ const MyGoalDummy = ({ resolution }: Props) => {
   };
 
   const diffDateHandler = (dateStr: string, dateType: boolean) => {
-    const createdDate = new Date(resolution.created_at)
+    const createdDate = new Date(resolution.created_at);
     const dueDate = new Date(dateStr);
-    const diffSec = dueDate.getTime() - (dateType ? createdDate.getTime() : Date.now());
+    const diffSec =
+      dueDate.getTime() - (dateType ? createdDate.getTime() : Date.now());
     const diffDate = diffSec / (24 * 60 * 60 * 1000);
     return Math.trunc(diffDate);
   };
@@ -114,7 +115,7 @@ const MyGoalDummy = ({ resolution }: Props) => {
             <p>{resolution.content}</p>
           )}
           <span>
-            목표일: {formatDate(resolution.dueDate)} / D- 
+            목표일: {formatDate(resolution.dueDate)} / D-
             {diffDateHandler(resolution.dueDate, false)}
           </span>
           <div className=''>
@@ -151,4 +152,4 @@ const MyGoalDummy = ({ resolution }: Props) => {
   );
 };
 
-export default MyGoalDummy;
+export default MyGoal;
