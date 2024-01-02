@@ -8,12 +8,6 @@ import NotLoggedInGoalList from './LeftBody/NotLoggedInGoalList';
 const HomeBody = () => {
   const isLoggedIn = useRecoilValue(isLoggedInState);
 
-  // 경욱's 의견
-  // if (!isLoggedIn) {
-  //   return <p>로그인하고 이용해 주세요!!!!!!</p>;
-  // }
-
-  //플로우 차트? 인포그래픽..?
   if (!isLoggedIn) {
     return <NotLoggedInGoalList />;
   }
