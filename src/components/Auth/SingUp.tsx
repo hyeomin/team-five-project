@@ -75,7 +75,10 @@ export default function Login() {
 
   return (
     <React.Fragment>
-      <Button className='text-base text-white font-sans' onClick={handleOpen}>
+      <Button
+        className='text-base text-white text-xl font-bebas'
+        onClick={handleOpen}
+      >
         Join
       </Button>
       <Dialog open={open} onClose={handleCancel}>
