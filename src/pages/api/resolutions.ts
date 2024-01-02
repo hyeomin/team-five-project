@@ -1,4 +1,8 @@
-import { resolutionType } from '@/types/ResoultionTypes';
+import {
+  editProgressType,
+  editResolutionType,
+  resolutionType,
+} from '@/types/ResoultionTypes';
 import { supabase } from './supabase';
 
 export const fetchData = async () => {
@@ -40,7 +44,7 @@ export const deleteResolution = async (id: number) => {
 };
 
 // Habit Tracker
-export const fetchCheckListData = async (id: number) => {
+export const fetchCheckListData = async (id: any) => {
   try {
     const { data, error } = await supabase
       .from('resolution')
@@ -52,7 +56,7 @@ export const fetchCheckListData = async (id: number) => {
   }
 };
 
-export const fetchProgressData = async (id: number) => {
+export const fetchProgressData = async (id: any) => {
   try {
     const { data, error } = await supabase
       .from('resolution')
