@@ -8,14 +8,12 @@ import {
   TextField,
 } from '@mui/material';
 import React, { useEffect } from 'react';
-import { signInHndlr, signOutHndlr, supabase } from '@/pages/api/login';
+import { signInHndlr, signOutHndlr } from '@/pages/api/login';
 import { useRecoilState } from 'recoil';
 import { isLoggedInState } from '@/recoil/atom';
+import { toast } from 'react-toastify';
 
 export default function Login() {
-  const [fetchError, setFetchError] = React.useState<string | null>(null);
-  const [user, setUser] = React.useState<any[] | null>(null);
-
   const [login, setLogin] = React.useState(false);
   const [open, setOpen] = React.useState(false);
   const [email, setEmail] = React.useState('');
@@ -31,8 +29,32 @@ export default function Login() {
     setOpen(false);
   };
 
+  const [validation, setValidation] = React.useState({
+    email: {
+      isValid: false,
+      message: '이메일이 올바른 형식이 아닙니다.',
+    },
+    password: {
+      isValid: false,
+      message: '비밀번호는 6자 이상 적어주세요.',
+    },
+  });
+
   const signInHelperFn = async () => {
-    await signInHndlr(email, password);
+    const res = await signInHndlr(email, password);
+    console.log('뭐라고 나오지?', res);
+    if (res instanceof Error) {
+      toast.warn('로그인 실패. 다시 시도해 주세요', {
+        position: 'top-center',
+        autoClose: 2000,
+        hideProgressBar: false,
+        progress: undefined,
+        theme: 'light',
+      });
+      setOpen(false);
+      return;
+    }
+
     setLogin(true);
     setIsLoggedIn(true);
   };
@@ -42,6 +64,32 @@ export default function Login() {
     setLogin(false);
     setIsLoggedIn(false);
   };
+
+  useEffect(() => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const isEmailValid = emailRegex.test(email);
+
+    const isPasswordValid = password.length >= 6;
+
+    setValidation((prevValidation) => ({
+      ...prevValidation,
+      email: {
+        isValid: isEmailValid,
+        message: isEmailValid
+          ? '이메일이 형식이 맞습니다.'
+          : '이메일이 형식이 아닙니다.',
+      },
+      password: {
+        isValid: isPasswordValid,
+        message: isPasswordValid
+          ? '비밀번호가 6자리 형식이 맞습니다.'
+          : '비밀번호를 형식이 아닙니다.',
+      },
+    }));
+  }, [email, password]);
+
+  const isEmailValid = validation.email.isValid;
+  const isPasswordValid = validation.password.isValid;
 
   return (
     <React.Fragment>

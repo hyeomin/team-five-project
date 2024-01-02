@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 
 import React, { useCallback } from 'react';
-import { signUpHandler } from '@/pages/api/login';
+import { signUpHndlr } from '@/pages/api/login';
 import { useSetRecoilState } from 'recoil';
 import { isLoggedInState } from '@/recoil/atom';
 
@@ -102,7 +102,7 @@ export default function Login() {
   const singUpHelperFn = async () => {
     try {
       // signUpHndlr 함수가 성공적으로 가입되었는지 여부를 확인
-      await signUpHandler(email, password, nickname);
+      await signUpHndlr(email, password, nickname);
       setIsLoggedIn(true);
     } catch (error) {
       // 가입이 실패한 경우에 대한 처리 (에러 핸들링 등)

@@ -44,6 +44,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-datepicker", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:4.25.0"],\
           ["react-dom", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:18.2.0"],\
+          ["react-toastify", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:9.1.3"],\
           ["recoil", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:0.7.7"],\
           ["supabase", "npm:1.127.3"],\
           ["tailwindcss", "npm:3.4.0"],\
@@ -1900,6 +1901,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["clsx", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/clsx-npm-1.2.1-77792dc182-10c0.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:2.0.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/clsx-npm-2.0.0-afafbbe44a-10c0.zip/node_modules/clsx/",\
         "packageDependencies": [\
@@ -4968,6 +4976,33 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-toastify", [\
+      ["npm:9.1.3", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-toastify-npm-9.1.3-2f82dd0b41-10c0.zip/node_modules/react-toastify/",\
+        "packageDependencies": [\
+          ["react-toastify", "npm:9.1.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:9.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-f179f1dd94/4/AppData/Local/Yarn/Berry/cache/react-toastify-npm-9.1.3-2f82dd0b41-10c0.zip/node_modules/react-toastify/",\
+        "packageDependencies": [\
+          ["react-toastify", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:9.1.3"],\
+          ["@types/react", "npm:18.2.45"],\
+          ["@types/react-dom", "npm:18.2.18"],\
+          ["clsx", "npm:1.2.1"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-transition-group", [\
       ["npm:4.4.5", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-transition-group-npm-4.4.5-98ea4ef96e-10c0.zip/node_modules/react-transition-group/",\
@@ -5662,6 +5697,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-datepicker", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:4.25.0"],\
           ["react-dom", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:18.2.0"],\
+          ["react-toastify", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:9.1.3"],\
           ["recoil", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:0.7.7"],\
           ["supabase", "npm:1.127.3"],\
           ["tailwindcss", "npm:3.4.0"],\

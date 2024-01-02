@@ -1,7 +1,7 @@
 import { supabase } from './supabase';
 
-// 회원가입
-export const signUpHandler = async (id: string, pw: string, nick: string) => {
+//회원가입
+export const signUpHndlr = async (id: string, pw: string, nick: string) => {
   try {
     const { data, error } = await supabase.auth.signUp({
       email: id,
@@ -27,18 +27,13 @@ export const signInHndlr = async (id: string, pw: string) => {
       email: id,
       password: pw,
     });
-    console.log('data: ', data);
-    // if (data) {
-    //   return data;
-    // }
-    // if (error) {
-    //   console.error('로그인 실패:', error.message);
-    //   return error;
-    // } else {
-    //   console.log('로그인 성공:', data);
-    // }
+    if (!data.session) {
+      return new Error();
+    }
+    return data;
   } catch (error) {
     console.error('데이터', error);
+    return error;
   }
 };
 
