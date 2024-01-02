@@ -1,7 +1,6 @@
 import { signInHndlr, signOutHndlr } from '@/pages/api/login';
 import { isLoggedInState } from '@/recoil/atom';
 import {
-  Button,
   Dialog,
   DialogActions,
   DialogContent,
@@ -97,20 +96,33 @@ export default function Login() {
     <React.Fragment>
       <React.Fragment>
         {!isLoggedIn && (
-          <Button
+          // <Button
+          //   onClick={handleOpen}
+          //   className='text-white font-bebas text-xl'
+          // >
+          //   Login
+          // </Button>
+          <button
             onClick={handleOpen}
             className='text-white font-bebas text-xl'
           >
             Login
-          </Button>
+          </button>
         )}
+
         {isLoggedIn && (
-          <Button
+          // <Button
+          //   onClick={signOutHelperFn}
+          //   className='text-white font-bebas text-xl'
+          // >
+          //   Log out
+          // </Button>
+          <button
             onClick={signOutHelperFn}
             className='text-white font-bebas text-xl'
           >
             Log out
-          </Button>
+          </button>
         )}
 
         <Dialog open={open} onClose={handleCancel}>
