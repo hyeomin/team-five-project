@@ -52,7 +52,7 @@ export const deleteResolution = async (id: number) => {
 
 
 // Habit Tracker
-export const fetchProgressData = async (id : any) => {
+export const fetchCheckListData = async (id : any) => {
   try {
     const { data, error } = await supabase
       .from('resolution')
@@ -65,7 +65,18 @@ export const fetchProgressData = async (id : any) => {
   }
 }
 
+export const fetchProgressData = async (id : any) => {
+  try {
+    const { data, error } = await supabase
+      .from('resolution')
+      .select(`progress`)
+      .eq('id', id.queryKey[1])
+      return data;
 
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 export const editProgress = async ({ id, progress, checkedList }: editProgressnType) => {
   try {

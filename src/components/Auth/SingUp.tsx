@@ -42,6 +42,7 @@ export default function Login() {
 
   const singUpHelperFn = async () => {
     await signUpHndlr(email, password, nickname);
+    //확인모달?
     handleCancel();
     setIsLoggedIn(true);
   };

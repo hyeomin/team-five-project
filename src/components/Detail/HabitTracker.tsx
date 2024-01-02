@@ -1,11 +1,12 @@
-import { editProgress, fetchProgressData } from '@/pages/api/resolutions'
+import { editProgress, fetchCheckListData } from '@/pages/api/resolutions'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import React, { useEffect, useState } from 'react'
-
+import React from 'react'
+// resolutions
+// checkedList
 function HabitTracker({ onClickModalHandler, decimalDate, createdAt, id, title }: any) {
     const { data }: any = useQuery({
         queryKey: ['checkedList', id],
-        queryFn: fetchProgressData,
+        queryFn: fetchCheckListData,
     })
     const queryClient = useQueryClient();
     const editProgressMutation = useMutation({
@@ -33,6 +34,7 @@ function HabitTracker({ onClickModalHandler, decimalDate, createdAt, id, title }
     }
 
     const checkBoxRendering = () => {
+        // 최대한 forEach or 안되면 for of 
         const result = [];
         for (let i = 1; i <= decimalDate; i++) {
             result.push(<input
@@ -72,7 +74,9 @@ function HabitTracker({ onClickModalHandler, decimalDate, createdAt, id, title }
                 </div>
                 <div key={id} className='grid grid-cols-10 place-items-center auto-rows-[minmax(50px,_50px)]
                 text-black border-2 h-[350px] m-10 rounded-[15px] overflow-auto	overflow-x-hidden'>
-                    {checkBoxRendering()}
+                    {checkBoxRendering() 
+                    // 컴포넌트로 만드는게 나음
+                    } 
                 </div>
             </div>
         </div>
