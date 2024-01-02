@@ -12,6 +12,7 @@ export const signUpHndlr = async (id: string, pw: string, nick: string) => {
         },
       },
     });
+    console.log('data: ', data);
     if (error) console.error(error);
     console.log(data);
   } catch (error) {
@@ -47,6 +48,11 @@ export const signOutHndlr = async () => {
 export const getCurrentSession = async () => {
   const { data, error } = await supabase.auth.getSession();
   console.log('데이터', data, '에러', error);
+
+  if (error) {
+    console.error('에러 발생:', error.message);
+    window.confirm('이미 등록된 이메일 입니다.');
+  }
   if (!data.session) {
     console.log('로그인 상태가 아님');
   }

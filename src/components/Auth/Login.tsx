@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import React, { useEffect } from 'react';
 import { signInHndlr, signOutHndlr } from '@/pages/api/login';
-import { useRecoilState, useSetRecoilState } from 'recoil';
+import { useRecoilState } from 'recoil';
 import { isLoggedInState } from '@/recoil/atom';
 import { toast } from 'react-toastify';
 
@@ -56,15 +56,12 @@ export default function Login() {
     }
 
     setLogin(true);
-    setEmail('');
-    setPassword('');
     setIsLoggedIn(true);
   };
+
   const signOutHelperFn = async () => {
     await signOutHndlr();
     setLogin(false);
-    // setEmail('');
-    // setPassword('');
     setIsLoggedIn(false);
   };
 
@@ -100,7 +97,7 @@ export default function Login() {
         {!isLoggedIn && (
           <Button
             onClick={handleOpen}
-            className='text-base text-white font-sans'
+            className='text-base text-white font-bebas text-xl'
           >
             Login
           </Button>
@@ -111,7 +108,7 @@ export default function Login() {
               // signOutHndlr.bind(null, setLogin)
               signOutHelperFn
             }
-            className='text-base text-white font-sans'
+            className='text-base text-white font-bebas text-xl'
           >
             Log out
           </Button>
@@ -138,8 +135,6 @@ export default function Login() {
                   type='email'
                   fullWidth
                   variant='standard'
-                  error={!isEmailValid}
-                  helperText={validation.email.message}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -151,8 +146,6 @@ export default function Login() {
                   type='password'
                   fullWidth
                   variant='standard'
-                  error={!isPasswordValid}
-                  helperText={validation.password.message}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
@@ -160,12 +153,6 @@ export default function Login() {
             )}
           </DialogContent>
           <DialogActions>
-            <button
-              onClick={handleCancel}
-              className='mr-2 bg-gray-200 w-14 h-8 text-black text-xs'
-            >
-              취소
-            </button>
             {login ? (
               <button
                 onClick={handleCancel}
@@ -175,17 +162,7 @@ export default function Login() {
               </button>
             ) : (
               <button
-                onClick={
-                  //   signInHndlr.bind(
-                  //   null,
-                  //   email,
-                  //   password,
-                  //   setLogin,
-                  //   setEmail,
-                  //   setPassword,
-                  // )
-                  signInHelperFn
-                }
+                onClick={signInHelperFn}
                 className='mr-4 bg-violet-900 w-14 h-8 text-white text-xs'
               >
                 login
