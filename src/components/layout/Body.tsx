@@ -5,7 +5,7 @@ type Props = {
 };
 
 const Body = ({ children }: Props) => {
-  return <div className='h-[100vh]'>{children}</div>;
+  return <div className=''>{children}</div>;
 };
 
 export default Body;
