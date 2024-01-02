@@ -48,19 +48,6 @@ const AboutBody = () => {
         <p>또한 다른 사람들이 정한 새해 결심도 확인해 볼 수 있습니다.</p>
       </div>
       <Spacer y={25} />
-      <div className='flex flex-col items-center bg-slate-300 text-black rounded-xl p-8 w-full'>
-        <h3 className='text-[25px] font-orbitron font-bold mb-4'>
-          HOW TO USE M5MENTUM
-        </h3>
-        <div className='flex flex-col'>
-          <p>1. 이메일만으로 간단하게 회원가입하세요.</p>
-          <p>2. 로그인 한 뒤 본인의 새해 목표를 등록해 주세요.</p>
-          <p>3. 매일매일 본인의 목표에 check!</p>
-          <p>4. 달성도를 확인하면서 마감일까지 힘 내세요!</p>
-          <p>5. 중간 중간 다른 사람들의 목표도 확인하면서 영감을 얻으세요!</p>
-        </div>
-      </div>
-      <Spacer y={25} />
     </div>
   );
 };

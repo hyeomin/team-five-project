@@ -1,57 +1,73 @@
-'use client';
-
-import { supabase } from '@/pages/api/supabase';
-import { fetchDataState } from '@/recoil/atom';
-import { resolutionType } from '@/types/ResoultionTypes';
-import { useRecoilState } from 'recoil';
-import { useState } from 'react';
-import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { editResolution } from '@/pages/api/resolutions';
 import HabitTracker from '@/components/Detail/HabitTracker';
+import {
+  deleteResolution,
+  editResolution,
+  fetchData,
+} from '@/pages/api/resolutions';
+import { resolutionType } from '@/types/ResoultionTypes';
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
+import { useState } from 'react';
+import Progress from './Progress';
 
-function MyGoal({
-  id,
-  title,
-  content,
-  dueDate,
-  progress,
-  user,
-}: resolutionType) {
-  const queryClient = useQueryClient();
-  const mutation = useMutation({
-    mutationFn: editResolution,
-    onSuccess: () => {
-      queryClient.invalidateQueries();
-    },
-  });
-  const [fetchData, setFetchData] =
-    useRecoilState<resolutionType[]>(fetchDataState);
+type Props = {
+  resolution: resolutionType;
+};
+
+const MyGoalDummy = ({ resolution }: Props) => {
   const [modalState, setModalState] = useState(false);
+
+  const { data: resolutionList } = useQuery({
+    queryKey: ['resolutions'],
+    queryFn: fetchData,
+  });
 
   // UpDate
   const [editState, setEditState] = useState(false);
-  const [editValueState, setEditValueState] = useState(content);
+  const [editValueState, setEditValueState] = useState(resolution.content);
   const onChangeHandler = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     setEditValueState(e.target.value);
   };
-  const onClickEditHandler = async () => {
+
+  const queryClient = useQueryClient();
+  const editMutation = useMutation({
+    mutationFn: editResolution,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['resolutions'] });
+    },
+  });
+
+  const onClickEditHandler = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.stopPropagation();
     setEditState(!editState);
-    const params = { id: id, content: editValueState };
-    if (editState) {
-      const editContents = fetchData.map((item) => {
-        return item.id === id ? { ...item, content: editValueState } : item;
+    const params = { id: resolution.id, content: editValueState };
+    if (editState && resolutionList) {
+      const editContents = resolutionList.map((item) => {
+        return item.id === resolution.id
+          ? { ...item, content: editValueState }
+          : item;
       });
-      mutation.mutate(params);
-      setFetchData(editContents);
+      editMutation.mutate(params);
       setEditState(false);
     }
   };
 
   // Delete
-  const onClickDeleteHandler = async (id: number) => {
-    const { error } = await supabase.from('resolution').delete().eq('id', id);
-    console.log(error);
-    setFetchData(fetchData.filter((item) => item.id !== id));
+
+  const deleteMutation = useMutation({
+    mutationFn: deleteResolution,
+    onSuccess: async () => {
+      queryClient.invalidateQueries({ queryKey: ['resolutions'] });
+    },
+  });
+
+  const onClickDeleteHandler = async (
+    e: React.MouseEvent<HTMLButtonElement>,
+  ) => {
+    e.stopPropagation();
+    const confimation = window.confirm('삭제하시겠습니까?');
+    if (confimation) {
+      deleteMutation.mutate(resolution.id);
+    } else return;
   };
 
   const formatDate = (dateStr: string) => {
@@ -75,33 +91,40 @@ function MyGoal({
     return Math.trunc(diffDate);
   };
 
+  const onInputClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent event from propagating to parent elements
+  };
+
   return (
     <>
       <li
-        key={id}
+        key={resolution.id}
         className='flex rounded-xl bg-violet-100 text-black gap-y-4 px-8 py-4'
         onClick={onClickModalHandler}
       >
         <section className='flex flex-1 flex-col gap-y-4'>
-          <p className='text-2xl text-bold'>{title}</p>
+          <p className='text-2xl text-bold'>{resolution.title}</p>
           {editState ? (
             <textarea
               value={editValueState}
               onChange={onChangeHandler}
+              onClick={onInputClick}
             ></textarea>
           ) : (
             <p>{editValueState}</p>
           )}
           <span>
-            목표일: {formatDate(dueDate)} / D-{diffDateHandler(dueDate)}
+            목표일: {formatDate(resolution.dueDate)} / D-
+            {diffDateHandler(resolution.dueDate)}
           </span>
-          <div>Progress Bar</div>
+          <div className=''>
+            <span>달성 현황:</span>
+            <Progress progress={resolution.progress} />
+          </div>
         </section>
         <div className='flex items-center gap-x-4'>
           <button
-            onClick={() => {
-              onClickDeleteHandler(id);
-            }}
+            onClick={onClickDeleteHandler}
             className='flex-1 bg-slate-800 py-2 px-4 rounded text-xs text-white hover:bg-slate-400'
           >
             삭제
@@ -114,14 +137,16 @@ function MyGoal({
           </button>
         </div>
       </li>
-      {modalState ? (
-        <HabitTracker
-          onClickModalHandler={onClickModalHandler}
-          decimalDate={diffDateHandler(dueDate)}
-        />
-      ) : null}
+      <div>
+        {modalState ? (
+          <HabitTracker
+            onClickModalHandler={onClickModalHandler}
+            decimalDate={diffDateHandler(resolution.dueDate)}
+          />
+        ) : null}
+      </div>
     </>
   );
-}
+};
 
-export default MyGoal;
+export default MyGoalDummy;
