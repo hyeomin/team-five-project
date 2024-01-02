@@ -1,40 +1,78 @@
-import React from 'react'
+import { editProgress, fetchProgressData } from '@/pages/api/resolutions'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import React, { useEffect, useState } from 'react'
 
-function HabitTracker({ onClickModalHandler, decimalDate }: any) {
-    const dayList = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-    console.log('decimalDate',decimalDate)
+function HabitTracker({ onClickModalHandler, decimalDate, createdAt, id, title }: any) {
+    const { data }: any = useQuery({
+        queryKey: ['checkedList', id],
+        queryFn: fetchProgressData,
+    })
+    const queryClient = useQueryClient();
+    const editProgressMutation = useMutation({
+        mutationFn: editProgress,
+        onSuccess: () => {
+            queryClient.invalidateQueries({ queryKey: ['checkedList'] })
+        }
+    })
+
+    const isEmpty = (input: any) => {
+        if (
+            typeof input === "undefined" ||
+            input[0].checkedList === null ||
+            input[0].checkedList === "" ||
+            input[0].checkedList === "null" ||
+            input[0].checkedList.length === 0 ||
+            (typeof input[0].checkedList === "object" && !Object.keys(input).length)
+        ) {
+            return []
+        } else if (typeof input[0].checkedList === "number") {
+            return [input[0].checkedList]
+        } else {
+            return input[0].checkedList
+        }
+    }
+
     const checkBoxRendering = () => {
         const result = [];
-        for (let i = 0; i <= decimalDate; i++) {
-            result.push(<input type='checkbox' className='rounded-full border-2 appearance-none cursor-pointer checked:bg-gray-500 duration-150 w-[30px] h-[30px]'/>)
+        for (let i = 1; i <= decimalDate; i++) {
+            result.push(<input
+                id={i.toString()} // 
+                onChange={(e) => { onChangeCheckHandler(e.target.checked, e.target.id) }}
+                checked={isEmpty(data)?.includes(i) ? true : false}
+                type='checkbox'
+                className='rounded-full border-2 appearance-none cursor-pointer checked:bg-gray-500 duration-150 w-[30px] h-[30px]'
+            />)
         }
         return result
     }
 
+    const onChangeCheckHandler = (checked: boolean, checkid: string) => {
+        if (checked) {
+            const pushData = isEmpty(data)
+            pushData.push(parseInt(checkid))
+            const calculate = Math.trunc(pushData.length / decimalDate * 100)
+            const params = { id: id, progress: calculate, checkedList: pushData }
+            editProgressMutation.mutate(params)
+        } else {
+            const filterData = isEmpty(data).filter((el: number) => el !== parseInt(checkid))
+            const calculate = Math.trunc(filterData.length / decimalDate * 100)
+            const params = { id: id, progress: calculate, checkedList: filterData }
+            editProgressMutation.mutate(params)
+        }
+    }
+
+
     return (
-        <div className='fixed top-0 left-0 w-full h-full bg-black/40 flex justify-center items-center'
+        <div className='fixed top-0 left-0 w-full h-full bg-black/40 flex justify-center items-center z-10'
             onClick={onClickModalHandler}>
             <div className='w-[800px] h-[600px] bg-white rounded-[15px]'
                 onClick={(e) => e.stopPropagation()}>
-                <div className='border-2 h-[50px] w-[150px] mt-10 ml-10 rounded-[10px] text-black'>
-                    Frequency
+                <div className='flex border-2 h-[100px] justify-around m-10 rounded-[15px] items-center text-black text-[30px] font-bold text-gray-600	'>
+                    {title}
                 </div>
-                <div className='flex border-2 h-[100px] justify-around m-10 rounded-[15px] items-center'>
-                    {dayList.map((item) => {
-                        return (
-                            <div key={item} className='text-black text-center'>
-                                <p>{item}</p>
-                                <input type="checkbox" className='rounded-full border-2 appearance-none	w-[20px] h-[20px] cursor-pointer mt-3 checked:bg-gray-500 duration-150 ' />
-                            </div>
-                        )
-                    })}
-                </div>
-                <div className='grid grid-cols-10 place-items-center
-                text-black border-2 h-[200px] m-10 rounded-[15px]'>
+                <div key={id} className='grid grid-cols-10 place-items-center auto-rows-[minmax(50px,_50px)]
+                text-black border-2 h-[350px] m-10 rounded-[15px] overflow-auto	overflow-x-hidden'>
                     {checkBoxRendering()}
-                </div>
-                <div className='text-black border-2 h-[50px] m-10 rounded-[10px]'>
-                    Progress Bar
                 </div>
             </div>
         </div>
