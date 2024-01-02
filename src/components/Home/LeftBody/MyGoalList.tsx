@@ -46,7 +46,13 @@ const MyGoalList = () => {
       </div>
       <ul className='flex flex-col gap-y-4 my-4'>
         {inProgressResolution &&
-          inProgressResolution.map((resolution) => {
+          inProgressResolution
+          .sort((a, b) => {
+            const aDate:any = new Date(a.created_at)
+            const bDate:any = new Date(b.created_at)
+            return bDate - aDate
+          })
+          .map((resolution) => {
             return (
               <>
                 <MyGoal resolution={resolution} />
@@ -57,7 +63,13 @@ const MyGoalList = () => {
       <span className='font-orbitron text-2xl'>Completed</span>
       <ul className='flex flex-col gap-y-4 my-4'>
         {completeResolution &&
-          completeResolution.map((resolution) => {
+          completeResolution
+          .sort((a, b) => {
+            const aDate:any = new Date(a.created_at)
+            const bDate:any = new Date(b.created_at)
+            return bDate - aDate
+          })
+          .map((resolution) => {
             return (
               <>
                 <MyGoal resolution={resolution} />

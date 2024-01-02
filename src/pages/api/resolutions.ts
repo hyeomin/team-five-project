@@ -6,6 +6,12 @@ interface editResolutionType {
   content: string;
 }
 
+interface editProgressnType {
+  id: number;
+  progress: number;
+  checkedList: []
+}
+
 export const fetchData = async () => {
   try {
     const { data, error } = await supabase.from('resolution').select('*');
@@ -39,6 +45,45 @@ export const editResolution = async ({ id, content }: editResolutionType) => {
 export const deleteResolution = async (id: number) => {
   try {
     await supabase.from('resolution').delete().eq('id', id);
+  } catch (error) {
+    console.log('Error', error);
+  }
+};
+
+
+// Habit Tracker
+export const fetchCheckListData = async (id : any) => {
+  try {
+    const { data, error } = await supabase
+      .from('resolution')
+      .select(`checkedList`)
+      .eq('id', id.queryKey[1])
+      return data;
+
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export const fetchProgressData = async (id : any) => {
+  try {
+    const { data, error } = await supabase
+      .from('resolution')
+      .select(`progress`)
+      .eq('id', id.queryKey[1])
+      return data;
+
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export const editProgress = async ({ id, progress, checkedList }: editProgressnType) => {
+  try {
+    const { error } = await supabase
+      .from('resolution')
+      .update({ progress: progress, checkedList: checkedList })
+      .eq('id', id);
   } catch (error) {
     console.log('Error', error);
   }
