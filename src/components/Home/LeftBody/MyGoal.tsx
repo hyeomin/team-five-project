@@ -15,7 +15,6 @@ type Props = {
 
 const MyGoalDummy = ({ resolution }: Props) => {
   const [modalState, setModalState] = useState(false);
-
   const { data: resolutionList } = useQuery({
     queryKey: ['resolutions'],
     queryFn: fetchData,
@@ -84,9 +83,10 @@ const MyGoalDummy = ({ resolution }: Props) => {
     setModalState(!modalState);
   };
 
-  const diffDateHandler = (dateStr: string) => {
+  const diffDateHandler = (dateStr: string, dateType: boolean) => {
+    const createdDate = new Date(resolution.created_at)
     const dueDate = new Date(dateStr);
-    const diffSec = dueDate.getTime() - Date.now();
+    const diffSec = dueDate.getTime() - (dateType ? createdDate.getTime() : Date.now());
     const diffDate = diffSec / (24 * 60 * 60 * 1000);
     return Math.trunc(diffDate);
   };
@@ -114,12 +114,12 @@ const MyGoalDummy = ({ resolution }: Props) => {
             <p>{editValueState}</p>
           )}
           <span>
-            목표일: {formatDate(resolution.dueDate)} / D-
-            {diffDateHandler(resolution.dueDate)}
+            목표일: {formatDate(resolution.dueDate)} / D- 
+            {diffDateHandler(resolution.dueDate, false)}
           </span>
           <div className=''>
             <span>달성 현황:</span>
-            <Progress progress={resolution.progress} />
+            <Progress progress={resolution.progress} id={resolution.id} />
           </div>
         </section>
         <div className='flex items-center gap-x-4'>
@@ -141,7 +141,9 @@ const MyGoalDummy = ({ resolution }: Props) => {
         {modalState ? (
           <HabitTracker
             onClickModalHandler={onClickModalHandler}
-            decimalDate={diffDateHandler(resolution.dueDate)}
+            decimalDate={diffDateHandler(resolution.dueDate, true)}
+            id={resolution.id}
+            title={resolution.title}
           />
         ) : null}
       </div>
