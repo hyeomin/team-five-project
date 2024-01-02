@@ -1,3 +1,5 @@
+import { signInHndlr, signOutHndlr } from '@/pages/api/login';
+import { isLoggedInState } from '@/recoil/atom';
 import {
   Button,
   Dialog,
@@ -8,10 +10,8 @@ import {
   TextField,
 } from '@mui/material';
 import React, { useEffect } from 'react';
-import { signInHndlr, signOutHndlr } from '@/pages/api/login';
-import { useRecoilState } from 'recoil';
-import { isLoggedInState } from '@/recoil/atom';
 import { toast } from 'react-toastify';
+import { useRecoilState } from 'recoil';
 
 export default function Login() {
   const [login, setLogin] = React.useState(false);
@@ -99,7 +99,7 @@ export default function Login() {
         {!isLoggedIn && (
           <Button
             onClick={handleOpen}
-            className='text-base text-white font-bebas text-xl'
+            className='text-white font-bebas text-xl'
           >
             Login
           </Button>
@@ -107,7 +107,7 @@ export default function Login() {
         {isLoggedIn && (
           <Button
             onClick={signOutHelperFn}
-            className='text-base text-white font-bebas text-xl'
+            className='text-white font-bebas text-xl'
           >
             Log out
           </Button>
