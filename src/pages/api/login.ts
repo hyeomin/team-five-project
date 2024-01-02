@@ -1,15 +1,7 @@
 import { supabase } from './supabase';
 
 //회원가입
-export const signUpHndlr = async (
-  id: string,
-  pw: string,
-  nick: string,
-  // setEmail: React.Dispatch<React.SetStateAction<string>>,
-  // setPassword: React.Dispatch<React.SetStateAction<string>>,
-  // setNickname: React.Dispatch<React.SetStateAction<string>>,
-  // setIsUser: React.Dispatch<React.SetStateAction<boolean>>,
-) => {
+export const signUpHndlr = async (id: string, pw: string, nick: string) => {
   try {
     const { data, error } = await supabase.auth.signUp({
       email: id,
@@ -25,60 +17,31 @@ export const signUpHndlr = async (
   } catch (error) {
     console.error(error);
   }
-  // setIsUser((prev: boolean) => !prev);
-  // setEmail('');
-  // setPassword('');
-  // setNickname('');
 };
 
 // 로그인
-export const signInHndlr = async (
-  id: string,
-  pw: string,
-  // setLogin: React.Dispatch<React.SetStateAction<boolean>>,
-  // setEmail: React.Dispatch<React.SetStateAction<string>>,
-  // setPassword: React.Dispatch<React.SetStateAction<string>>,
-) => {
+export const signInHndlr = async (id: string, pw: string) => {
   try {
     const { data, error } = await supabase.auth.signInWithPassword({
       email: id,
       password: pw,
     });
-    if (data) {
-      return data;
+    if (!data.session) {
+      return new Error();
     }
-    if (error) {
-      console.error('로그인 실패:', error.message);
-      return error;
-    } else {
-      console.log('로그인 성공:', data);
-    }
+    return data;
   } catch (error) {
     console.error('데이터', error);
+    return error;
   }
-
-  // setLogin(true);
-  // setEmail('');
-  // setPassword('');
 };
 
-// //소셜로그인
-// const signInWithKakao = async () => {
-//   const { data, error } = await supabase.auth.signInWithOAuth({
-//     provider: 'kakao',
-//   });
-//   console.log('카카오로그인정보', data);
-// };
-
 // //로그아웃
-export const signOutHndlr = async () =>
-  // setLogin: React.Dispatch<React.SetStateAction<boolean>>,
-  {
-    const { error } = await supabase.auth.signOut();
-    console.log('에러', error);
-    console.log('로그아웃 성공');
-    // setLogin(false);
-  };
+export const signOutHndlr = async () => {
+  const { error } = await supabase.auth.signOut();
+  console.log('에러', error);
+  console.log('로그아웃 성공');
+};
 
 // 조회
 export const getCurrentSession = async () => {
