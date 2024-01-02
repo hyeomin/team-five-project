@@ -14,24 +14,6 @@ type Props = {
 
 export default function Home({ resolutions }: Props) {
   const open = useRecoilValue(addGoalState);
-  const [fetchData, setFetchData] =
-    useRecoilState<resolutionType[]>(fetchDataState);
-
-  // useEffect(() => {
-  //   setFetchData(resolutions);
-  // }, []);
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const { data, error } = await supabase.from('resolution').select('*');
-        setFetchData(data);
-      } catch (err) {
-        alert(err);
-      }
-    }
-    fetchData();
-  }, []);
 
   return (
     <div className=' mx-8'>
@@ -41,14 +23,3 @@ export default function Home({ resolutions }: Props) {
     </div>
   );
 }
-
-//get serverside props 로 변경
-// export async function getServerSideProps() {
-//   const { data, error } = await supabase.from('resolution').select('*');
-
-//   return {
-//     props: {
-//       resolutions: data,
-//     },
-//   };
-// }

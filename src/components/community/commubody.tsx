@@ -1,8 +1,7 @@
-import React from 'react';
-import MuiCard from './MuiCard';
-import { useQuery } from '@tanstack/react-query';
-import { fetchData } from '@/pages/api/resolutions';
 import { getCurrentSession } from '@/pages/api/login';
+import { fetchData } from '@/pages/api/resolutions';
+import { useQuery } from '@tanstack/react-query';
+import MuiCard from './MuiCard';
 
 const Commubody = () => {
   const { data: resoultionList, isLoading } = useQuery({
@@ -26,7 +25,7 @@ const Commubody = () => {
   console.log('쿼리에서 읽어온거', resoultionList);
   return (
     <>
-      <div className='flex flex-col items-center gap-3'>
+      <div className='flex flex-col items-center gap-3 p-8'>
         <h2 className='text-[30px]'>
           다른 사람들은 어떤 새해 목표를 세웠을까요?
         </h2>

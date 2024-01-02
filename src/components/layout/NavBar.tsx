@@ -8,7 +8,7 @@ import { isLoggedInState } from '@/recoil/atom';
 const NavBar = () => {
   const isLoggedIn = useRecoilValue(isLoggedInState);
   return (
-    <nav className='flex gap-[100px] justify-center items-center'>
+    <nav className='flex gap-[100px] justify-center items-center py-2'>
       <Link href='/'>HOME</Link>
       <Link href='/community'>COMMUNITY</Link>
       <Link href='/about'>ABOUT</Link>
