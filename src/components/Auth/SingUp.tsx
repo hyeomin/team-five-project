@@ -26,6 +26,10 @@ export default function Login() {
   const [emailMsg, setEmailMsg] = React.useState('');
   const [pwdMsg, setPwdMsg] = React.useState('');
   const [nicknameMsg, setNicknameMsg] = React.useState('');
+
+  const [checkMail, setCheckMail] = React.useState(false);
+  const [checkNickname, setCheckNickname] = React.useState(false);
+
   const setIsLoggedIn = useSetRecoilState(isLoggedInState);
 
   const handleOpen = () => {
@@ -42,6 +46,7 @@ export default function Login() {
         /([\w-.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/,
       );
   };
+  console.log(email);
 
   const validatePwd = (password: string) => {
     return password
@@ -130,7 +135,8 @@ export default function Login() {
               label='Email'
               type='email'
               variant='standard'
-              error
+              error={!validateEmail(email)}
+              helperText={emailMsg}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required

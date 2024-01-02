@@ -26,8 +26,12 @@ export const signInHndlr = async (id: string, pw: string) => {
       email: id,
       password: pw,
     });
+    if (data) {
+      return data;
+    }
     if (error) {
       console.error('로그인 실패:', error.message);
+      return error;
     } else {
       console.log('로그인 성공:', data);
     }

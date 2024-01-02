@@ -3,9 +3,14 @@ import { useRecoilValue } from 'recoil';
 import MyGoalList from './LeftBody/MyGoalList';
 import NotLoggedIn from './RightBody/NotLoggedIn';
 import UserProfile from './RightBody/UserProfile';
+import NotLoggedInGoalList from './LeftBody/NotLoggedInGoalList';
 
 const HomeBody = () => {
   const isLoggedIn = useRecoilValue(isLoggedInState);
+
+  if (!isLoggedIn) {
+    return <NotLoggedInGoalList />;
+  }
 
   return (
     <div className='flex my-4 gap-x-8'>

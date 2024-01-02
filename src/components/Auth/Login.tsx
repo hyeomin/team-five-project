@@ -41,7 +41,8 @@ export default function Login() {
   });
 
   const signInHelperFn = async () => {
-    await signInHndlr(email, password);
+    const res = await signInHndlr(email, password);
+    console.log('뭐라고 나오지?', res);
 
     setLogin(true);
     setEmail('');
