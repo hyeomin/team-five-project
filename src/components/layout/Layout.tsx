@@ -5,7 +5,7 @@ import NavBar from './NavBar';
 
 const Layout = ({ children }: PropsWithChildren) => {
   return (
-    <div className='bg-main bg-scroll'>
+    <div className='bg-main'>
       <NavBar />
       <Body>{children}</Body>
       <Footer />
