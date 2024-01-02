@@ -11,9 +11,9 @@ import React, { useEffect } from 'react';
 import { signInHndlr, signOutHndlr } from '@/pages/api/login';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 import { isLoggedInState } from '@/recoil/atom';
+import { toast } from 'react-toastify';
 
 export default function Login() {
-  const [isUser, setIsUser] = React.useState(false);
   const [login, setLogin] = React.useState(false);
   const [open, setOpen] = React.useState(false);
   const [email, setEmail] = React.useState('');
@@ -43,6 +43,17 @@ export default function Login() {
   const signInHelperFn = async () => {
     const res = await signInHndlr(email, password);
     console.log('뭐라고 나오지?', res);
+    if (res instanceof Error) {
+      toast.warn('로그인 실패. 다시 시도해 주세요', {
+        position: 'top-center',
+        autoClose: 2000,
+        hideProgressBar: false,
+        progress: undefined,
+        theme: 'light',
+      });
+      setOpen(false);
+      return;
+    }
 
     setLogin(true);
     setEmail('');
@@ -68,14 +79,14 @@ export default function Login() {
       email: {
         isValid: isEmailValid,
         message: isEmailValid
-          ? '이메일이 일치합니다.'
-          : '이메일이 일치하지 않습니다.',
+          ? '이메일이 형식이 맞습니다.'
+          : '이메일이 형식이 아닙니다.',
       },
       password: {
         isValid: isPasswordValid,
         message: isPasswordValid
-          ? '비밀번호가 일치합니다.'
-          : '비밀번호를 일치하지 않습니다.',
+          ? '비밀번호가 6자리 형식이 맞습니다.'
+          : '비밀번호를 형식이 아닙니다.',
       },
     }));
   }, [email, password]);
