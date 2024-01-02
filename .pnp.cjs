@@ -55,7 +55,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@aashutoshrathi/word-wrap", [\
       ["npm:1.2.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@aashutoshrathi-word-wrap-npm-1.2.6-5b1d95e487-10c0.zip/node_modules/@aashutoshrathi/word-wrap/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@aashutoshrathi-word-wrap-npm-1.2.6-5b1d95e487-10c0.zip/node_modules/@aashutoshrathi/word-wrap/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@aashutoshrathi/word-wrap", "npm:1.2.6"]\
         ],\
@@ -64,7 +68,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@alloc/quick-lru", [\
       ["npm:5.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@alloc-quick-lru-npm-5.2.0-eb83517088-10c0.zip/node_modules/@alloc/quick-lru/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@alloc-quick-lru-npm-5.2.0-eb83517088-10c0.zip/node_modules/@alloc/quick-lru/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@alloc/quick-lru", "npm:5.2.0"]\
         ],\
@@ -73,7 +81,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@babel/code-frame", [\
       ["npm:7.23.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@babel-code-frame-npm-7.23.5-cb10d08de6-10c0.zip/node_modules/@babel/code-frame/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@babel-code-frame-npm-7.23.5-cb10d08de6-10c0.zip/node_modules/@babel/code-frame/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@babel/code-frame", "npm:7.23.5"],\
           ["@babel/highlight", "npm:7.23.4"],\
@@ -84,7 +96,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@babel/helper-module-imports", [\
       ["npm:7.22.15", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@babel-helper-module-imports-npm-7.22.15-687e77ee50-10c0.zip/node_modules/@babel/helper-module-imports/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@babel-helper-module-imports-npm-7.22.15-687e77ee50-10c0.zip/node_modules/@babel/helper-module-imports/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@babel/helper-module-imports", "npm:7.22.15"],\
           ["@babel/types", "npm:7.23.6"]\
@@ -94,7 +110,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@babel/helper-string-parser", [\
       ["npm:7.23.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@babel-helper-string-parser-npm-7.23.4-b1f0d030c3-10c0.zip/node_modules/@babel/helper-string-parser/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@babel-helper-string-parser-npm-7.23.4-b1f0d030c3-10c0.zip/node_modules/@babel/helper-string-parser/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@babel/helper-string-parser", "npm:7.23.4"]\
         ],\
@@ -103,7 +123,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@babel/helper-validator-identifier", [\
       ["npm:7.22.20", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@babel-helper-validator-identifier-npm-7.22.20-18305bb306-10c0.zip/node_modules/@babel/helper-validator-identifier/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@babel-helper-validator-identifier-npm-7.22.20-18305bb306-10c0.zip/node_modules/@babel/helper-validator-identifier/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@babel/helper-validator-identifier", "npm:7.22.20"]\
         ],\
@@ -112,7 +136,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@babel/highlight", [\
       ["npm:7.23.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@babel-highlight-npm-7.23.4-2a9f2d2538-10c0.zip/node_modules/@babel/highlight/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@babel-highlight-npm-7.23.4-2a9f2d2538-10c0.zip/node_modules/@babel/highlight/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@babel/highlight", "npm:7.23.4"],\
           ["@babel/helper-validator-identifier", "npm:7.22.20"],\
@@ -124,7 +152,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@babel/runtime", [\
       ["npm:7.23.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@babel-runtime-npm-7.23.7-9691b86096-10c0.zip/node_modules/@babel/runtime/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@babel-runtime-npm-7.23.7-9691b86096-10c0.zip/node_modules/@babel/runtime/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@babel/runtime", "npm:7.23.7"],\
           ["regenerator-runtime", "npm:0.14.1"]\
@@ -134,7 +166,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@babel/types", [\
       ["npm:7.23.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@babel-types-npm-7.23.6-4e68ac9e9b-10c0.zip/node_modules/@babel/types/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@babel-types-npm-7.23.6-4e68ac9e9b-10c0.zip/node_modules/@babel/types/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@babel/types", "npm:7.23.6"],\
           ["@babel/helper-string-parser", "npm:7.23.4"],\
@@ -146,7 +182,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/babel-plugin", [\
       ["npm:11.11.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-babel-plugin-npm-11.11.0-c1dcc4c884-10c0.zip/node_modules/@emotion/babel-plugin/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-babel-plugin-npm-11.11.0-c1dcc4c884-10c0.zip/node_modules/@emotion/babel-plugin/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/babel-plugin", "npm:11.11.0"],\
           ["@babel/helper-module-imports", "npm:7.22.15"],\
@@ -166,7 +206,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/cache", [\
       ["npm:11.11.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-cache-npm-11.11.0-3e6e449071-10c0.zip/node_modules/@emotion/cache/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-cache-npm-11.11.0-3e6e449071-10c0.zip/node_modules/@emotion/cache/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/cache", "npm:11.11.0"],\
           ["@emotion/memoize", "npm:0.8.1"],\
@@ -180,7 +224,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/hash", [\
       ["npm:0.9.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-hash-npm-0.9.1-650576c2b1-10c0.zip/node_modules/@emotion/hash/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-hash-npm-0.9.1-650576c2b1-10c0.zip/node_modules/@emotion/hash/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/hash", "npm:0.9.1"]\
         ],\
@@ -189,7 +237,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/is-prop-valid", [\
       ["npm:1.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-is-prop-valid-npm-1.2.1-794afe6a94-10c0.zip/node_modules/@emotion/is-prop-valid/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-is-prop-valid-npm-1.2.1-794afe6a94-10c0.zip/node_modules/@emotion/is-prop-valid/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/is-prop-valid", "npm:1.2.1"],\
           ["@emotion/memoize", "npm:0.8.1"]\
@@ -199,7 +251,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/memoize", [\
       ["npm:0.8.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-memoize-npm-0.8.1-9b1e35ff15-10c0.zip/node_modules/@emotion/memoize/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-memoize-npm-0.8.1-9b1e35ff15-10c0.zip/node_modules/@emotion/memoize/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/memoize", "npm:0.8.1"]\
         ],\
@@ -208,14 +264,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/react", [\
       ["npm:11.11.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-react-npm-11.11.3-5802f4fe7f-10c0.zip/node_modules/@emotion/react/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-react-npm-11.11.3-5802f4fe7f-10c0.zip/node_modules/@emotion/react/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/react", "npm:11.11.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:11.11.3", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@emotion-react-virtual-26b054867e/4/AppData/Local/Yarn/Berry/cache/@emotion-react-npm-11.11.3-5802f4fe7f-10c0.zip/node_modules/@emotion/react/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@emotion-react-virtual-26b054867e/4/.yarn/berry/cache/@emotion-react-npm-11.11.3-5802f4fe7f-10c0.zip/node_modules/@emotion/react/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/react", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:11.11.3"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -238,7 +302,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/serialize", [\
       ["npm:1.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-serialize-npm-1.1.3-0ce9e71d95-10c0.zip/node_modules/@emotion/serialize/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-serialize-npm-1.1.3-0ce9e71d95-10c0.zip/node_modules/@emotion/serialize/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/serialize", "npm:1.1.3"],\
           ["@emotion/hash", "npm:0.9.1"],\
@@ -252,7 +320,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/sheet", [\
       ["npm:1.2.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-sheet-npm-1.2.2-a918ac483c-10c0.zip/node_modules/@emotion/sheet/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-sheet-npm-1.2.2-a918ac483c-10c0.zip/node_modules/@emotion/sheet/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/sheet", "npm:1.2.2"]\
         ],\
@@ -261,14 +333,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/styled", [\
       ["npm:11.11.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-styled-npm-11.11.0-9a95c8527d-10c0.zip/node_modules/@emotion/styled/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-styled-npm-11.11.0-9a95c8527d-10c0.zip/node_modules/@emotion/styled/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/styled", "npm:11.11.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:11.11.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@emotion-styled-virtual-acb75e25b3/4/AppData/Local/Yarn/Berry/cache/@emotion-styled-npm-11.11.0-9a95c8527d-10c0.zip/node_modules/@emotion/styled/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@emotion-styled-virtual-acb75e25b3/4/.yarn/berry/cache/@emotion-styled-npm-11.11.0-9a95c8527d-10c0.zip/node_modules/@emotion/styled/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/styled", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:11.11.0"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -293,7 +373,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/unitless", [\
       ["npm:0.8.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-unitless-npm-0.8.1-bcf0a8f565-10c0.zip/node_modules/@emotion/unitless/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-unitless-npm-0.8.1-bcf0a8f565-10c0.zip/node_modules/@emotion/unitless/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/unitless", "npm:0.8.1"]\
         ],\
@@ -302,14 +386,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/use-insertion-effect-with-fallbacks", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-use-insertion-effect-with-fallbacks-npm-1.0.1-730758c66c-10c0.zip/node_modules/@emotion/use-insertion-effect-with-fallbacks/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-use-insertion-effect-with-fallbacks-npm-1.0.1-730758c66c-10c0.zip/node_modules/@emotion/use-insertion-effect-with-fallbacks/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/use-insertion-effect-with-fallbacks", "npm:1.0.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:26b054867ed0f8b269c44fa84a84461e39164967de0c870b2e8a184ce0221eaed9e330308d5e5f95c462a6678dcdc0bb025c5fd3487f5bf8469c09249cc4e549#npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@emotion-use-insertion-effect-with-fallbacks-virtual-b58f013adb/4/AppData/Local/Yarn/Berry/cache/@emotion-use-insertion-effect-with-fallbacks-npm-1.0.1-730758c66c-10c0.zip/node_modules/@emotion/use-insertion-effect-with-fallbacks/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@emotion-use-insertion-effect-with-fallbacks-virtual-b58f013adb/4/.yarn/berry/cache/@emotion-use-insertion-effect-with-fallbacks-npm-1.0.1-730758c66c-10c0.zip/node_modules/@emotion/use-insertion-effect-with-fallbacks/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/use-insertion-effect-with-fallbacks", "virtual:26b054867ed0f8b269c44fa84a84461e39164967de0c870b2e8a184ce0221eaed9e330308d5e5f95c462a6678dcdc0bb025c5fd3487f5bf8469c09249cc4e549#npm:1.0.1"],\
           ["@types/react", "npm:18.2.46"],\
@@ -324,7 +416,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/utils", [\
       ["npm:1.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-utils-npm-1.2.1-3d04f99348-10c0.zip/node_modules/@emotion/utils/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-utils-npm-1.2.1-3d04f99348-10c0.zip/node_modules/@emotion/utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/utils", "npm:1.2.1"]\
         ],\
@@ -333,7 +429,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@emotion/weak-memoize", [\
       ["npm:0.3.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@emotion-weak-memoize-npm-0.3.1-bfc18213af-10c0.zip/node_modules/@emotion/weak-memoize/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@emotion-weak-memoize-npm-0.3.1-bfc18213af-10c0.zip/node_modules/@emotion/weak-memoize/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@emotion/weak-memoize", "npm:0.3.1"]\
         ],\
@@ -342,14 +442,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@eslint-community/eslint-utils", [\
       ["npm:4.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@eslint-community-eslint-utils-npm-4.4.0-d1791bd5a3-10c0.zip/node_modules/@eslint-community/eslint-utils/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@eslint-community-eslint-utils-npm-4.4.0-d1791bd5a3-10c0.zip/node_modules/@eslint-community/eslint-utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@eslint-community/eslint-utils", "npm:4.4.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:6eec398a4132b5372ea5ffc0bc36d4c81602b7e444a89685d0d958016d8fd53df5c0c97c6a8bf99951469e2c6c06135dd192e9309f6e39b1a4c85e0faabe1f6b#npm:4.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@eslint-community-eslint-utils-virtual-719be7711d/4/AppData/Local/Yarn/Berry/cache/@eslint-community-eslint-utils-npm-4.4.0-d1791bd5a3-10c0.zip/node_modules/@eslint-community/eslint-utils/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@eslint-community-eslint-utils-virtual-719be7711d/4/.yarn/berry/cache/@eslint-community-eslint-utils-npm-4.4.0-d1791bd5a3-10c0.zip/node_modules/@eslint-community/eslint-utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@eslint-community/eslint-utils", "virtual:6eec398a4132b5372ea5ffc0bc36d4c81602b7e444a89685d0d958016d8fd53df5c0c97c6a8bf99951469e2c6c06135dd192e9309f6e39b1a4c85e0faabe1f6b#npm:4.4.0"],\
           ["@types/eslint", null],\
@@ -365,7 +473,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@eslint-community/regexpp", [\
       ["npm:4.10.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@eslint-community-regexpp-npm-4.10.0-6bfb984c81-10c0.zip/node_modules/@eslint-community/regexpp/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@eslint-community-regexpp-npm-4.10.0-6bfb984c81-10c0.zip/node_modules/@eslint-community/regexpp/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@eslint-community/regexpp", "npm:4.10.0"]\
         ],\
@@ -374,7 +486,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@eslint/eslintrc", [\
       ["npm:2.1.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@eslint-eslintrc-npm-2.1.4-1ff4b5f908-10c0.zip/node_modules/@eslint/eslintrc/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@eslint-eslintrc-npm-2.1.4-1ff4b5f908-10c0.zip/node_modules/@eslint/eslintrc/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@eslint/eslintrc", "npm:2.1.4"],\
           ["ajv", "npm:6.12.6"],\
@@ -392,7 +508,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@eslint/js", [\
       ["npm:8.56.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@eslint-js-npm-8.56.0-b1de08cbff-10c0.zip/node_modules/@eslint/js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@eslint-js-npm-8.56.0-b1de08cbff-10c0.zip/node_modules/@eslint/js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@eslint/js", "npm:8.56.0"]\
         ],\
@@ -401,7 +521,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@floating-ui/core", [\
       ["npm:1.5.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@floating-ui-core-npm-1.5.2-52cbf2a192-10c0.zip/node_modules/@floating-ui/core/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@floating-ui-core-npm-1.5.2-52cbf2a192-10c0.zip/node_modules/@floating-ui/core/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@floating-ui/core", "npm:1.5.2"],\
           ["@floating-ui/utils", "npm:0.1.6"]\
@@ -411,7 +535,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@floating-ui/dom", [\
       ["npm:1.5.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@floating-ui-dom-npm-1.5.3-ac36b589ae-10c0.zip/node_modules/@floating-ui/dom/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@floating-ui-dom-npm-1.5.3-ac36b589ae-10c0.zip/node_modules/@floating-ui/dom/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@floating-ui/dom", "npm:1.5.3"],\
           ["@floating-ui/core", "npm:1.5.2"],\
@@ -422,14 +550,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@floating-ui/react-dom", [\
       ["npm:2.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@floating-ui-react-dom-npm-2.0.4-e347c2e4b4-10c0.zip/node_modules/@floating-ui/react-dom/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@floating-ui-react-dom-npm-2.0.4-e347c2e4b4-10c0.zip/node_modules/@floating-ui/react-dom/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@floating-ui/react-dom", "npm:2.0.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:20107099778066706ded192889c8609aa9306a3b7d96d79cd0d19d67a5b1a159ce9c33c473a2a26ccb4286c5d9336316668c651ed3dfa80999c4830d37fc3d3f#npm:2.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@floating-ui-react-dom-virtual-774f28a988/4/AppData/Local/Yarn/Berry/cache/@floating-ui-react-dom-npm-2.0.4-e347c2e4b4-10c0.zip/node_modules/@floating-ui/react-dom/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@floating-ui-react-dom-virtual-774f28a988/4/.yarn/berry/cache/@floating-ui-react-dom-npm-2.0.4-e347c2e4b4-10c0.zip/node_modules/@floating-ui/react-dom/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@floating-ui/react-dom", "virtual:20107099778066706ded192889c8609aa9306a3b7d96d79cd0d19d67a5b1a159ce9c33c473a2a26ccb4286c5d9336316668c651ed3dfa80999c4830d37fc3d3f#npm:2.0.4"],\
           ["@floating-ui/dom", "npm:1.5.3"],\
@@ -449,7 +585,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@floating-ui/utils", [\
       ["npm:0.1.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@floating-ui-utils-npm-0.1.6-ae508f7272-10c0.zip/node_modules/@floating-ui/utils/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@floating-ui-utils-npm-0.1.6-ae508f7272-10c0.zip/node_modules/@floating-ui/utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@floating-ui/utils", "npm:0.1.6"]\
         ],\
@@ -458,7 +598,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@humanwhocodes/config-array", [\
       ["npm:0.11.13", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@humanwhocodes-config-array-npm-0.11.13-12314014f2-10c0.zip/node_modules/@humanwhocodes/config-array/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@humanwhocodes-config-array-npm-0.11.13-12314014f2-10c0.zip/node_modules/@humanwhocodes/config-array/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@humanwhocodes/config-array", "npm:0.11.13"],\
           ["@humanwhocodes/object-schema", "npm:2.0.1"],\
@@ -470,7 +614,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@humanwhocodes/module-importer", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@humanwhocodes-module-importer-npm-1.0.1-9d07ed2e4a-10c0.zip/node_modules/@humanwhocodes/module-importer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@humanwhocodes-module-importer-npm-1.0.1-9d07ed2e4a-10c0.zip/node_modules/@humanwhocodes/module-importer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@humanwhocodes/module-importer", "npm:1.0.1"]\
         ],\
@@ -479,7 +627,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@humanwhocodes/object-schema", [\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@humanwhocodes-object-schema-npm-2.0.1-c23364bbfc-10c0.zip/node_modules/@humanwhocodes/object-schema/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@humanwhocodes-object-schema-npm-2.0.1-c23364bbfc-10c0.zip/node_modules/@humanwhocodes/object-schema/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@humanwhocodes/object-schema", "npm:2.0.1"]\
         ],\
@@ -488,7 +640,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@isaacs/cliui", [\
       ["npm:8.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@isaacs-cliui-npm-8.0.2-f4364666d5-10c0.zip/node_modules/@isaacs/cliui/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@isaacs-cliui-npm-8.0.2-f4364666d5-10c0.zip/node_modules/@isaacs/cliui/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@isaacs/cliui", "npm:8.0.2"],\
           ["string-width", "npm:5.1.2"],\
@@ -512,7 +668,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/gen-mapping", [\
       ["npm:0.3.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@jridgewell-gen-mapping-npm-0.3.3-1815eba94c-10c0.zip/node_modules/@jridgewell/gen-mapping/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@jridgewell-gen-mapping-npm-0.3.3-1815eba94c-10c0.zip/node_modules/@jridgewell/gen-mapping/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@jridgewell/gen-mapping", "npm:0.3.3"],\
           ["@jridgewell/set-array", "npm:1.1.2"],\
@@ -524,7 +684,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/resolve-uri", [\
       ["npm:3.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@jridgewell-resolve-uri-npm-3.1.1-aa2de3f210-10c0.zip/node_modules/@jridgewell/resolve-uri/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@jridgewell-resolve-uri-npm-3.1.1-aa2de3f210-10c0.zip/node_modules/@jridgewell/resolve-uri/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@jridgewell/resolve-uri", "npm:3.1.1"]\
         ],\
@@ -533,7 +697,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/set-array", [\
       ["npm:1.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@jridgewell-set-array-npm-1.1.2-45b82d7fb6-10c0.zip/node_modules/@jridgewell/set-array/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@jridgewell-set-array-npm-1.1.2-45b82d7fb6-10c0.zip/node_modules/@jridgewell/set-array/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@jridgewell/set-array", "npm:1.1.2"]\
         ],\
@@ -542,7 +710,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/sourcemap-codec", [\
       ["npm:1.4.15", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@jridgewell-sourcemap-codec-npm-1.4.15-a055fb62cf-10c0.zip/node_modules/@jridgewell/sourcemap-codec/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@jridgewell-sourcemap-codec-npm-1.4.15-a055fb62cf-10c0.zip/node_modules/@jridgewell/sourcemap-codec/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@jridgewell/sourcemap-codec", "npm:1.4.15"]\
         ],\
@@ -551,7 +723,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@jridgewell/trace-mapping", [\
       ["npm:0.3.20", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@jridgewell-trace-mapping-npm-0.3.20-d90f282910-10c0.zip/node_modules/@jridgewell/trace-mapping/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@jridgewell-trace-mapping-npm-0.3.20-d90f282910-10c0.zip/node_modules/@jridgewell/trace-mapping/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@jridgewell/trace-mapping", "npm:0.3.20"],\
           ["@jridgewell/resolve-uri", "npm:3.1.1"],\
@@ -562,14 +738,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@mui/base", [\
       ["npm:5.0.0-beta.29", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@mui-base-npm-5.0.0-beta.29-9138efe49b-10c0.zip/node_modules/@mui/base/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@mui-base-npm-5.0.0-beta.29-9138efe49b-10c0.zip/node_modules/@mui/base/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/base", "npm:5.0.0-beta.29"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:5.0.0-beta.29", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@mui-base-virtual-2010709977/4/AppData/Local/Yarn/Berry/cache/@mui-base-npm-5.0.0-beta.29-9138efe49b-10c0.zip/node_modules/@mui/base/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@mui-base-virtual-2010709977/4/.yarn/berry/cache/@mui-base-npm-5.0.0-beta.29-9138efe49b-10c0.zip/node_modules/@mui/base/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/base", "virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:5.0.0-beta.29"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -595,7 +779,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@mui/core-downloads-tracker", [\
       ["npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@mui-core-downloads-tracker-npm-5.15.2-e5f2109ced-10c0.zip/node_modules/@mui/core-downloads-tracker/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@mui-core-downloads-tracker-npm-5.15.2-e5f2109ced-10c0.zip/node_modules/@mui/core-downloads-tracker/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/core-downloads-tracker", "npm:5.15.2"]\
         ],\
@@ -604,14 +792,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@mui/material", [\
       ["npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@mui-material-npm-5.15.2-7a7b714b99-10c0.zip/node_modules/@mui/material/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@mui-material-npm-5.15.2-7a7b714b99-10c0.zip/node_modules/@mui/material/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/material", "npm:5.15.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@mui-material-virtual-86c9e0ba76/4/AppData/Local/Yarn/Berry/cache/@mui-material-npm-5.15.2-7a7b714b99-10c0.zip/node_modules/@mui/material/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@mui-material-virtual-86c9e0ba76/4/.yarn/berry/cache/@mui-material-npm-5.15.2-7a7b714b99-10c0.zip/node_modules/@mui/material/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/material", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.15.2"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -650,14 +846,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@mui/private-theming", [\
       ["npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@mui-private-theming-npm-5.15.2-5206865b34-10c0.zip/node_modules/@mui/private-theming/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@mui-private-theming-npm-5.15.2-5206865b34-10c0.zip/node_modules/@mui/private-theming/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/private-theming", "npm:5.15.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a7cc3d1944facd2dd7deaf3d6192d3be5db1715cfafa5dd41f4b32bf770ce341713050189d0d856ba5d2a9808afc8ab984e15a086f2843445d325d4336c9cffa#npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@mui-private-theming-virtual-b174226b9d/4/AppData/Local/Yarn/Berry/cache/@mui-private-theming-npm-5.15.2-5206865b34-10c0.zip/node_modules/@mui/private-theming/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@mui-private-theming-virtual-b174226b9d/4/.yarn/berry/cache/@mui-private-theming-npm-5.15.2-5206865b34-10c0.zip/node_modules/@mui/private-theming/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/private-theming", "virtual:a7cc3d1944facd2dd7deaf3d6192d3be5db1715cfafa5dd41f4b32bf770ce341713050189d0d856ba5d2a9808afc8ab984e15a086f2843445d325d4336c9cffa#npm:5.15.2"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -675,14 +879,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@mui/styled-engine", [\
       ["npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@mui-styled-engine-npm-5.15.2-c07ef3c51d-10c0.zip/node_modules/@mui/styled-engine/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@mui-styled-engine-npm-5.15.2-c07ef3c51d-10c0.zip/node_modules/@mui/styled-engine/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/styled-engine", "npm:5.15.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a7cc3d1944facd2dd7deaf3d6192d3be5db1715cfafa5dd41f4b32bf770ce341713050189d0d856ba5d2a9808afc8ab984e15a086f2843445d325d4336c9cffa#npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@mui-styled-engine-virtual-3f07494022/4/AppData/Local/Yarn/Berry/cache/@mui-styled-engine-npm-5.15.2-c07ef3c51d-10c0.zip/node_modules/@mui/styled-engine/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@mui-styled-engine-virtual-3f07494022/4/.yarn/berry/cache/@mui-styled-engine-npm-5.15.2-c07ef3c51d-10c0.zip/node_modules/@mui/styled-engine/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/styled-engine", "virtual:a7cc3d1944facd2dd7deaf3d6192d3be5db1715cfafa5dd41f4b32bf770ce341713050189d0d856ba5d2a9808afc8ab984e15a086f2843445d325d4336c9cffa#npm:5.15.2"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -709,14 +921,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@mui/system", [\
       ["npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@mui-system-npm-5.15.2-39f6ba477f-10c0.zip/node_modules/@mui/system/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@mui-system-npm-5.15.2-39f6ba477f-10c0.zip/node_modules/@mui/system/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/system", "npm:5.15.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@mui-system-virtual-a7cc3d1944/4/AppData/Local/Yarn/Berry/cache/@mui-system-npm-5.15.2-39f6ba477f-10c0.zip/node_modules/@mui/system/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@mui-system-virtual-a7cc3d1944/4/.yarn/berry/cache/@mui-system-npm-5.15.2-39f6ba477f-10c0.zip/node_modules/@mui/system/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/system", "virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:5.15.2"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -747,14 +967,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@mui/types", [\
       ["npm:7.2.11", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@mui-types-npm-7.2.11-77decd0a8d-10c0.zip/node_modules/@mui/types/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@mui-types-npm-7.2.11-77decd0a8d-10c0.zip/node_modules/@mui/types/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/types", "npm:7.2.11"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:7.2.11", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@mui-types-virtual-c163607b9b/4/AppData/Local/Yarn/Berry/cache/@mui-types-npm-7.2.11-77decd0a8d-10c0.zip/node_modules/@mui/types/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@mui-types-virtual-c163607b9b/4/.yarn/berry/cache/@mui-types-npm-7.2.11-77decd0a8d-10c0.zip/node_modules/@mui/types/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/types", "virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:7.2.11"],\
           ["@types/react", "npm:18.2.46"]\
@@ -767,14 +995,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@mui/utils", [\
       ["npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@mui-utils-npm-5.15.2-259dafb046-10c0.zip/node_modules/@mui/utils/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@mui-utils-npm-5.15.2-259dafb046-10c0.zip/node_modules/@mui/utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/utils", "npm:5.15.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:5.15.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@mui-utils-virtual-bd310cecaa/4/AppData/Local/Yarn/Berry/cache/@mui-utils-npm-5.15.2-259dafb046-10c0.zip/node_modules/@mui/utils/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@mui-utils-virtual-bd310cecaa/4/.yarn/berry/cache/@mui-utils-npm-5.15.2-259dafb046-10c0.zip/node_modules/@mui/utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@mui/utils", "virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:5.15.2"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -793,7 +1029,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@next/env", [\
       ["npm:14.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@next-env-npm-14.0.4-ef2c868564-10c0.zip/node_modules/@next/env/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@next-env-npm-14.0.4-ef2c868564-10c0.zip/node_modules/@next/env/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@next/env", "npm:14.0.4"]\
         ],\
@@ -802,7 +1042,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@next/eslint-plugin-next", [\
       ["npm:14.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@next-eslint-plugin-next-npm-14.0.4-d9baabf4ee-10c0.zip/node_modules/@next/eslint-plugin-next/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@next-eslint-plugin-next-npm-14.0.4-d9baabf4ee-10c0.zip/node_modules/@next/eslint-plugin-next/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@next/eslint-plugin-next", "npm:14.0.4"],\
           ["glob", "npm:7.1.7"]\
@@ -893,7 +1137,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@nodelib/fs.scandir", [\
       ["npm:2.1.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@nodelib-fs.scandir-npm-2.1.5-89c67370dd-10c0.zip/node_modules/@nodelib/fs.scandir/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@nodelib-fs.scandir-npm-2.1.5-89c67370dd-10c0.zip/node_modules/@nodelib/fs.scandir/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@nodelib/fs.scandir", "npm:2.1.5"],\
           ["@nodelib/fs.stat", "npm:2.0.5"],\
@@ -904,7 +1152,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@nodelib/fs.stat", [\
       ["npm:2.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@nodelib-fs.stat-npm-2.0.5-01f4dd3030-10c0.zip/node_modules/@nodelib/fs.stat/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@nodelib-fs.stat-npm-2.0.5-01f4dd3030-10c0.zip/node_modules/@nodelib/fs.stat/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@nodelib/fs.stat", "npm:2.0.5"]\
         ],\
@@ -913,7 +1165,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@nodelib/fs.walk", [\
       ["npm:1.2.8", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@nodelib-fs.walk-npm-1.2.8-b4a89da548-10c0.zip/node_modules/@nodelib/fs.walk/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@nodelib-fs.walk-npm-1.2.8-b4a89da548-10c0.zip/node_modules/@nodelib/fs.walk/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@nodelib/fs.walk", "npm:1.2.8"],\
           ["@nodelib/fs.scandir", "npm:2.1.5"],\
@@ -924,7 +1180,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@npmcli/agent", [\
       ["npm:2.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@npmcli-agent-npm-2.2.0-cf04e8a830-10c0.zip/node_modules/@npmcli/agent/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@npmcli-agent-npm-2.2.0-cf04e8a830-10c0.zip/node_modules/@npmcli/agent/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@npmcli/agent", "npm:2.2.0"],\
           ["agent-base", "npm:7.1.0"],\
@@ -938,7 +1198,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@npmcli/fs", [\
       ["npm:3.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@npmcli-fs-npm-3.1.0-0844a57978-10c0.zip/node_modules/@npmcli/fs/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@npmcli-fs-npm-3.1.0-0844a57978-10c0.zip/node_modules/@npmcli/fs/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@npmcli/fs", "npm:3.1.0"],\
           ["semver", "npm:7.5.4"]\
@@ -948,7 +1212,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@pkgjs/parseargs", [\
       ["npm:0.11.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@pkgjs-parseargs-npm-0.11.0-cd2a3fe948-10c0.zip/node_modules/@pkgjs/parseargs/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@pkgjs-parseargs-npm-0.11.0-cd2a3fe948-10c0.zip/node_modules/@pkgjs/parseargs/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@pkgjs/parseargs", "npm:0.11.0"]\
         ],\
@@ -957,7 +1225,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@popperjs/core", [\
       ["npm:2.11.8", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@popperjs-core-npm-2.11.8-f1692e11a0-10c0.zip/node_modules/@popperjs/core/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@popperjs-core-npm-2.11.8-f1692e11a0-10c0.zip/node_modules/@popperjs/core/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@popperjs/core", "npm:2.11.8"]\
         ],\
@@ -966,7 +1238,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@rushstack/eslint-patch", [\
       ["npm:1.6.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@rushstack-eslint-patch-npm-1.6.1-1f2a0c6119-10c0.zip/node_modules/@rushstack/eslint-patch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@rushstack-eslint-patch-npm-1.6.1-1f2a0c6119-10c0.zip/node_modules/@rushstack/eslint-patch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@rushstack/eslint-patch", "npm:1.6.1"]\
         ],\
@@ -975,7 +1251,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@supabase/functions-js", [\
       ["npm:2.1.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@supabase-functions-js-npm-2.1.5-290ca72a57-10c0.zip/node_modules/@supabase/functions-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@supabase-functions-js-npm-2.1.5-290ca72a57-10c0.zip/node_modules/@supabase/functions-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@supabase/functions-js", "npm:2.1.5"],\
           ["@supabase/node-fetch", "npm:2.6.15"]\
@@ -985,7 +1265,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@supabase/gotrue-js", [\
       ["npm:2.62.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@supabase-gotrue-js-npm-2.62.0-07e1f0544c-10c0.zip/node_modules/@supabase/gotrue-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@supabase-gotrue-js-npm-2.62.0-07e1f0544c-10c0.zip/node_modules/@supabase/gotrue-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@supabase/gotrue-js", "npm:2.62.0"],\
           ["@supabase/node-fetch", "npm:2.6.15"]\
@@ -995,7 +1279,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@supabase/node-fetch", [\
       ["npm:2.6.15", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@supabase-node-fetch-npm-2.6.15-0ebc2aefaa-10c0.zip/node_modules/@supabase/node-fetch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@supabase-node-fetch-npm-2.6.15-0ebc2aefaa-10c0.zip/node_modules/@supabase/node-fetch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@supabase/node-fetch", "npm:2.6.15"],\
           ["whatwg-url", "npm:5.0.0"]\
@@ -1005,7 +1293,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@supabase/postgrest-js", [\
       ["npm:1.9.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@supabase-postgrest-js-npm-1.9.0-f995d22cf4-10c0.zip/node_modules/@supabase/postgrest-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@supabase-postgrest-js-npm-1.9.0-f995d22cf4-10c0.zip/node_modules/@supabase/postgrest-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@supabase/postgrest-js", "npm:1.9.0"],\
           ["@supabase/node-fetch", "npm:2.6.15"]\
@@ -1015,7 +1307,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@supabase/realtime-js", [\
       ["npm:2.9.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@supabase-realtime-js-npm-2.9.1-47ad538a12-10c0.zip/node_modules/@supabase/realtime-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@supabase-realtime-js-npm-2.9.1-47ad538a12-10c0.zip/node_modules/@supabase/realtime-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@supabase/realtime-js", "npm:2.9.1"],\
           ["@supabase/node-fetch", "npm:2.6.15"],\
@@ -1027,7 +1323,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@supabase/storage-js", [\
       ["npm:2.5.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@supabase-storage-js-npm-2.5.5-82d2a24e2a-10c0.zip/node_modules/@supabase/storage-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@supabase-storage-js-npm-2.5.5-82d2a24e2a-10c0.zip/node_modules/@supabase/storage-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@supabase/storage-js", "npm:2.5.5"],\
           ["@supabase/node-fetch", "npm:2.6.15"]\
@@ -1037,7 +1337,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@supabase/supabase-js", [\
       ["npm:2.39.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@supabase-supabase-js-npm-2.39.2-8752acd8af-10c0.zip/node_modules/@supabase/supabase-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@supabase-supabase-js-npm-2.39.2-8752acd8af-10c0.zip/node_modules/@supabase/supabase-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@supabase/supabase-js", "npm:2.39.2"],\
           ["@supabase/functions-js", "npm:2.1.5"],\
@@ -1052,7 +1356,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@swc/helpers", [\
       ["npm:0.5.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@swc-helpers-npm-0.5.2-f81ca286ad-10c0.zip/node_modules/@swc/helpers/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@swc-helpers-npm-0.5.2-f81ca286ad-10c0.zip/node_modules/@swc/helpers/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@swc/helpers", "npm:0.5.2"],\
           ["tslib", "npm:2.6.2"]\
@@ -1062,7 +1370,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tanstack/query-core", [\
       ["npm:5.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-query-core-npm-5.17.0-a57ad050bf-10c0.zip/node_modules/@tanstack/query-core/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@tanstack-query-core-npm-5.17.0-a57ad050bf-10c0.zip/node_modules/@tanstack/query-core/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@tanstack/query-core", "npm:5.17.0"]\
         ],\
@@ -1071,7 +1383,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tanstack/query-devtools", [\
       ["npm:5.15.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-query-devtools-npm-5.15.0-f0e43fa206-10c0.zip/node_modules/@tanstack/query-devtools/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@tanstack-query-devtools-npm-5.15.0-f0e43fa206-10c0.zip/node_modules/@tanstack/query-devtools/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@tanstack/query-devtools", "npm:5.15.0"]\
         ],\
@@ -1080,14 +1396,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tanstack/react-query", [\
       ["npm:5.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-react-query-npm-5.17.0-cda9f01bbb-10c0.zip/node_modules/@tanstack/react-query/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@tanstack-react-query-npm-5.17.0-cda9f01bbb-10c0.zip/node_modules/@tanstack/react-query/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@tanstack/react-query", "npm:5.17.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-virtual-0020c6e22b/4/AppData/Local/Yarn/Berry/cache/@tanstack-react-query-npm-5.17.0-cda9f01bbb-10c0.zip/node_modules/@tanstack/react-query/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-virtual-0020c6e22b/4/.yarn/berry/cache/@tanstack-react-query-npm-5.17.0-cda9f01bbb-10c0.zip/node_modules/@tanstack/react-query/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@tanstack/react-query", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.17.0"],\
           ["@tanstack/query-core", "npm:5.17.0"],\
@@ -1103,14 +1427,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@tanstack/react-query-devtools", [\
       ["npm:5.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@tanstack-react-query-devtools-npm-5.17.0-871feaa22c-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@tanstack-react-query-devtools-npm-5.17.0-871feaa22c-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@tanstack/react-query-devtools", "npm:5.17.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-devtools-virtual-2dc77ec62a/4/AppData/Local/Yarn/Berry/cache/@tanstack-react-query-devtools-npm-5.17.0-871feaa22c-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-devtools-virtual-2dc77ec62a/4/.yarn/berry/cache/@tanstack-react-query-devtools-npm-5.17.0-871feaa22c-10c0.zip/node_modules/@tanstack/react-query-devtools/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@tanstack/react-query-devtools", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:5.17.0"],\
           ["@tanstack/query-devtools", "npm:5.15.0"],\
@@ -1130,7 +1462,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/json5", [\
       ["npm:0.0.29", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-json5-npm-0.0.29-f63a7916bd-10c0.zip/node_modules/@types/json5/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-json5-npm-0.0.29-f63a7916bd-10c0.zip/node_modules/@types/json5/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/json5", "npm:0.0.29"]\
         ],\
@@ -1139,7 +1475,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/node", [\
       ["npm:20.10.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-node-npm-20.10.6-59a7d708ba-10c0.zip/node_modules/@types/node/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-node-npm-20.10.6-59a7d708ba-10c0.zip/node_modules/@types/node/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/node", "npm:20.10.6"],\
           ["undici-types", "npm:5.26.5"]\
@@ -1149,7 +1489,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/parse-json", [\
       ["npm:4.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-parse-json-npm-4.0.2-f87f65692e-10c0.zip/node_modules/@types/parse-json/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-parse-json-npm-4.0.2-f87f65692e-10c0.zip/node_modules/@types/parse-json/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/parse-json", "npm:4.0.2"]\
         ],\
@@ -1158,7 +1502,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/phoenix", [\
       ["npm:1.6.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-phoenix-npm-1.6.4-8a74169276-10c0.zip/node_modules/@types/phoenix/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-phoenix-npm-1.6.4-8a74169276-10c0.zip/node_modules/@types/phoenix/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/phoenix", "npm:1.6.4"]\
         ],\
@@ -1167,7 +1515,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/prop-types", [\
       ["npm:15.7.11", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-prop-types-npm-15.7.11-a0a5a0025c-10c0.zip/node_modules/@types/prop-types/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-prop-types-npm-15.7.11-a0a5a0025c-10c0.zip/node_modules/@types/prop-types/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/prop-types", "npm:15.7.11"]\
         ],\
@@ -1176,7 +1528,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/react", [\
       ["npm:18.2.46", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-react-npm-18.2.46-9c5f157b4c-10c0.zip/node_modules/@types/react/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-react-npm-18.2.46-9c5f157b4c-10c0.zip/node_modules/@types/react/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/react", "npm:18.2.46"],\
           ["@types/prop-types", "npm:15.7.11"],\
@@ -1188,7 +1544,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/react-datepicker", [\
       ["npm:4.19.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-react-datepicker-npm-4.19.5-ae1d0ee53f-10c0.zip/node_modules/@types/react-datepicker/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-react-datepicker-npm-4.19.5-ae1d0ee53f-10c0.zip/node_modules/@types/react-datepicker/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/react-datepicker", "npm:4.19.5"],\
           ["@popperjs/core", "npm:2.11.8"],\
@@ -1201,7 +1561,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/react-dom", [\
       ["npm:18.2.18", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-react-dom-npm-18.2.18-b316a8af22-10c0.zip/node_modules/@types/react-dom/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-react-dom-npm-18.2.18-b316a8af22-10c0.zip/node_modules/@types/react-dom/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/react-dom", "npm:18.2.18"],\
           ["@types/react", "npm:18.2.46"]\
@@ -1211,7 +1575,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/react-transition-group", [\
       ["npm:4.4.10", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-react-transition-group-npm-4.4.10-5e11bed850-10c0.zip/node_modules/@types/react-transition-group/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-react-transition-group-npm-4.4.10-5e11bed850-10c0.zip/node_modules/@types/react-transition-group/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/react-transition-group", "npm:4.4.10"],\
           ["@types/react", "npm:18.2.46"]\
@@ -1221,7 +1589,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/scheduler", [\
       ["npm:0.16.8", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-scheduler-npm-0.16.8-303819b439-10c0.zip/node_modules/@types/scheduler/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@types-scheduler-npm-0.16.8-303819b439-10c0.zip/node_modules/@types/scheduler/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@types/scheduler", "npm:0.16.8"]\
         ],\
@@ -1230,14 +1602,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@typescript-eslint/parser", [\
       ["npm:6.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@typescript-eslint-parser-npm-6.17.0-c7b54d3943-10c0.zip/node_modules/@typescript-eslint/parser/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@typescript-eslint-parser-npm-6.17.0-c7b54d3943-10c0.zip/node_modules/@typescript-eslint/parser/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@typescript-eslint/parser", "npm:6.17.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:6.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@typescript-eslint-parser-virtual-6b9d06f770/4/AppData/Local/Yarn/Berry/cache/@typescript-eslint-parser-npm-6.17.0-c7b54d3943-10c0.zip/node_modules/@typescript-eslint/parser/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@typescript-eslint-parser-virtual-6b9d06f770/4/.yarn/berry/cache/@typescript-eslint-parser-npm-6.17.0-c7b54d3943-10c0.zip/node_modules/@typescript-eslint/parser/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@typescript-eslint/parser", "virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:6.17.0"],\
           ["@types/eslint", null],\
@@ -1261,7 +1641,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@typescript-eslint/scope-manager", [\
       ["npm:6.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@typescript-eslint-scope-manager-npm-6.17.0-487c8a3d96-10c0.zip/node_modules/@typescript-eslint/scope-manager/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@typescript-eslint-scope-manager-npm-6.17.0-487c8a3d96-10c0.zip/node_modules/@typescript-eslint/scope-manager/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@typescript-eslint/scope-manager", "npm:6.17.0"],\
           ["@typescript-eslint/types", "npm:6.17.0"],\
@@ -1272,7 +1656,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@typescript-eslint/types", [\
       ["npm:6.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@typescript-eslint-types-npm-6.17.0-96c56c0a75-10c0.zip/node_modules/@typescript-eslint/types/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@typescript-eslint-types-npm-6.17.0-96c56c0a75-10c0.zip/node_modules/@typescript-eslint/types/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@typescript-eslint/types", "npm:6.17.0"]\
         ],\
@@ -1281,14 +1669,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@typescript-eslint/typescript-estree", [\
       ["npm:6.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@typescript-eslint-typescript-estree-npm-6.17.0-c77ebc49a9-10c0.zip/node_modules/@typescript-eslint/typescript-estree/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@typescript-eslint-typescript-estree-npm-6.17.0-c77ebc49a9-10c0.zip/node_modules/@typescript-eslint/typescript-estree/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@typescript-eslint/typescript-estree", "npm:6.17.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:6b9d06f770da39725356d32b6fb67c6ac720b090a2725888d788dcdc93e4811ea1802f7bbe72dd67e75ef99791c655dd4b4440fdd87c131a5419f774aa26c139#npm:6.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/@typescript-eslint-typescript-estree-virtual-3391d95ee8/4/AppData/Local/Yarn/Berry/cache/@typescript-eslint-typescript-estree-npm-6.17.0-c77ebc49a9-10c0.zip/node_modules/@typescript-eslint/typescript-estree/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/@typescript-eslint-typescript-estree-virtual-3391d95ee8/4/.yarn/berry/cache/@typescript-eslint-typescript-estree-npm-6.17.0-c77ebc49a9-10c0.zip/node_modules/@typescript-eslint/typescript-estree/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@typescript-eslint/typescript-estree", "virtual:6b9d06f770da39725356d32b6fb67c6ac720b090a2725888d788dcdc93e4811ea1802f7bbe72dd67e75ef99791c655dd4b4440fdd87c131a5419f774aa26c139#npm:6.17.0"],\
           ["@types/typescript", null],\
@@ -1311,7 +1707,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@typescript-eslint/visitor-keys", [\
       ["npm:6.17.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@typescript-eslint-visitor-keys-npm-6.17.0-fe9f80b87e-10c0.zip/node_modules/@typescript-eslint/visitor-keys/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@typescript-eslint-visitor-keys-npm-6.17.0-fe9f80b87e-10c0.zip/node_modules/@typescript-eslint/visitor-keys/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@typescript-eslint/visitor-keys", "npm:6.17.0"],\
           ["@typescript-eslint/types", "npm:6.17.0"],\
@@ -1322,7 +1722,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@ungap/structured-clone", [\
       ["npm:1.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@ungap-structured-clone-npm-1.2.0-648f0b82e0-10c0.zip/node_modules/@ungap/structured-clone/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/@ungap-structured-clone-npm-1.2.0-648f0b82e0-10c0.zip/node_modules/@ungap/structured-clone/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["@ungap/structured-clone", "npm:1.2.0"]\
         ],\
@@ -1331,7 +1735,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["abbrev", [\
       ["npm:2.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/abbrev-npm-2.0.0-0eb38a17e5-10c0.zip/node_modules/abbrev/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/abbrev-npm-2.0.0-0eb38a17e5-10c0.zip/node_modules/abbrev/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["abbrev", "npm:2.0.0"]\
         ],\
@@ -1340,7 +1748,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["acorn", [\
       ["npm:8.11.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/acorn-npm-8.11.3-0d7ab48b38-10c0.zip/node_modules/acorn/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/acorn-npm-8.11.3-0d7ab48b38-10c0.zip/node_modules/acorn/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["acorn", "npm:8.11.3"]\
         ],\
@@ -1349,14 +1761,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["acorn-jsx", [\
       ["npm:5.3.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/acorn-jsx-npm-5.3.2-d7594599ea-10c0.zip/node_modules/acorn-jsx/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/acorn-jsx-npm-5.3.2-d7594599ea-10c0.zip/node_modules/acorn-jsx/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["acorn-jsx", "npm:5.3.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:a50722a5a9326b6a5f12350c494c4db3aa0f4caeac45e3e9e5fe071da20014ecfe738fe2ebe2c9c98abae81a4ea86b42f56d776b3bd5ec37f9ad3670c242b242#npm:5.3.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/acorn-jsx-virtual-834321b202/4/AppData/Local/Yarn/Berry/cache/acorn-jsx-npm-5.3.2-d7594599ea-10c0.zip/node_modules/acorn-jsx/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/acorn-jsx-virtual-834321b202/4/.yarn/berry/cache/acorn-jsx-npm-5.3.2-d7594599ea-10c0.zip/node_modules/acorn-jsx/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["acorn-jsx", "virtual:a50722a5a9326b6a5f12350c494c4db3aa0f4caeac45e3e9e5fe071da20014ecfe738fe2ebe2c9c98abae81a4ea86b42f56d776b3bd5ec37f9ad3670c242b242#npm:5.3.2"],\
           ["@types/acorn", null],\
@@ -1371,7 +1791,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["agent-base", [\
       ["npm:7.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/agent-base-npm-7.1.0-4b12ba5111-10c0.zip/node_modules/agent-base/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/agent-base-npm-7.1.0-4b12ba5111-10c0.zip/node_modules/agent-base/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["agent-base", "npm:7.1.0"],\
           ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"]\
@@ -1381,7 +1805,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["aggregate-error", [\
       ["npm:3.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/aggregate-error-npm-3.1.0-415a406f4e-10c0.zip/node_modules/aggregate-error/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/aggregate-error-npm-3.1.0-415a406f4e-10c0.zip/node_modules/aggregate-error/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["aggregate-error", "npm:3.1.0"],\
           ["clean-stack", "npm:2.2.0"],\
@@ -1392,7 +1820,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ajv", [\
       ["npm:6.12.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ajv-npm-6.12.6-4b5105e2b2-10c0.zip/node_modules/ajv/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ajv-npm-6.12.6-4b5105e2b2-10c0.zip/node_modules/ajv/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ajv", "npm:6.12.6"],\
           ["fast-deep-equal", "npm:3.1.3"],\
@@ -1405,14 +1837,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ansi-regex", [\
       ["npm:5.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ansi-regex-npm-5.0.1-c963a48615-10c0.zip/node_modules/ansi-regex/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ansi-regex-npm-5.0.1-c963a48615-10c0.zip/node_modules/ansi-regex/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ansi-regex", "npm:5.0.1"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:6.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ansi-regex-npm-6.0.1-8d663a607d-10c0.zip/node_modules/ansi-regex/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ansi-regex-npm-6.0.1-8d663a607d-10c0.zip/node_modules/ansi-regex/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ansi-regex", "npm:6.0.1"]\
         ],\
@@ -1421,7 +1861,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ansi-styles", [\
       ["npm:3.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ansi-styles-npm-3.2.1-8cb8107983-10c0.zip/node_modules/ansi-styles/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ansi-styles-npm-3.2.1-8cb8107983-10c0.zip/node_modules/ansi-styles/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ansi-styles", "npm:3.2.1"],\
           ["color-convert", "npm:1.9.3"]\
@@ -1429,7 +1873,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:4.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ansi-styles-npm-4.3.0-245c7d42c7-10c0.zip/node_modules/ansi-styles/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ansi-styles-npm-4.3.0-245c7d42c7-10c0.zip/node_modules/ansi-styles/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ansi-styles", "npm:4.3.0"],\
           ["color-convert", "npm:2.0.1"]\
@@ -1437,7 +1885,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:6.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ansi-styles-npm-6.2.1-d43647018c-10c0.zip/node_modules/ansi-styles/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ansi-styles-npm-6.2.1-d43647018c-10c0.zip/node_modules/ansi-styles/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ansi-styles", "npm:6.2.1"]\
         ],\
@@ -1446,7 +1898,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["any-promise", [\
       ["npm:1.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/any-promise-npm-1.3.0-f34eeaa7e7-10c0.zip/node_modules/any-promise/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/any-promise-npm-1.3.0-f34eeaa7e7-10c0.zip/node_modules/any-promise/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["any-promise", "npm:1.3.0"]\
         ],\
@@ -1455,7 +1911,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["anymatch", [\
       ["npm:3.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/anymatch-npm-3.1.3-bc81d103b1-10c0.zip/node_modules/anymatch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/anymatch-npm-3.1.3-bc81d103b1-10c0.zip/node_modules/anymatch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["anymatch", "npm:3.1.3"],\
           ["normalize-path", "npm:3.0.0"],\
@@ -1466,7 +1926,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["arg", [\
       ["npm:5.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/arg-npm-5.0.2-2f5805a547-10c0.zip/node_modules/arg/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/arg-npm-5.0.2-2f5805a547-10c0.zip/node_modules/arg/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["arg", "npm:5.0.2"]\
         ],\
@@ -1475,7 +1939,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["argparse", [\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/argparse-npm-2.0.1-faff7999e6-10c0.zip/node_modules/argparse/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/argparse-npm-2.0.1-faff7999e6-10c0.zip/node_modules/argparse/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["argparse", "npm:2.0.1"]\
         ],\
@@ -1484,7 +1952,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["aria-query", [\
       ["npm:5.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/aria-query-npm-5.3.0-76575ac83b-10c0.zip/node_modules/aria-query/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/aria-query-npm-5.3.0-76575ac83b-10c0.zip/node_modules/aria-query/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["aria-query", "npm:5.3.0"],\
           ["dequal", "npm:2.0.3"]\
@@ -1494,7 +1966,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["array-buffer-byte-length", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/array-buffer-byte-length-npm-1.0.0-331671f28a-10c0.zip/node_modules/array-buffer-byte-length/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/array-buffer-byte-length-npm-1.0.0-331671f28a-10c0.zip/node_modules/array-buffer-byte-length/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["array-buffer-byte-length", "npm:1.0.0"],\
           ["call-bind", "npm:1.0.5"],\
@@ -1505,7 +1981,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["array-includes", [\
       ["npm:3.1.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/array-includes-npm-3.1.7-d32a5ee179-10c0.zip/node_modules/array-includes/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/array-includes-npm-3.1.7-d32a5ee179-10c0.zip/node_modules/array-includes/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["array-includes", "npm:3.1.7"],\
           ["call-bind", "npm:1.0.5"],\
@@ -1519,7 +1999,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["array-union", [\
       ["npm:2.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/array-union-npm-2.1.0-4e4852b221-10c0.zip/node_modules/array-union/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/array-union-npm-2.1.0-4e4852b221-10c0.zip/node_modules/array-union/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["array-union", "npm:2.1.0"]\
         ],\
@@ -1528,7 +2012,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["array.prototype.findlastindex", [\
       ["npm:1.2.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/array.prototype.findlastindex-npm-1.2.3-2a36f4417b-10c0.zip/node_modules/array.prototype.findlastindex/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/array.prototype.findlastindex-npm-1.2.3-2a36f4417b-10c0.zip/node_modules/array.prototype.findlastindex/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["array.prototype.findlastindex", "npm:1.2.3"],\
           ["call-bind", "npm:1.0.5"],\
@@ -1542,7 +2030,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["array.prototype.flat", [\
       ["npm:1.3.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/array.prototype.flat-npm-1.3.2-350729f7f4-10c0.zip/node_modules/array.prototype.flat/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/array.prototype.flat-npm-1.3.2-350729f7f4-10c0.zip/node_modules/array.prototype.flat/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["array.prototype.flat", "npm:1.3.2"],\
           ["call-bind", "npm:1.0.5"],\
@@ -1555,7 +2047,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["array.prototype.flatmap", [\
       ["npm:1.3.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/array.prototype.flatmap-npm-1.3.2-5c6a4af226-10c0.zip/node_modules/array.prototype.flatmap/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/array.prototype.flatmap-npm-1.3.2-5c6a4af226-10c0.zip/node_modules/array.prototype.flatmap/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["array.prototype.flatmap", "npm:1.3.2"],\
           ["call-bind", "npm:1.0.5"],\
@@ -1568,7 +2064,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["array.prototype.tosorted", [\
       ["npm:1.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/array.prototype.tosorted-npm-1.1.2-9002e62ed8-10c0.zip/node_modules/array.prototype.tosorted/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/array.prototype.tosorted-npm-1.1.2-9002e62ed8-10c0.zip/node_modules/array.prototype.tosorted/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["array.prototype.tosorted", "npm:1.1.2"],\
           ["call-bind", "npm:1.0.5"],\
@@ -1582,7 +2082,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["arraybuffer.prototype.slice", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/arraybuffer.prototype.slice-npm-1.0.2-4eda52ad8c-10c0.zip/node_modules/arraybuffer.prototype.slice/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/arraybuffer.prototype.slice-npm-1.0.2-4eda52ad8c-10c0.zip/node_modules/arraybuffer.prototype.slice/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["arraybuffer.prototype.slice", "npm:1.0.2"],\
           ["array-buffer-byte-length", "npm:1.0.0"],\
@@ -1598,7 +2102,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ast-types-flow", [\
       ["npm:0.0.8", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ast-types-flow-npm-0.0.8-d5c457c18e-10c0.zip/node_modules/ast-types-flow/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ast-types-flow-npm-0.0.8-d5c457c18e-10c0.zip/node_modules/ast-types-flow/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ast-types-flow", "npm:0.0.8"]\
         ],\
@@ -1607,7 +2115,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["asynciterator.prototype", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/asynciterator.prototype-npm-1.0.0-72b8ba3fa4-10c0.zip/node_modules/asynciterator.prototype/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/asynciterator.prototype-npm-1.0.0-72b8ba3fa4-10c0.zip/node_modules/asynciterator.prototype/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["asynciterator.prototype", "npm:1.0.0"],\
           ["has-symbols", "npm:1.0.3"]\
@@ -1617,14 +2129,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["autoprefixer", [\
       ["npm:10.4.16", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/autoprefixer-npm-10.4.16-e5a0ee424d-10c0.zip/node_modules/autoprefixer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/autoprefixer-npm-10.4.16-e5a0ee424d-10c0.zip/node_modules/autoprefixer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["autoprefixer", "npm:10.4.16"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:10.4.16", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-f627a5701d/4/AppData/Local/Yarn/Berry/cache/autoprefixer-npm-10.4.16-e5a0ee424d-10c0.zip/node_modules/autoprefixer/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-f627a5701d/4/.yarn/berry/cache/autoprefixer-npm-10.4.16-e5a0ee424d-10c0.zip/node_modules/autoprefixer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["autoprefixer", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:10.4.16"],\
           ["@types/postcss", null],\
@@ -1645,7 +2165,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["available-typed-arrays", [\
       ["npm:1.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/available-typed-arrays-npm-1.0.5-88f321e4d3-10c0.zip/node_modules/available-typed-arrays/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/available-typed-arrays-npm-1.0.5-88f321e4d3-10c0.zip/node_modules/available-typed-arrays/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["available-typed-arrays", "npm:1.0.5"]\
         ],\
@@ -1654,7 +2178,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["axe-core", [\
       ["npm:4.7.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/axe-core-npm-4.7.0-a095cfe0ae-10c0.zip/node_modules/axe-core/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/axe-core-npm-4.7.0-a095cfe0ae-10c0.zip/node_modules/axe-core/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["axe-core", "npm:4.7.0"]\
         ],\
@@ -1663,7 +2191,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["axobject-query", [\
       ["npm:3.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/axobject-query-npm-3.2.1-b147b3f32c-10c0.zip/node_modules/axobject-query/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/axobject-query-npm-3.2.1-b147b3f32c-10c0.zip/node_modules/axobject-query/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["axobject-query", "npm:3.2.1"],\
           ["dequal", "npm:2.0.3"]\
@@ -1673,7 +2205,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["babel-plugin-macros", [\
       ["npm:3.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/babel-plugin-macros-npm-3.1.0-320e781f4e-10c0.zip/node_modules/babel-plugin-macros/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/babel-plugin-macros-npm-3.1.0-320e781f4e-10c0.zip/node_modules/babel-plugin-macros/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["babel-plugin-macros", "npm:3.1.0"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -1685,7 +2221,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["balanced-match", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/balanced-match-npm-1.0.2-a53c126459-10c0.zip/node_modules/balanced-match/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/balanced-match-npm-1.0.2-a53c126459-10c0.zip/node_modules/balanced-match/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["balanced-match", "npm:1.0.2"]\
         ],\
@@ -1694,7 +2234,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["bin-links", [\
       ["npm:4.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/bin-links-npm-4.0.3-d86e970bb0-10c0.zip/node_modules/bin-links/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/bin-links-npm-4.0.3-d86e970bb0-10c0.zip/node_modules/bin-links/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["bin-links", "npm:4.0.3"],\
           ["cmd-shim", "npm:6.0.2"],\
@@ -1707,7 +2251,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["binary-extensions", [\
       ["npm:2.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/binary-extensions-npm-2.2.0-180c33fec7-10c0.zip/node_modules/binary-extensions/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/binary-extensions-npm-2.2.0-180c33fec7-10c0.zip/node_modules/binary-extensions/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["binary-extensions", "npm:2.2.0"]\
         ],\
@@ -1716,7 +2264,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["brace-expansion", [\
       ["npm:1.1.11", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/brace-expansion-npm-1.1.11-fb95eb05ad-10c0.zip/node_modules/brace-expansion/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/brace-expansion-npm-1.1.11-fb95eb05ad-10c0.zip/node_modules/brace-expansion/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["brace-expansion", "npm:1.1.11"],\
           ["balanced-match", "npm:1.0.2"],\
@@ -1725,7 +2277,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/brace-expansion-npm-2.0.1-17aa2616f9-10c0.zip/node_modules/brace-expansion/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/brace-expansion-npm-2.0.1-17aa2616f9-10c0.zip/node_modules/brace-expansion/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["brace-expansion", "npm:2.0.1"],\
           ["balanced-match", "npm:1.0.2"]\
@@ -1735,7 +2291,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["braces", [\
       ["npm:3.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/braces-npm-3.0.2-782240b28a-10c0.zip/node_modules/braces/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/braces-npm-3.0.2-782240b28a-10c0.zip/node_modules/braces/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["braces", "npm:3.0.2"],\
           ["fill-range", "npm:7.0.1"]\
@@ -1745,7 +2305,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["browserslist", [\
       ["npm:4.22.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/browserslist-npm-4.22.2-87e70d8021-10c0.zip/node_modules/browserslist/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/browserslist-npm-4.22.2-87e70d8021-10c0.zip/node_modules/browserslist/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["browserslist", "npm:4.22.2"],\
           ["caniuse-lite", "npm:1.0.30001572"],\
@@ -1758,7 +2322,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["busboy", [\
       ["npm:1.6.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/busboy-npm-1.6.0-ebb5cbb04b-10c0.zip/node_modules/busboy/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/busboy-npm-1.6.0-ebb5cbb04b-10c0.zip/node_modules/busboy/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["busboy", "npm:1.6.0"],\
           ["streamsearch", "npm:1.1.0"]\
@@ -1768,7 +2336,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["cacache", [\
       ["npm:18.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/cacache-npm-18.0.1-11c6564db0-10c0.zip/node_modules/cacache/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/cacache-npm-18.0.1-11c6564db0-10c0.zip/node_modules/cacache/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["cacache", "npm:18.0.1"],\
           ["@npmcli/fs", "npm:3.1.0"],\
@@ -1789,7 +2361,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["call-bind", [\
       ["npm:1.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/call-bind-npm-1.0.5-65600fae47-10c0.zip/node_modules/call-bind/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/call-bind-npm-1.0.5-65600fae47-10c0.zip/node_modules/call-bind/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["call-bind", "npm:1.0.5"],\
           ["function-bind", "npm:1.1.2"],\
@@ -1801,7 +2377,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["callsites", [\
       ["npm:3.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/callsites-npm-3.1.0-268f989910-10c0.zip/node_modules/callsites/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/callsites-npm-3.1.0-268f989910-10c0.zip/node_modules/callsites/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["callsites", "npm:3.1.0"]\
         ],\
@@ -1810,7 +2390,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["camelcase-css", [\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/camelcase-css-npm-2.0.1-90d1b6df08-10c0.zip/node_modules/camelcase-css/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/camelcase-css-npm-2.0.1-90d1b6df08-10c0.zip/node_modules/camelcase-css/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["camelcase-css", "npm:2.0.1"]\
         ],\
@@ -1819,7 +2403,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["caniuse-lite", [\
       ["npm:1.0.30001572", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/caniuse-lite-npm-1.0.30001572-a35218739b-10c0.zip/node_modules/caniuse-lite/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001572-a35218739b-10c0.zip/node_modules/caniuse-lite/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["caniuse-lite", "npm:1.0.30001572"]\
         ],\
@@ -1828,7 +2416,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["chalk", [\
       ["npm:2.4.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/chalk-npm-2.4.2-3ea16dd91e-10c0.zip/node_modules/chalk/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/chalk-npm-2.4.2-3ea16dd91e-10c0.zip/node_modules/chalk/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["chalk", "npm:2.4.2"],\
           ["ansi-styles", "npm:3.2.1"],\
@@ -1838,7 +2430,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:4.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/chalk-npm-4.1.2-ba8b67ab80-10c0.zip/node_modules/chalk/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/chalk-npm-4.1.2-ba8b67ab80-10c0.zip/node_modules/chalk/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["chalk", "npm:4.1.2"],\
           ["ansi-styles", "npm:4.3.0"],\
@@ -1849,7 +2445,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["chokidar", [\
       ["npm:3.5.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/chokidar-npm-3.5.3-c5f9b0a56a-10c0.zip/node_modules/chokidar/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/chokidar-npm-3.5.3-c5f9b0a56a-10c0.zip/node_modules/chokidar/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["chokidar", "npm:3.5.3"],\
           ["anymatch", "npm:3.1.3"],\
@@ -1866,7 +2466,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["chownr", [\
       ["npm:2.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/chownr-npm-2.0.0-638f1c9c61-10c0.zip/node_modules/chownr/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/chownr-npm-2.0.0-638f1c9c61-10c0.zip/node_modules/chownr/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["chownr", "npm:2.0.0"]\
         ],\
@@ -1875,7 +2479,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["classnames", [\
       ["npm:2.5.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/classnames-npm-2.5.1-c7273f3423-10c0.zip/node_modules/classnames/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/classnames-npm-2.5.1-c7273f3423-10c0.zip/node_modules/classnames/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["classnames", "npm:2.5.1"]\
         ],\
@@ -1884,7 +2492,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["clean-stack", [\
       ["npm:2.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/clean-stack-npm-2.2.0-a8ce435a5c-10c0.zip/node_modules/clean-stack/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/clean-stack-npm-2.2.0-a8ce435a5c-10c0.zip/node_modules/clean-stack/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["clean-stack", "npm:2.2.0"]\
         ],\
@@ -1893,7 +2505,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["client-only", [\
       ["npm:0.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/client-only-npm-0.0.1-07d3e9505c-10c0.zip/node_modules/client-only/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/client-only-npm-0.0.1-07d3e9505c-10c0.zip/node_modules/client-only/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["client-only", "npm:0.0.1"]\
         ],\
@@ -1902,14 +2518,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["clsx", [\
       ["npm:1.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/clsx-npm-1.2.1-77792dc182-10c0.zip/node_modules/clsx/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/clsx-npm-1.2.1-77792dc182-10c0.zip/node_modules/clsx/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["clsx", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:2.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/clsx-npm-2.1.0-29d286e1de-10c0.zip/node_modules/clsx/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/clsx-npm-2.1.0-29d286e1de-10c0.zip/node_modules/clsx/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["clsx", "npm:2.1.0"]\
         ],\
@@ -1918,7 +2542,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["cmd-shim", [\
       ["npm:6.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/cmd-shim-npm-6.0.2-be41c925d6-10c0.zip/node_modules/cmd-shim/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/cmd-shim-npm-6.0.2-be41c925d6-10c0.zip/node_modules/cmd-shim/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["cmd-shim", "npm:6.0.2"]\
         ],\
@@ -1927,7 +2555,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["color-convert", [\
       ["npm:1.9.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/color-convert-npm-1.9.3-1fe690075e-10c0.zip/node_modules/color-convert/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/color-convert-npm-1.9.3-1fe690075e-10c0.zip/node_modules/color-convert/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["color-convert", "npm:1.9.3"],\
           ["color-name", "npm:1.1.3"]\
@@ -1935,7 +2567,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/color-convert-npm-2.0.1-79730e935b-10c0.zip/node_modules/color-convert/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/color-convert-npm-2.0.1-79730e935b-10c0.zip/node_modules/color-convert/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["color-convert", "npm:2.0.1"],\
           ["color-name", "npm:1.1.4"]\
@@ -1945,14 +2581,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["color-name", [\
       ["npm:1.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/color-name-npm-1.1.3-728b7b5d39-10c0.zip/node_modules/color-name/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/color-name-npm-1.1.3-728b7b5d39-10c0.zip/node_modules/color-name/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["color-name", "npm:1.1.3"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:1.1.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/color-name-npm-1.1.4-025792b0ea-10c0.zip/node_modules/color-name/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/color-name-npm-1.1.4-025792b0ea-10c0.zip/node_modules/color-name/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["color-name", "npm:1.1.4"]\
         ],\
@@ -1961,7 +2605,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["commander", [\
       ["npm:4.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/commander-npm-4.1.1-22a0fe921b-10c0.zip/node_modules/commander/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/commander-npm-4.1.1-22a0fe921b-10c0.zip/node_modules/commander/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["commander", "npm:4.1.1"]\
         ],\
@@ -1970,7 +2618,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["concat-map", [\
       ["npm:0.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/concat-map-npm-0.0.1-85a921b7ee-10c0.zip/node_modules/concat-map/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/concat-map-npm-0.0.1-85a921b7ee-10c0.zip/node_modules/concat-map/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["concat-map", "npm:0.0.1"]\
         ],\
@@ -1979,7 +2631,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["convert-source-map", [\
       ["npm:1.9.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/convert-source-map-npm-1.9.0-e294555f4b-10c0.zip/node_modules/convert-source-map/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/convert-source-map-npm-1.9.0-e294555f4b-10c0.zip/node_modules/convert-source-map/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["convert-source-map", "npm:1.9.0"]\
         ],\
@@ -1988,7 +2644,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["cosmiconfig", [\
       ["npm:7.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/cosmiconfig-npm-7.1.0-13a5090bcd-10c0.zip/node_modules/cosmiconfig/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/cosmiconfig-npm-7.1.0-13a5090bcd-10c0.zip/node_modules/cosmiconfig/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["cosmiconfig", "npm:7.1.0"],\
           ["@types/parse-json", "npm:4.0.2"],\
@@ -2002,7 +2662,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["cross-spawn", [\
       ["npm:7.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-10c0.zip/node_modules/cross-spawn/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-10c0.zip/node_modules/cross-spawn/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["cross-spawn", "npm:7.0.3"],\
           ["path-key", "npm:3.1.1"],\
@@ -2014,7 +2678,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["cssesc", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/cssesc-npm-3.0.0-15ec56f86f-10c0.zip/node_modules/cssesc/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/cssesc-npm-3.0.0-15ec56f86f-10c0.zip/node_modules/cssesc/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["cssesc", "npm:3.0.0"]\
         ],\
@@ -2023,7 +2691,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["csstype", [\
       ["npm:3.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/csstype-npm-3.1.3-e9a1c85013-10c0.zip/node_modules/csstype/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/csstype-npm-3.1.3-e9a1c85013-10c0.zip/node_modules/csstype/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["csstype", "npm:3.1.3"]\
         ],\
@@ -2032,7 +2704,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["damerau-levenshtein", [\
       ["npm:1.0.8", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/damerau-levenshtein-npm-1.0.8-bda7311c69-10c0.zip/node_modules/damerau-levenshtein/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/damerau-levenshtein-npm-1.0.8-bda7311c69-10c0.zip/node_modules/damerau-levenshtein/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["damerau-levenshtein", "npm:1.0.8"]\
         ],\
@@ -2041,7 +2717,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["data-uri-to-buffer", [\
       ["npm:4.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/data-uri-to-buffer-npm-4.0.1-5c66a78beb-10c0.zip/node_modules/data-uri-to-buffer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/data-uri-to-buffer-npm-4.0.1-5c66a78beb-10c0.zip/node_modules/data-uri-to-buffer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["data-uri-to-buffer", "npm:4.0.1"]\
         ],\
@@ -2050,7 +2730,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["date-fns", [\
       ["npm:2.30.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/date-fns-npm-2.30.0-895c790e0f-10c0.zip/node_modules/date-fns/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/date-fns-npm-2.30.0-895c790e0f-10c0.zip/node_modules/date-fns/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["date-fns", "npm:2.30.0"],\
           ["@babel/runtime", "npm:7.23.7"]\
@@ -2060,21 +2744,33 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["debug", [\
       ["npm:3.2.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["debug", "npm:3.2.7"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["npm:4.3.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/debug-npm-4.3.4-4513954577-10c0.zip/node_modules/debug/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/debug-npm-4.3.4-4513954577-10c0.zip/node_modules/debug/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["debug", "npm:4.3.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/debug-virtual-1040418e3c/4/AppData/Local/Yarn/Berry/cache/debug-npm-4.3.4-4513954577-10c0.zip/node_modules/debug/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-1040418e3c/4/.yarn/berry/cache/debug-npm-4.3.4-4513954577-10c0.zip/node_modules/debug/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"],\
           ["@types/supports-color", null],\
@@ -2088,7 +2784,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:2a426afc4b2eef43db12a540d29c2b5476640459bfcd5c24f86bb401cf8cce97e63bd81794d206a5643057e7f662643afd5ce3dfc4d4bfd8e706006c6309c5fa#npm:3.2.7", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/debug-virtual-d2345003b7/4/AppData/Local/Yarn/Berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-d2345003b7/4/.yarn/berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["debug", "virtual:2a426afc4b2eef43db12a540d29c2b5476640459bfcd5c24f86bb401cf8cce97e63bd81794d206a5643057e7f662643afd5ce3dfc4d4bfd8e706006c6309c5fa#npm:3.2.7"],\
           ["@types/supports-color", null],\
@@ -2104,7 +2804,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["deep-is", [\
       ["npm:0.1.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/deep-is-npm-0.1.4-88938b5a67-10c0.zip/node_modules/deep-is/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/deep-is-npm-0.1.4-88938b5a67-10c0.zip/node_modules/deep-is/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["deep-is", "npm:0.1.4"]\
         ],\
@@ -2113,7 +2817,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["define-data-property", [\
       ["npm:1.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/define-data-property-npm-1.1.1-2b5156d112-10c0.zip/node_modules/define-data-property/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/define-data-property-npm-1.1.1-2b5156d112-10c0.zip/node_modules/define-data-property/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["define-data-property", "npm:1.1.1"],\
           ["get-intrinsic", "npm:1.2.2"],\
@@ -2125,7 +2833,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["define-properties", [\
       ["npm:1.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/define-properties-npm-1.2.1-8a4d42413b-10c0.zip/node_modules/define-properties/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/define-properties-npm-1.2.1-8a4d42413b-10c0.zip/node_modules/define-properties/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["define-properties", "npm:1.2.1"],\
           ["define-data-property", "npm:1.1.1"],\
@@ -2137,7 +2849,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["dequal", [\
       ["npm:2.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/dequal-npm-2.0.3-53a630c60e-10c0.zip/node_modules/dequal/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/dequal-npm-2.0.3-53a630c60e-10c0.zip/node_modules/dequal/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["dequal", "npm:2.0.3"]\
         ],\
@@ -2146,7 +2862,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["didyoumean", [\
       ["npm:1.2.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/didyoumean-npm-1.2.2-fd568ec571-10c0.zip/node_modules/didyoumean/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/didyoumean-npm-1.2.2-fd568ec571-10c0.zip/node_modules/didyoumean/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["didyoumean", "npm:1.2.2"]\
         ],\
@@ -2155,7 +2875,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["dir-glob", [\
       ["npm:3.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/dir-glob-npm-3.0.1-1aea628b1b-10c0.zip/node_modules/dir-glob/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/dir-glob-npm-3.0.1-1aea628b1b-10c0.zip/node_modules/dir-glob/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["dir-glob", "npm:3.0.1"],\
           ["path-type", "npm:4.0.0"]\
@@ -2165,7 +2889,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["dlv", [\
       ["npm:1.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/dlv-npm-1.1.3-187c903a21-10c0.zip/node_modules/dlv/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/dlv-npm-1.1.3-187c903a21-10c0.zip/node_modules/dlv/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["dlv", "npm:1.1.3"]\
         ],\
@@ -2174,7 +2902,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["doctrine", [\
       ["npm:2.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/doctrine-npm-2.1.0-ac15d049b7-10c0.zip/node_modules/doctrine/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/doctrine-npm-2.1.0-ac15d049b7-10c0.zip/node_modules/doctrine/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["doctrine", "npm:2.1.0"],\
           ["esutils", "npm:2.0.3"]\
@@ -2182,7 +2914,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/doctrine-npm-3.0.0-c6f1615f04-10c0.zip/node_modules/doctrine/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/doctrine-npm-3.0.0-c6f1615f04-10c0.zip/node_modules/doctrine/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["doctrine", "npm:3.0.0"],\
           ["esutils", "npm:2.0.3"]\
@@ -2192,7 +2928,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["dom-helpers", [\
       ["npm:5.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/dom-helpers-npm-5.2.1-b38bb4470b-10c0.zip/node_modules/dom-helpers/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/dom-helpers-npm-5.2.1-b38bb4470b-10c0.zip/node_modules/dom-helpers/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["dom-helpers", "npm:5.2.1"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -2203,7 +2943,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eastasianwidth", [\
       ["npm:0.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eastasianwidth-npm-0.2.0-c37eb16bd1-10c0.zip/node_modules/eastasianwidth/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eastasianwidth-npm-0.2.0-c37eb16bd1-10c0.zip/node_modules/eastasianwidth/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eastasianwidth", "npm:0.2.0"]\
         ],\
@@ -2212,7 +2956,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["electron-to-chromium", [\
       ["npm:1.4.616", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/electron-to-chromium-npm-1.4.616-5e02ddb4c8-10c0.zip/node_modules/electron-to-chromium/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/electron-to-chromium-npm-1.4.616-5e02ddb4c8-10c0.zip/node_modules/electron-to-chromium/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["electron-to-chromium", "npm:1.4.616"]\
         ],\
@@ -2221,14 +2969,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["emoji-regex", [\
       ["npm:8.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/emoji-regex-npm-8.0.0-213764015c-10c0.zip/node_modules/emoji-regex/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/emoji-regex-npm-8.0.0-213764015c-10c0.zip/node_modules/emoji-regex/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["emoji-regex", "npm:8.0.0"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:9.2.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/emoji-regex-npm-9.2.2-e6fac8d058-10c0.zip/node_modules/emoji-regex/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/emoji-regex-npm-9.2.2-e6fac8d058-10c0.zip/node_modules/emoji-regex/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["emoji-regex", "npm:9.2.2"]\
         ],\
@@ -2237,7 +2993,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["encoding", [\
       ["npm:0.1.13", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/encoding-npm-0.1.13-82a1837d30-10c0.zip/node_modules/encoding/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/encoding-npm-0.1.13-82a1837d30-10c0.zip/node_modules/encoding/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["encoding", "npm:0.1.13"],\
           ["iconv-lite", "npm:0.6.3"]\
@@ -2247,7 +3007,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["enhanced-resolve", [\
       ["npm:5.15.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/enhanced-resolve-npm-5.15.0-16eb7ddef9-10c0.zip/node_modules/enhanced-resolve/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/enhanced-resolve-npm-5.15.0-16eb7ddef9-10c0.zip/node_modules/enhanced-resolve/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["enhanced-resolve", "npm:5.15.0"],\
           ["graceful-fs", "npm:4.2.11"],\
@@ -2258,7 +3022,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["env-paths", [\
       ["npm:2.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/env-paths-npm-2.2.1-7c7577428c-10c0.zip/node_modules/env-paths/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/env-paths-npm-2.2.1-7c7577428c-10c0.zip/node_modules/env-paths/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["env-paths", "npm:2.2.1"]\
         ],\
@@ -2267,7 +3035,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["err-code", [\
       ["npm:2.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/err-code-npm-2.0.3-082e0ff9a7-10c0.zip/node_modules/err-code/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/err-code-npm-2.0.3-082e0ff9a7-10c0.zip/node_modules/err-code/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["err-code", "npm:2.0.3"]\
         ],\
@@ -2276,7 +3048,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["error-ex", [\
       ["npm:1.3.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/error-ex-npm-1.3.2-5654f80c0f-10c0.zip/node_modules/error-ex/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/error-ex-npm-1.3.2-5654f80c0f-10c0.zip/node_modules/error-ex/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["error-ex", "npm:1.3.2"],\
           ["is-arrayish", "npm:0.2.1"]\
@@ -2286,7 +3062,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["es-abstract", [\
       ["npm:1.22.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/es-abstract-npm-1.22.3-15a58832e5-10c0.zip/node_modules/es-abstract/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/es-abstract-npm-1.22.3-15a58832e5-10c0.zip/node_modules/es-abstract/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["es-abstract", "npm:1.22.3"],\
           ["array-buffer-byte-length", "npm:1.0.0"],\
@@ -2334,7 +3114,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["es-iterator-helpers", [\
       ["npm:1.0.15", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/es-iterator-helpers-npm-1.0.15-d23bd911af-10c0.zip/node_modules/es-iterator-helpers/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/es-iterator-helpers-npm-1.0.15-d23bd911af-10c0.zip/node_modules/es-iterator-helpers/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["es-iterator-helpers", "npm:1.0.15"],\
           ["asynciterator.prototype", "npm:1.0.0"],\
@@ -2357,7 +3141,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["es-set-tostringtag", [\
       ["npm:2.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/es-set-tostringtag-npm-2.0.2-dae5ec6c58-10c0.zip/node_modules/es-set-tostringtag/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/es-set-tostringtag-npm-2.0.2-dae5ec6c58-10c0.zip/node_modules/es-set-tostringtag/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["es-set-tostringtag", "npm:2.0.2"],\
           ["get-intrinsic", "npm:1.2.2"],\
@@ -2369,7 +3157,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["es-shim-unscopables", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/es-shim-unscopables-npm-1.0.2-a3056a4c0d-10c0.zip/node_modules/es-shim-unscopables/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/es-shim-unscopables-npm-1.0.2-a3056a4c0d-10c0.zip/node_modules/es-shim-unscopables/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["es-shim-unscopables", "npm:1.0.2"],\
           ["hasown", "npm:2.0.0"]\
@@ -2379,7 +3171,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["es-to-primitive", [\
       ["npm:1.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/es-to-primitive-npm-1.2.1-b7a7eac6c5-10c0.zip/node_modules/es-to-primitive/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/es-to-primitive-npm-1.2.1-b7a7eac6c5-10c0.zip/node_modules/es-to-primitive/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["es-to-primitive", "npm:1.2.1"],\
           ["is-callable", "npm:1.2.7"],\
@@ -2391,7 +3187,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["escalade", [\
       ["npm:3.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/escalade-npm-3.1.1-e02da076aa-10c0.zip/node_modules/escalade/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/escalade-npm-3.1.1-e02da076aa-10c0.zip/node_modules/escalade/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["escalade", "npm:3.1.1"]\
         ],\
@@ -2400,14 +3200,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["escape-string-regexp", [\
       ["npm:1.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/escape-string-regexp-npm-1.0.5-3284de402f-10c0.zip/node_modules/escape-string-regexp/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/escape-string-regexp-npm-1.0.5-3284de402f-10c0.zip/node_modules/escape-string-regexp/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["escape-string-regexp", "npm:1.0.5"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/escape-string-regexp-npm-4.0.0-4b531d8d59-10c0.zip/node_modules/escape-string-regexp/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/escape-string-regexp-npm-4.0.0-4b531d8d59-10c0.zip/node_modules/escape-string-regexp/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["escape-string-regexp", "npm:4.0.0"]\
         ],\
@@ -2416,7 +3224,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint", [\
       ["npm:8.56.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-npm-8.56.0-6eec398a41-10c0.zip/node_modules/eslint/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-npm-8.56.0-6eec398a41-10c0.zip/node_modules/eslint/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint", "npm:8.56.0"],\
           ["@eslint-community/eslint-utils", "virtual:6eec398a4132b5372ea5ffc0bc36d4c81602b7e444a89685d0d958016d8fd53df5c0c97c6a8bf99951469e2c6c06135dd192e9309f6e39b1a4c85e0faabe1f6b#npm:4.4.0"],\
@@ -2463,14 +3275,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-config-next", [\
       ["npm:14.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-config-next-npm-14.0.4-88a16876d4-10c0.zip/node_modules/eslint-config-next/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-config-next-npm-14.0.4-88a16876d4-10c0.zip/node_modules/eslint-config-next/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-config-next", "npm:14.0.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:14.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/eslint-config-next-virtual-608e4dfde8/4/AppData/Local/Yarn/Berry/cache/eslint-config-next-npm-14.0.4-88a16876d4-10c0.zip/node_modules/eslint-config-next/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/eslint-config-next-virtual-608e4dfde8/4/.yarn/berry/cache/eslint-config-next-npm-14.0.4-88a16876d4-10c0.zip/node_modules/eslint-config-next/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-config-next", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:14.0.4"],\
           ["@next/eslint-plugin-next", "npm:14.0.4"],\
@@ -2498,7 +3318,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-import-resolver-node", [\
       ["npm:0.3.9", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-import-resolver-node-npm-0.3.9-2a426afc4b-10c0.zip/node_modules/eslint-import-resolver-node/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-import-resolver-node-npm-0.3.9-2a426afc4b-10c0.zip/node_modules/eslint-import-resolver-node/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-import-resolver-node", "npm:0.3.9"],\
           ["debug", "virtual:2a426afc4b2eef43db12a540d29c2b5476640459bfcd5c24f86bb401cf8cce97e63bd81794d206a5643057e7f662643afd5ce3dfc4d4bfd8e706006c6309c5fa#npm:3.2.7"],\
@@ -2510,14 +3334,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-import-resolver-typescript", [\
       ["npm:3.6.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-import-resolver-typescript-npm-3.6.1-994bbf65fc-10c0.zip/node_modules/eslint-import-resolver-typescript/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-import-resolver-typescript-npm-3.6.1-994bbf65fc-10c0.zip/node_modules/eslint-import-resolver-typescript/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-import-resolver-typescript", "npm:3.6.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:3.6.1", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/eslint-import-resolver-typescript-virtual-3c7d0d32a6/4/AppData/Local/Yarn/Berry/cache/eslint-import-resolver-typescript-npm-3.6.1-994bbf65fc-10c0.zip/node_modules/eslint-import-resolver-typescript/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/eslint-import-resolver-typescript-virtual-3c7d0d32a6/4/.yarn/berry/cache/eslint-import-resolver-typescript-npm-3.6.1-994bbf65fc-10c0.zip/node_modules/eslint-import-resolver-typescript/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-import-resolver-typescript", "virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:3.6.1"],\
           ["@types/eslint", null],\
@@ -2543,14 +3375,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-module-utils", [\
       ["npm:2.8.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-module-utils-npm-2.8.0-05e42bcab0-10c0.zip/node_modules/eslint-module-utils/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-module-utils-npm-2.8.0-05e42bcab0-10c0.zip/node_modules/eslint-module-utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-module-utils", "npm:2.8.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3c7d0d32a64b846d1c01c906ef1ca84ffc413bb9712b77bae35dfa898fac6907e0032ddf76520150f2e56cdc9b175cb5bdb86c39bd6ca29c7897f0e1206c181e#npm:2.8.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/eslint-module-utils-virtual-419c57fe15/4/AppData/Local/Yarn/Berry/cache/eslint-module-utils-npm-2.8.0-05e42bcab0-10c0.zip/node_modules/eslint-module-utils/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/eslint-module-utils-virtual-419c57fe15/4/.yarn/berry/cache/eslint-module-utils-npm-2.8.0-05e42bcab0-10c0.zip/node_modules/eslint-module-utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-module-utils", "virtual:3c7d0d32a64b846d1c01c906ef1ca84ffc413bb9712b77bae35dfa898fac6907e0032ddf76520150f2e56cdc9b175cb5bdb86c39bd6ca29c7897f0e1206c181e#npm:2.8.0"],\
           ["@types/eslint", null],\
@@ -2580,7 +3420,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:f45944e76482ea9743fde1400713edbfb2a858cc21d41cd22b8f8adeba5ceaad8e63037bfa8178bd8af816cc04cd56867e8b3749249963b1396f85a8ea708c08#npm:2.8.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/eslint-module-utils-virtual-878145db81/4/AppData/Local/Yarn/Berry/cache/eslint-module-utils-npm-2.8.0-05e42bcab0-10c0.zip/node_modules/eslint-module-utils/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/eslint-module-utils-virtual-878145db81/4/.yarn/berry/cache/eslint-module-utils-npm-2.8.0-05e42bcab0-10c0.zip/node_modules/eslint-module-utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-module-utils", "virtual:f45944e76482ea9743fde1400713edbfb2a858cc21d41cd22b8f8adeba5ceaad8e63037bfa8178bd8af816cc04cd56867e8b3749249963b1396f85a8ea708c08#npm:2.8.0"],\
           ["@types/eslint", null],\
@@ -2612,14 +3456,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-plugin-import", [\
       ["npm:2.29.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-plugin-import-npm-2.29.1-b94305f7dc-10c0.zip/node_modules/eslint-plugin-import/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-plugin-import-npm-2.29.1-b94305f7dc-10c0.zip/node_modules/eslint-plugin-import/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-plugin-import", "npm:2.29.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:2.29.1", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/eslint-plugin-import-virtual-f45944e764/4/AppData/Local/Yarn/Berry/cache/eslint-plugin-import-npm-2.29.1-b94305f7dc-10c0.zip/node_modules/eslint-plugin-import/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-import-virtual-f45944e764/4/.yarn/berry/cache/eslint-plugin-import-npm-2.29.1-b94305f7dc-10c0.zip/node_modules/eslint-plugin-import/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-plugin-import", "virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:2.29.1"],\
           ["@types/eslint", null],\
@@ -2655,14 +3507,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-plugin-jsx-a11y", [\
       ["npm:6.8.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-plugin-jsx-a11y-npm-6.8.0-5ffd885665-10c0.zip/node_modules/eslint-plugin-jsx-a11y/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-plugin-jsx-a11y-npm-6.8.0-5ffd885665-10c0.zip/node_modules/eslint-plugin-jsx-a11y/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-plugin-jsx-a11y", "npm:6.8.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:6.8.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/eslint-plugin-jsx-a11y-virtual-e5e02d11b7/4/AppData/Local/Yarn/Berry/cache/eslint-plugin-jsx-a11y-npm-6.8.0-5ffd885665-10c0.zip/node_modules/eslint-plugin-jsx-a11y/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-jsx-a11y-virtual-e5e02d11b7/4/.yarn/berry/cache/eslint-plugin-jsx-a11y-npm-6.8.0-5ffd885665-10c0.zip/node_modules/eslint-plugin-jsx-a11y/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-plugin-jsx-a11y", "virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:6.8.0"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -2693,14 +3553,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-plugin-react", [\
       ["npm:7.33.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-plugin-react-npm-7.33.2-08f77ebc15-10c0.zip/node_modules/eslint-plugin-react/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-plugin-react-npm-7.33.2-08f77ebc15-10c0.zip/node_modules/eslint-plugin-react/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-plugin-react", "npm:7.33.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:7.33.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-ecfc3793c4/4/AppData/Local/Yarn/Berry/cache/eslint-plugin-react-npm-7.33.2-08f77ebc15-10c0.zip/node_modules/eslint-plugin-react/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-ecfc3793c4/4/.yarn/berry/cache/eslint-plugin-react-npm-7.33.2-08f77ebc15-10c0.zip/node_modules/eslint-plugin-react/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-plugin-react", "virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:7.33.2"],\
           ["@types/eslint", null],\
@@ -2731,14 +3599,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-plugin-react-hooks", [\
       ["npm:5.0.0-canary-7118f5dd7-20230705", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-plugin-react-hooks-npm-5.0.0-canary-7118f5dd7-20230705-2292094517-10c0.zip/node_modules/eslint-plugin-react-hooks/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-plugin-react-hooks-npm-5.0.0-canary-7118f5dd7-20230705-2292094517-10c0.zip/node_modules/eslint-plugin-react-hooks/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-plugin-react-hooks", "npm:5.0.0-canary-7118f5dd7-20230705"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:5.0.0-canary-7118f5dd7-20230705", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-hooks-virtual-f92df4be83/4/AppData/Local/Yarn/Berry/cache/eslint-plugin-react-hooks-npm-5.0.0-canary-7118f5dd7-20230705-2292094517-10c0.zip/node_modules/eslint-plugin-react-hooks/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-hooks-virtual-f92df4be83/4/.yarn/berry/cache/eslint-plugin-react-hooks-npm-5.0.0-canary-7118f5dd7-20230705-2292094517-10c0.zip/node_modules/eslint-plugin-react-hooks/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-plugin-react-hooks", "virtual:608e4dfde81408b72837130623470f024140a44a6e258ba4bea3e295c8cab079a5e54a1473ab5783d94ee9a7933cca98bc86c5f0ccd968d15ea23bf6c2e86496#npm:5.0.0-canary-7118f5dd7-20230705"],\
           ["@types/eslint", null],\
@@ -2753,7 +3629,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-scope", [\
       ["npm:7.2.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-scope-npm-7.2.2-53cb0df8e8-10c0.zip/node_modules/eslint-scope/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-scope-npm-7.2.2-53cb0df8e8-10c0.zip/node_modules/eslint-scope/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-scope", "npm:7.2.2"],\
           ["esrecurse", "npm:4.3.0"],\
@@ -2764,7 +3644,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["eslint-visitor-keys", [\
       ["npm:3.4.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/eslint-visitor-keys-npm-3.4.3-a356ac7e46-10c0.zip/node_modules/eslint-visitor-keys/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/eslint-visitor-keys-npm-3.4.3-a356ac7e46-10c0.zip/node_modules/eslint-visitor-keys/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["eslint-visitor-keys", "npm:3.4.3"]\
         ],\
@@ -2773,7 +3657,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["espree", [\
       ["npm:9.6.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/espree-npm-9.6.1-a50722a5a9-10c0.zip/node_modules/espree/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/espree-npm-9.6.1-a50722a5a9-10c0.zip/node_modules/espree/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["espree", "npm:9.6.1"],\
           ["acorn", "npm:8.11.3"],\
@@ -2785,7 +3673,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["esquery", [\
       ["npm:1.5.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/esquery-npm-1.5.0-d8f8a06879-10c0.zip/node_modules/esquery/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/esquery-npm-1.5.0-d8f8a06879-10c0.zip/node_modules/esquery/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["esquery", "npm:1.5.0"],\
           ["estraverse", "npm:5.3.0"]\
@@ -2795,7 +3687,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["esrecurse", [\
       ["npm:4.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/esrecurse-npm-4.3.0-10b86a887a-10c0.zip/node_modules/esrecurse/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/esrecurse-npm-4.3.0-10b86a887a-10c0.zip/node_modules/esrecurse/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["esrecurse", "npm:4.3.0"],\
           ["estraverse", "npm:5.3.0"]\
@@ -2805,7 +3701,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["estraverse", [\
       ["npm:5.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/estraverse-npm-5.3.0-03284f8f63-10c0.zip/node_modules/estraverse/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/estraverse-npm-5.3.0-03284f8f63-10c0.zip/node_modules/estraverse/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["estraverse", "npm:5.3.0"]\
         ],\
@@ -2814,7 +3714,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["esutils", [\
       ["npm:2.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/esutils-npm-2.0.3-f865beafd5-10c0.zip/node_modules/esutils/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/esutils-npm-2.0.3-f865beafd5-10c0.zip/node_modules/esutils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["esutils", "npm:2.0.3"]\
         ],\
@@ -2823,7 +3727,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["exponential-backoff", [\
       ["npm:3.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/exponential-backoff-npm-3.1.1-04df458b30-10c0.zip/node_modules/exponential-backoff/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/exponential-backoff-npm-3.1.1-04df458b30-10c0.zip/node_modules/exponential-backoff/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["exponential-backoff", "npm:3.1.1"]\
         ],\
@@ -2832,7 +3740,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fast-deep-equal", [\
       ["npm:3.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fast-deep-equal-npm-3.1.3-790edcfcf5-10c0.zip/node_modules/fast-deep-equal/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fast-deep-equal-npm-3.1.3-790edcfcf5-10c0.zip/node_modules/fast-deep-equal/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fast-deep-equal", "npm:3.1.3"]\
         ],\
@@ -2841,7 +3753,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fast-glob", [\
       ["npm:3.3.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fast-glob-npm-3.3.2-0a8cb4f2ca-10c0.zip/node_modules/fast-glob/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fast-glob-npm-3.3.2-0a8cb4f2ca-10c0.zip/node_modules/fast-glob/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fast-glob", "npm:3.3.2"],\
           ["@nodelib/fs.stat", "npm:2.0.5"],\
@@ -2855,7 +3771,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fast-json-stable-stringify", [\
       ["npm:2.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fast-json-stable-stringify-npm-2.1.0-02e8905fda-10c0.zip/node_modules/fast-json-stable-stringify/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fast-json-stable-stringify-npm-2.1.0-02e8905fda-10c0.zip/node_modules/fast-json-stable-stringify/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fast-json-stable-stringify", "npm:2.1.0"]\
         ],\
@@ -2864,7 +3784,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fast-levenshtein", [\
       ["npm:2.0.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fast-levenshtein-npm-2.0.6-fcd74b8df5-10c0.zip/node_modules/fast-levenshtein/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fast-levenshtein-npm-2.0.6-fcd74b8df5-10c0.zip/node_modules/fast-levenshtein/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fast-levenshtein", "npm:2.0.6"]\
         ],\
@@ -2873,7 +3797,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fastq", [\
       ["npm:1.16.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fastq-npm-1.16.0-88070bb399-10c0.zip/node_modules/fastq/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fastq-npm-1.16.0-88070bb399-10c0.zip/node_modules/fastq/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fastq", "npm:1.16.0"],\
           ["reusify", "npm:1.0.4"]\
@@ -2883,7 +3811,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fetch-blob", [\
       ["npm:3.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fetch-blob-npm-3.2.0-28e01becfc-10c0.zip/node_modules/fetch-blob/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fetch-blob-npm-3.2.0-28e01becfc-10c0.zip/node_modules/fetch-blob/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fetch-blob", "npm:3.2.0"],\
           ["node-domexception", "npm:1.0.0"],\
@@ -2894,7 +3826,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["file-entry-cache", [\
       ["npm:6.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/file-entry-cache-npm-6.0.1-31965cf0af-10c0.zip/node_modules/file-entry-cache/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/file-entry-cache-npm-6.0.1-31965cf0af-10c0.zip/node_modules/file-entry-cache/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["file-entry-cache", "npm:6.0.1"],\
           ["flat-cache", "npm:3.2.0"]\
@@ -2904,7 +3840,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fill-range", [\
       ["npm:7.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fill-range-npm-7.0.1-b8b1817caa-10c0.zip/node_modules/fill-range/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fill-range-npm-7.0.1-b8b1817caa-10c0.zip/node_modules/fill-range/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fill-range", "npm:7.0.1"],\
           ["to-regex-range", "npm:5.0.1"]\
@@ -2914,7 +3854,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["find-root", [\
       ["npm:1.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/find-root-npm-1.1.0-a16a94005f-10c0.zip/node_modules/find-root/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/find-root-npm-1.1.0-a16a94005f-10c0.zip/node_modules/find-root/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["find-root", "npm:1.1.0"]\
         ],\
@@ -2923,7 +3867,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["find-up", [\
       ["npm:5.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/find-up-npm-5.0.0-e03e9b796d-10c0.zip/node_modules/find-up/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/find-up-npm-5.0.0-e03e9b796d-10c0.zip/node_modules/find-up/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["find-up", "npm:5.0.0"],\
           ["locate-path", "npm:6.0.0"],\
@@ -2934,7 +3882,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["flat-cache", [\
       ["npm:3.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/flat-cache-npm-3.2.0-9a887f084e-10c0.zip/node_modules/flat-cache/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/flat-cache-npm-3.2.0-9a887f084e-10c0.zip/node_modules/flat-cache/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["flat-cache", "npm:3.2.0"],\
           ["flatted", "npm:3.2.9"],\
@@ -2946,7 +3898,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["flatted", [\
       ["npm:3.2.9", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/flatted-npm-3.2.9-0462256d3c-10c0.zip/node_modules/flatted/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/flatted-npm-3.2.9-0462256d3c-10c0.zip/node_modules/flatted/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["flatted", "npm:3.2.9"]\
         ],\
@@ -2955,7 +3911,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["for-each", [\
       ["npm:0.3.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/for-each-npm-0.3.3-0010ca8cdd-10c0.zip/node_modules/for-each/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/for-each-npm-0.3.3-0010ca8cdd-10c0.zip/node_modules/for-each/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["for-each", "npm:0.3.3"],\
           ["is-callable", "npm:1.2.7"]\
@@ -2965,7 +3925,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["foreground-child", [\
       ["npm:3.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/foreground-child-npm-3.1.1-77e78ed774-10c0.zip/node_modules/foreground-child/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/foreground-child-npm-3.1.1-77e78ed774-10c0.zip/node_modules/foreground-child/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["foreground-child", "npm:3.1.1"],\
           ["cross-spawn", "npm:7.0.3"],\
@@ -2976,7 +3940,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["formdata-polyfill", [\
       ["npm:4.0.10", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/formdata-polyfill-npm-4.0.10-e03013c013-10c0.zip/node_modules/formdata-polyfill/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/formdata-polyfill-npm-4.0.10-e03013c013-10c0.zip/node_modules/formdata-polyfill/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["formdata-polyfill", "npm:4.0.10"],\
           ["fetch-blob", "npm:3.2.0"]\
@@ -2986,7 +3954,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fraction.js", [\
       ["npm:4.3.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fraction.js-npm-4.3.7-c2c7e95a8e-10c0.zip/node_modules/fraction.js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fraction.js-npm-4.3.7-c2c7e95a8e-10c0.zip/node_modules/fraction.js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fraction.js", "npm:4.3.7"]\
         ],\
@@ -2995,7 +3967,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fs-minipass", [\
       ["npm:2.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fs-minipass-npm-2.1.0-501ef87306-10c0.zip/node_modules/fs-minipass/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fs-minipass-npm-2.1.0-501ef87306-10c0.zip/node_modules/fs-minipass/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fs-minipass", "npm:2.1.0"],\
           ["minipass", "npm:3.3.6"]\
@@ -3003,7 +3979,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:3.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fs-minipass-npm-3.0.3-d148d6ac19-10c0.zip/node_modules/fs-minipass/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fs-minipass-npm-3.0.3-d148d6ac19-10c0.zip/node_modules/fs-minipass/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fs-minipass", "npm:3.0.3"],\
           ["minipass", "npm:7.0.4"]\
@@ -3013,7 +3993,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["fs.realpath", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/fs.realpath-npm-1.0.0-c8f05d8126-10c0.zip/node_modules/fs.realpath/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/fs.realpath-npm-1.0.0-c8f05d8126-10c0.zip/node_modules/fs.realpath/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["fs.realpath", "npm:1.0.0"]\
         ],\
@@ -3032,7 +4016,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["function-bind", [\
       ["npm:1.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/function-bind-npm-1.1.2-7a55be9b03-10c0.zip/node_modules/function-bind/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/function-bind-npm-1.1.2-7a55be9b03-10c0.zip/node_modules/function-bind/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["function-bind", "npm:1.1.2"]\
         ],\
@@ -3041,7 +4029,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["function.prototype.name", [\
       ["npm:1.1.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/function.prototype.name-npm-1.1.6-fd3a6a5cdd-10c0.zip/node_modules/function.prototype.name/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/function.prototype.name-npm-1.1.6-fd3a6a5cdd-10c0.zip/node_modules/function.prototype.name/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["function.prototype.name", "npm:1.1.6"],\
           ["call-bind", "npm:1.0.5"],\
@@ -3054,7 +4046,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["functions-have-names", [\
       ["npm:1.2.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/functions-have-names-npm-1.2.3-e5cf1e2208-10c0.zip/node_modules/functions-have-names/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/functions-have-names-npm-1.2.3-e5cf1e2208-10c0.zip/node_modules/functions-have-names/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["functions-have-names", "npm:1.2.3"]\
         ],\
@@ -3063,7 +4059,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["get-intrinsic", [\
       ["npm:1.2.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/get-intrinsic-npm-1.2.2-3f446d8847-10c0.zip/node_modules/get-intrinsic/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/get-intrinsic-npm-1.2.2-3f446d8847-10c0.zip/node_modules/get-intrinsic/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["get-intrinsic", "npm:1.2.2"],\
           ["function-bind", "npm:1.1.2"],\
@@ -3076,7 +4076,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["get-symbol-description", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/get-symbol-description-npm-1.0.0-9c95a4bc1f-10c0.zip/node_modules/get-symbol-description/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/get-symbol-description-npm-1.0.0-9c95a4bc1f-10c0.zip/node_modules/get-symbol-description/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["get-symbol-description", "npm:1.0.0"],\
           ["call-bind", "npm:1.0.5"],\
@@ -3087,7 +4091,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["get-tsconfig", [\
       ["npm:4.7.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/get-tsconfig-npm-4.7.2-8fbccd9fcf-10c0.zip/node_modules/get-tsconfig/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/get-tsconfig-npm-4.7.2-8fbccd9fcf-10c0.zip/node_modules/get-tsconfig/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["get-tsconfig", "npm:4.7.2"],\
           ["resolve-pkg-maps", "npm:1.0.0"]\
@@ -3097,7 +4105,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["glob", [\
       ["npm:10.3.10", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/glob-npm-10.3.10-da1ef8b112-10c0.zip/node_modules/glob/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/glob-npm-10.3.10-da1ef8b112-10c0.zip/node_modules/glob/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["glob", "npm:10.3.10"],\
           ["foreground-child", "npm:3.1.1"],\
@@ -3109,7 +4121,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:7.1.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/glob-npm-7.1.7-5698ad9c48-10c0.zip/node_modules/glob/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/glob-npm-7.1.7-5698ad9c48-10c0.zip/node_modules/glob/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["glob", "npm:7.1.7"],\
           ["fs.realpath", "npm:1.0.0"],\
@@ -3122,7 +4138,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:7.2.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/glob-npm-7.2.3-2d866d17a5-10c0.zip/node_modules/glob/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/glob-npm-7.2.3-2d866d17a5-10c0.zip/node_modules/glob/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["glob", "npm:7.2.3"],\
           ["fs.realpath", "npm:1.0.0"],\
@@ -3137,7 +4157,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["glob-parent", [\
       ["npm:5.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/glob-parent-npm-5.1.2-021ab32634-10c0.zip/node_modules/glob-parent/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/glob-parent-npm-5.1.2-021ab32634-10c0.zip/node_modules/glob-parent/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["glob-parent", "npm:5.1.2"],\
           ["is-glob", "npm:4.0.3"]\
@@ -3145,7 +4169,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:6.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/glob-parent-npm-6.0.2-2cbef12738-10c0.zip/node_modules/glob-parent/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/glob-parent-npm-6.0.2-2cbef12738-10c0.zip/node_modules/glob-parent/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["glob-parent", "npm:6.0.2"],\
           ["is-glob", "npm:4.0.3"]\
@@ -3155,7 +4183,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["glob-to-regexp", [\
       ["npm:0.4.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/glob-to-regexp-npm-0.4.1-cd697e0fc7-10c0.zip/node_modules/glob-to-regexp/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/glob-to-regexp-npm-0.4.1-cd697e0fc7-10c0.zip/node_modules/glob-to-regexp/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["glob-to-regexp", "npm:0.4.1"]\
         ],\
@@ -3164,7 +4196,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["globals", [\
       ["npm:13.24.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/globals-npm-13.24.0-cc7713139c-10c0.zip/node_modules/globals/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/globals-npm-13.24.0-cc7713139c-10c0.zip/node_modules/globals/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["globals", "npm:13.24.0"],\
           ["type-fest", "npm:0.20.2"]\
@@ -3174,7 +4210,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["globalthis", [\
       ["npm:1.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/globalthis-npm-1.0.3-96cd56020d-10c0.zip/node_modules/globalthis/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/globalthis-npm-1.0.3-96cd56020d-10c0.zip/node_modules/globalthis/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["globalthis", "npm:1.0.3"],\
           ["define-properties", "npm:1.2.1"]\
@@ -3184,7 +4224,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["globby", [\
       ["npm:11.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/globby-npm-11.1.0-bdcdf20c71-10c0.zip/node_modules/globby/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/globby-npm-11.1.0-bdcdf20c71-10c0.zip/node_modules/globby/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["globby", "npm:11.1.0"],\
           ["array-union", "npm:2.1.0"],\
@@ -3199,7 +4243,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["gopd", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/gopd-npm-1.0.1-10c1d0b534-10c0.zip/node_modules/gopd/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/gopd-npm-1.0.1-10c1d0b534-10c0.zip/node_modules/gopd/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["gopd", "npm:1.0.1"],\
           ["get-intrinsic", "npm:1.2.2"]\
@@ -3209,7 +4257,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["graceful-fs", [\
       ["npm:4.2.11", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/graceful-fs-npm-4.2.11-24bb648a68-10c0.zip/node_modules/graceful-fs/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/graceful-fs-npm-4.2.11-24bb648a68-10c0.zip/node_modules/graceful-fs/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["graceful-fs", "npm:4.2.11"]\
         ],\
@@ -3218,7 +4270,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["graphemer", [\
       ["npm:1.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/graphemer-npm-1.4.0-0627732d35-10c0.zip/node_modules/graphemer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/graphemer-npm-1.4.0-0627732d35-10c0.zip/node_modules/graphemer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["graphemer", "npm:1.4.0"]\
         ],\
@@ -3227,7 +4283,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["hamt_plus", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/hamt_plus-npm-1.0.2-67a52ee1df-10c0.zip/node_modules/hamt_plus/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/hamt_plus-npm-1.0.2-67a52ee1df-10c0.zip/node_modules/hamt_plus/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["hamt_plus", "npm:1.0.2"]\
         ],\
@@ -3236,7 +4296,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["has-bigints", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/has-bigints-npm-1.0.2-52732e614d-10c0.zip/node_modules/has-bigints/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/has-bigints-npm-1.0.2-52732e614d-10c0.zip/node_modules/has-bigints/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["has-bigints", "npm:1.0.2"]\
         ],\
@@ -3245,14 +4309,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["has-flag", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/has-flag-npm-3.0.0-16ac11fe05-10c0.zip/node_modules/has-flag/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/has-flag-npm-3.0.0-16ac11fe05-10c0.zip/node_modules/has-flag/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["has-flag", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/has-flag-npm-4.0.0-32af9f0536-10c0.zip/node_modules/has-flag/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/has-flag-npm-4.0.0-32af9f0536-10c0.zip/node_modules/has-flag/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["has-flag", "npm:4.0.0"]\
         ],\
@@ -3261,7 +4333,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["has-property-descriptors", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/has-property-descriptors-npm-1.0.1-61cd62fce3-10c0.zip/node_modules/has-property-descriptors/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/has-property-descriptors-npm-1.0.1-61cd62fce3-10c0.zip/node_modules/has-property-descriptors/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["has-property-descriptors", "npm:1.0.1"],\
           ["get-intrinsic", "npm:1.2.2"]\
@@ -3271,7 +4347,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["has-proto", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/has-proto-npm-1.0.1-631ea9d820-10c0.zip/node_modules/has-proto/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/has-proto-npm-1.0.1-631ea9d820-10c0.zip/node_modules/has-proto/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["has-proto", "npm:1.0.1"]\
         ],\
@@ -3280,7 +4360,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["has-symbols", [\
       ["npm:1.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/has-symbols-npm-1.0.3-1986bff2c4-10c0.zip/node_modules/has-symbols/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/has-symbols-npm-1.0.3-1986bff2c4-10c0.zip/node_modules/has-symbols/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["has-symbols", "npm:1.0.3"]\
         ],\
@@ -3289,7 +4373,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["has-tostringtag", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/has-tostringtag-npm-1.0.0-b1fcf3ab55-10c0.zip/node_modules/has-tostringtag/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/has-tostringtag-npm-1.0.0-b1fcf3ab55-10c0.zip/node_modules/has-tostringtag/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["has-tostringtag", "npm:1.0.0"],\
           ["has-symbols", "npm:1.0.3"]\
@@ -3299,7 +4387,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["hasown", [\
       ["npm:2.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/hasown-npm-2.0.0-78b794ceef-10c0.zip/node_modules/hasown/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/hasown-npm-2.0.0-78b794ceef-10c0.zip/node_modules/hasown/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["hasown", "npm:2.0.0"],\
           ["function-bind", "npm:1.1.2"]\
@@ -3309,7 +4401,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["hoist-non-react-statics", [\
       ["npm:3.3.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/hoist-non-react-statics-npm-3.3.2-e7b709e6c1-10c0.zip/node_modules/hoist-non-react-statics/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/hoist-non-react-statics-npm-3.3.2-e7b709e6c1-10c0.zip/node_modules/hoist-non-react-statics/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["hoist-non-react-statics", "npm:3.3.2"],\
           ["react-is", "npm:16.13.1"]\
@@ -3319,7 +4415,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["http-cache-semantics", [\
       ["npm:4.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/http-cache-semantics-npm-4.1.1-1120131375-10c0.zip/node_modules/http-cache-semantics/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/http-cache-semantics-npm-4.1.1-1120131375-10c0.zip/node_modules/http-cache-semantics/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["http-cache-semantics", "npm:4.1.1"]\
         ],\
@@ -3328,7 +4428,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["http-proxy-agent", [\
       ["npm:7.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/http-proxy-agent-npm-7.0.0-106a57cc8c-10c0.zip/node_modules/http-proxy-agent/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/http-proxy-agent-npm-7.0.0-106a57cc8c-10c0.zip/node_modules/http-proxy-agent/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["http-proxy-agent", "npm:7.0.0"],\
           ["agent-base", "npm:7.1.0"],\
@@ -3339,7 +4443,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["https-proxy-agent", [\
       ["npm:7.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/https-proxy-agent-npm-7.0.2-83ea6a5d42-10c0.zip/node_modules/https-proxy-agent/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/https-proxy-agent-npm-7.0.2-83ea6a5d42-10c0.zip/node_modules/https-proxy-agent/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["https-proxy-agent", "npm:7.0.2"],\
           ["agent-base", "npm:7.1.0"],\
@@ -3350,7 +4458,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["iconv-lite", [\
       ["npm:0.6.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/iconv-lite-npm-0.6.3-24b8aae27e-10c0.zip/node_modules/iconv-lite/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/iconv-lite-npm-0.6.3-24b8aae27e-10c0.zip/node_modules/iconv-lite/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["iconv-lite", "npm:0.6.3"],\
           ["safer-buffer", "npm:2.1.2"]\
@@ -3360,7 +4472,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ignore", [\
       ["npm:5.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ignore-npm-5.3.0-fb0f5fa062-10c0.zip/node_modules/ignore/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ignore-npm-5.3.0-fb0f5fa062-10c0.zip/node_modules/ignore/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ignore", "npm:5.3.0"]\
         ],\
@@ -3369,7 +4485,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["import-fresh", [\
       ["npm:3.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/import-fresh-npm-3.3.0-3e34265ca9-10c0.zip/node_modules/import-fresh/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/import-fresh-npm-3.3.0-3e34265ca9-10c0.zip/node_modules/import-fresh/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["import-fresh", "npm:3.3.0"],\
           ["parent-module", "npm:1.0.1"],\
@@ -3380,7 +4500,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["imurmurhash", [\
       ["npm:0.1.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/imurmurhash-npm-0.1.4-610c5068a0-10c0.zip/node_modules/imurmurhash/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/imurmurhash-npm-0.1.4-610c5068a0-10c0.zip/node_modules/imurmurhash/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["imurmurhash", "npm:0.1.4"]\
         ],\
@@ -3389,7 +4513,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["indent-string", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/indent-string-npm-4.0.0-7b717435b2-10c0.zip/node_modules/indent-string/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/indent-string-npm-4.0.0-7b717435b2-10c0.zip/node_modules/indent-string/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["indent-string", "npm:4.0.0"]\
         ],\
@@ -3398,7 +4526,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["inflight", [\
       ["npm:1.0.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/inflight-npm-1.0.6-ccedb4b908-10c0.zip/node_modules/inflight/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/inflight-npm-1.0.6-ccedb4b908-10c0.zip/node_modules/inflight/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["inflight", "npm:1.0.6"],\
           ["once", "npm:1.4.0"],\
@@ -3409,7 +4541,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["inherits", [\
       ["npm:2.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/inherits-npm-2.0.4-c66b3957a0-10c0.zip/node_modules/inherits/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/inherits-npm-2.0.4-c66b3957a0-10c0.zip/node_modules/inherits/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["inherits", "npm:2.0.4"]\
         ],\
@@ -3418,7 +4554,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["internal-slot", [\
       ["npm:1.0.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/internal-slot-npm-1.0.6-1ed833e09a-10c0.zip/node_modules/internal-slot/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/internal-slot-npm-1.0.6-1ed833e09a-10c0.zip/node_modules/internal-slot/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["internal-slot", "npm:1.0.6"],\
           ["get-intrinsic", "npm:1.2.2"],\
@@ -3430,7 +4570,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ip", [\
       ["npm:2.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ip-npm-2.0.0-204facb3cc-10c0.zip/node_modules/ip/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ip-npm-2.0.0-204facb3cc-10c0.zip/node_modules/ip/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ip", "npm:2.0.0"]\
         ],\
@@ -3439,7 +4583,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-array-buffer", [\
       ["npm:3.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-array-buffer-npm-3.0.2-0dec897785-10c0.zip/node_modules/is-array-buffer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-array-buffer-npm-3.0.2-0dec897785-10c0.zip/node_modules/is-array-buffer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-array-buffer", "npm:3.0.2"],\
           ["call-bind", "npm:1.0.5"],\
@@ -3451,7 +4599,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-arrayish", [\
       ["npm:0.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-arrayish-npm-0.2.1-23927dfb15-10c0.zip/node_modules/is-arrayish/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-arrayish-npm-0.2.1-23927dfb15-10c0.zip/node_modules/is-arrayish/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-arrayish", "npm:0.2.1"]\
         ],\
@@ -3460,7 +4612,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-async-function", [\
       ["npm:2.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-async-function-npm-2.0.0-ebf8596ab1-10c0.zip/node_modules/is-async-function/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-async-function-npm-2.0.0-ebf8596ab1-10c0.zip/node_modules/is-async-function/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-async-function", "npm:2.0.0"],\
           ["has-tostringtag", "npm:1.0.0"]\
@@ -3470,7 +4626,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-bigint", [\
       ["npm:1.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-bigint-npm-1.0.4-31c2eecbc9-10c0.zip/node_modules/is-bigint/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-bigint-npm-1.0.4-31c2eecbc9-10c0.zip/node_modules/is-bigint/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-bigint", "npm:1.0.4"],\
           ["has-bigints", "npm:1.0.2"]\
@@ -3480,7 +4640,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-binary-path", [\
       ["npm:2.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-binary-path-npm-2.1.0-e61d46f557-10c0.zip/node_modules/is-binary-path/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-binary-path-npm-2.1.0-e61d46f557-10c0.zip/node_modules/is-binary-path/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-binary-path", "npm:2.1.0"],\
           ["binary-extensions", "npm:2.2.0"]\
@@ -3490,7 +4654,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-boolean-object", [\
       ["npm:1.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-boolean-object-npm-1.1.2-ecbd575e6a-10c0.zip/node_modules/is-boolean-object/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-boolean-object-npm-1.1.2-ecbd575e6a-10c0.zip/node_modules/is-boolean-object/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-boolean-object", "npm:1.1.2"],\
           ["call-bind", "npm:1.0.5"],\
@@ -3501,7 +4669,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-callable", [\
       ["npm:1.2.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-callable-npm-1.2.7-808a303e61-10c0.zip/node_modules/is-callable/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-callable-npm-1.2.7-808a303e61-10c0.zip/node_modules/is-callable/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-callable", "npm:1.2.7"]\
         ],\
@@ -3510,7 +4682,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-core-module", [\
       ["npm:2.13.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-core-module-npm-2.13.1-36e17434f9-10c0.zip/node_modules/is-core-module/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-core-module-npm-2.13.1-36e17434f9-10c0.zip/node_modules/is-core-module/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-core-module", "npm:2.13.1"],\
           ["hasown", "npm:2.0.0"]\
@@ -3520,7 +4696,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-date-object", [\
       ["npm:1.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-date-object-npm-1.0.5-88f3d08b5e-10c0.zip/node_modules/is-date-object/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-date-object-npm-1.0.5-88f3d08b5e-10c0.zip/node_modules/is-date-object/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-date-object", "npm:1.0.5"],\
           ["has-tostringtag", "npm:1.0.0"]\
@@ -3530,7 +4710,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-extglob", [\
       ["npm:2.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-extglob-npm-2.1.1-0870ea68b5-10c0.zip/node_modules/is-extglob/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-extglob-npm-2.1.1-0870ea68b5-10c0.zip/node_modules/is-extglob/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-extglob", "npm:2.1.1"]\
         ],\
@@ -3539,7 +4723,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-finalizationregistry", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-finalizationregistry-npm-1.0.2-15bf1bd7ce-10c0.zip/node_modules/is-finalizationregistry/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-finalizationregistry-npm-1.0.2-15bf1bd7ce-10c0.zip/node_modules/is-finalizationregistry/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-finalizationregistry", "npm:1.0.2"],\
           ["call-bind", "npm:1.0.5"]\
@@ -3549,7 +4737,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-fullwidth-code-point", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-fullwidth-code-point-npm-3.0.0-1ecf4ebee5-10c0.zip/node_modules/is-fullwidth-code-point/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-fullwidth-code-point-npm-3.0.0-1ecf4ebee5-10c0.zip/node_modules/is-fullwidth-code-point/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-fullwidth-code-point", "npm:3.0.0"]\
         ],\
@@ -3558,7 +4750,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-generator-function", [\
       ["npm:1.0.10", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-generator-function-npm-1.0.10-1d0f3809ef-10c0.zip/node_modules/is-generator-function/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-generator-function-npm-1.0.10-1d0f3809ef-10c0.zip/node_modules/is-generator-function/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-generator-function", "npm:1.0.10"],\
           ["has-tostringtag", "npm:1.0.0"]\
@@ -3568,7 +4764,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-glob", [\
       ["npm:4.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-glob-npm-4.0.3-cb87bf1bdb-10c0.zip/node_modules/is-glob/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-glob-npm-4.0.3-cb87bf1bdb-10c0.zip/node_modules/is-glob/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-glob", "npm:4.0.3"],\
           ["is-extglob", "npm:2.1.1"]\
@@ -3578,7 +4778,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-lambda", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-lambda-npm-1.0.1-7ab55bc8a8-10c0.zip/node_modules/is-lambda/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-lambda-npm-1.0.1-7ab55bc8a8-10c0.zip/node_modules/is-lambda/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-lambda", "npm:1.0.1"]\
         ],\
@@ -3587,7 +4791,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-map", [\
       ["npm:2.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-map-npm-2.0.2-486724dabc-10c0.zip/node_modules/is-map/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-map-npm-2.0.2-486724dabc-10c0.zip/node_modules/is-map/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-map", "npm:2.0.2"]\
         ],\
@@ -3596,7 +4804,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-negative-zero", [\
       ["npm:2.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-negative-zero-npm-2.0.2-0adac91f15-10c0.zip/node_modules/is-negative-zero/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-negative-zero-npm-2.0.2-0adac91f15-10c0.zip/node_modules/is-negative-zero/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-negative-zero", "npm:2.0.2"]\
         ],\
@@ -3605,7 +4817,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-number", [\
       ["npm:7.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-number-npm-7.0.0-060086935c-10c0.zip/node_modules/is-number/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-number-npm-7.0.0-060086935c-10c0.zip/node_modules/is-number/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-number", "npm:7.0.0"]\
         ],\
@@ -3614,7 +4830,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-number-object", [\
       ["npm:1.0.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-number-object-npm-1.0.7-539d0e274d-10c0.zip/node_modules/is-number-object/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-number-object-npm-1.0.7-539d0e274d-10c0.zip/node_modules/is-number-object/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-number-object", "npm:1.0.7"],\
           ["has-tostringtag", "npm:1.0.0"]\
@@ -3624,7 +4844,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-path-inside", [\
       ["npm:3.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-path-inside-npm-3.0.3-2ea0ef44fd-10c0.zip/node_modules/is-path-inside/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-path-inside-npm-3.0.3-2ea0ef44fd-10c0.zip/node_modules/is-path-inside/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-path-inside", "npm:3.0.3"]\
         ],\
@@ -3633,7 +4857,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-regex", [\
       ["npm:1.1.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-regex-npm-1.1.4-cca193ef11-10c0.zip/node_modules/is-regex/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-regex-npm-1.1.4-cca193ef11-10c0.zip/node_modules/is-regex/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-regex", "npm:1.1.4"],\
           ["call-bind", "npm:1.0.5"],\
@@ -3644,7 +4872,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-set", [\
       ["npm:2.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-set-npm-2.0.2-7e9ba84a8c-10c0.zip/node_modules/is-set/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-set-npm-2.0.2-7e9ba84a8c-10c0.zip/node_modules/is-set/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-set", "npm:2.0.2"]\
         ],\
@@ -3653,7 +4885,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-shared-array-buffer", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-shared-array-buffer-npm-1.0.2-32e4181fcd-10c0.zip/node_modules/is-shared-array-buffer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-shared-array-buffer-npm-1.0.2-32e4181fcd-10c0.zip/node_modules/is-shared-array-buffer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-shared-array-buffer", "npm:1.0.2"],\
           ["call-bind", "npm:1.0.5"]\
@@ -3663,7 +4899,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-string", [\
       ["npm:1.0.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-string-npm-1.0.7-9f7066daed-10c0.zip/node_modules/is-string/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-string-npm-1.0.7-9f7066daed-10c0.zip/node_modules/is-string/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-string", "npm:1.0.7"],\
           ["has-tostringtag", "npm:1.0.0"]\
@@ -3673,7 +4913,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-symbol", [\
       ["npm:1.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-symbol-npm-1.0.4-eb9baac703-10c0.zip/node_modules/is-symbol/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-symbol-npm-1.0.4-eb9baac703-10c0.zip/node_modules/is-symbol/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-symbol", "npm:1.0.4"],\
           ["has-symbols", "npm:1.0.3"]\
@@ -3683,7 +4927,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-typed-array", [\
       ["npm:1.1.12", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-typed-array-npm-1.1.12-6135c91b1a-10c0.zip/node_modules/is-typed-array/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-typed-array-npm-1.1.12-6135c91b1a-10c0.zip/node_modules/is-typed-array/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-typed-array", "npm:1.1.12"],\
           ["which-typed-array", "npm:1.1.13"]\
@@ -3693,7 +4941,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-weakmap", [\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-weakmap-npm-2.0.1-88ca3d1dc4-10c0.zip/node_modules/is-weakmap/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-weakmap-npm-2.0.1-88ca3d1dc4-10c0.zip/node_modules/is-weakmap/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-weakmap", "npm:2.0.1"]\
         ],\
@@ -3702,7 +4954,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-weakref", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-weakref-npm-1.0.2-ff80e8c314-10c0.zip/node_modules/is-weakref/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-weakref-npm-1.0.2-ff80e8c314-10c0.zip/node_modules/is-weakref/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-weakref", "npm:1.0.2"],\
           ["call-bind", "npm:1.0.5"]\
@@ -3712,7 +4968,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["is-weakset", [\
       ["npm:2.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-weakset-npm-2.0.2-b3cbc6c9cd-10c0.zip/node_modules/is-weakset/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/is-weakset-npm-2.0.2-b3cbc6c9cd-10c0.zip/node_modules/is-weakset/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["is-weakset", "npm:2.0.2"],\
           ["call-bind", "npm:1.0.5"],\
@@ -3723,7 +4983,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["isarray", [\
       ["npm:2.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/isarray-npm-2.0.5-4ba522212d-10c0.zip/node_modules/isarray/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/isarray-npm-2.0.5-4ba522212d-10c0.zip/node_modules/isarray/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["isarray", "npm:2.0.5"]\
         ],\
@@ -3732,14 +4996,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["isexe", [\
       ["npm:2.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/isexe-npm-2.0.0-b58870bd2e-10c0.zip/node_modules/isexe/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/isexe-npm-2.0.0-b58870bd2e-10c0.zip/node_modules/isexe/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["isexe", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:3.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/isexe-npm-3.1.1-9c0061eead-10c0.zip/node_modules/isexe/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/isexe-npm-3.1.1-9c0061eead-10c0.zip/node_modules/isexe/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["isexe", "npm:3.1.1"]\
         ],\
@@ -3748,7 +5020,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["iterator.prototype", [\
       ["npm:1.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/iterator.prototype-npm-1.1.2-009f234a21-10c0.zip/node_modules/iterator.prototype/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/iterator.prototype-npm-1.1.2-009f234a21-10c0.zip/node_modules/iterator.prototype/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["iterator.prototype", "npm:1.1.2"],\
           ["define-properties", "npm:1.2.1"],\
@@ -3762,7 +5038,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["jackspeak", [\
       ["npm:2.3.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/jackspeak-npm-2.3.6-42e1233172-10c0.zip/node_modules/jackspeak/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/jackspeak-npm-2.3.6-42e1233172-10c0.zip/node_modules/jackspeak/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["jackspeak", "npm:2.3.6"],\
           ["@isaacs/cliui", "npm:8.0.2"],\
@@ -3773,7 +5053,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["jiti", [\
       ["npm:1.21.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/jiti-npm-1.21.0-baebd5985a-10c0.zip/node_modules/jiti/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/jiti-npm-1.21.0-baebd5985a-10c0.zip/node_modules/jiti/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["jiti", "npm:1.21.0"]\
         ],\
@@ -3782,7 +5066,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["js-tokens", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/js-tokens-npm-4.0.0-0ac852e9e2-10c0.zip/node_modules/js-tokens/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/js-tokens-npm-4.0.0-0ac852e9e2-10c0.zip/node_modules/js-tokens/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["js-tokens", "npm:4.0.0"]\
         ],\
@@ -3791,7 +5079,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["js-yaml", [\
       ["npm:4.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/js-yaml-npm-4.1.0-3606f32312-10c0.zip/node_modules/js-yaml/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/js-yaml-npm-4.1.0-3606f32312-10c0.zip/node_modules/js-yaml/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["js-yaml", "npm:4.1.0"],\
           ["argparse", "npm:2.0.1"]\
@@ -3801,7 +5093,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["json-buffer", [\
       ["npm:3.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/json-buffer-npm-3.0.1-f8f6d20603-10c0.zip/node_modules/json-buffer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/json-buffer-npm-3.0.1-f8f6d20603-10c0.zip/node_modules/json-buffer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["json-buffer", "npm:3.0.1"]\
         ],\
@@ -3810,7 +5106,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["json-parse-even-better-errors", [\
       ["npm:2.3.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/json-parse-even-better-errors-npm-2.3.1-144d62256e-10c0.zip/node_modules/json-parse-even-better-errors/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/json-parse-even-better-errors-npm-2.3.1-144d62256e-10c0.zip/node_modules/json-parse-even-better-errors/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["json-parse-even-better-errors", "npm:2.3.1"]\
         ],\
@@ -3819,7 +5119,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["json-schema-traverse", [\
       ["npm:0.4.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/json-schema-traverse-npm-0.4.1-4759091693-10c0.zip/node_modules/json-schema-traverse/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/json-schema-traverse-npm-0.4.1-4759091693-10c0.zip/node_modules/json-schema-traverse/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["json-schema-traverse", "npm:0.4.1"]\
         ],\
@@ -3828,7 +5132,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["json-stable-stringify-without-jsonify", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/json-stable-stringify-without-jsonify-npm-1.0.1-b65772b28b-10c0.zip/node_modules/json-stable-stringify-without-jsonify/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/json-stable-stringify-without-jsonify-npm-1.0.1-b65772b28b-10c0.zip/node_modules/json-stable-stringify-without-jsonify/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["json-stable-stringify-without-jsonify", "npm:1.0.1"]\
         ],\
@@ -3837,7 +5145,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["json5", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/json5-npm-1.0.2-9607f93e30-10c0.zip/node_modules/json5/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/json5-npm-1.0.2-9607f93e30-10c0.zip/node_modules/json5/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["json5", "npm:1.0.2"],\
           ["minimist", "npm:1.2.8"]\
@@ -3847,7 +5159,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["jsx-ast-utils", [\
       ["npm:3.3.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/jsx-ast-utils-npm-3.3.5-114c80f97a-10c0.zip/node_modules/jsx-ast-utils/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/jsx-ast-utils-npm-3.3.5-114c80f97a-10c0.zip/node_modules/jsx-ast-utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["jsx-ast-utils", "npm:3.3.5"],\
           ["array-includes", "npm:3.1.7"],\
@@ -3860,7 +5176,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["keyv", [\
       ["npm:4.5.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/keyv-npm-4.5.4-4c8e2cf7f7-10c0.zip/node_modules/keyv/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/keyv-npm-4.5.4-4c8e2cf7f7-10c0.zip/node_modules/keyv/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["keyv", "npm:4.5.4"],\
           ["json-buffer", "npm:3.0.1"]\
@@ -3870,7 +5190,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["language-subtag-registry", [\
       ["npm:0.3.22", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/language-subtag-registry-npm-0.3.22-e9f79fe04e-10c0.zip/node_modules/language-subtag-registry/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/language-subtag-registry-npm-0.3.22-e9f79fe04e-10c0.zip/node_modules/language-subtag-registry/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["language-subtag-registry", "npm:0.3.22"]\
         ],\
@@ -3879,7 +5203,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["language-tags", [\
       ["npm:1.0.9", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/language-tags-npm-1.0.9-3ea51f204b-10c0.zip/node_modules/language-tags/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/language-tags-npm-1.0.9-3ea51f204b-10c0.zip/node_modules/language-tags/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["language-tags", "npm:1.0.9"],\
           ["language-subtag-registry", "npm:0.3.22"]\
@@ -3889,7 +5217,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["levn", [\
       ["npm:0.4.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/levn-npm-0.4.1-d183b2d7bb-10c0.zip/node_modules/levn/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/levn-npm-0.4.1-d183b2d7bb-10c0.zip/node_modules/levn/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["levn", "npm:0.4.1"],\
           ["prelude-ls", "npm:1.2.1"],\
@@ -3900,14 +5232,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["lilconfig", [\
       ["npm:2.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/lilconfig-npm-2.1.0-a179261924-10c0.zip/node_modules/lilconfig/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/lilconfig-npm-2.1.0-a179261924-10c0.zip/node_modules/lilconfig/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["lilconfig", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/lilconfig-npm-3.0.0-6931a31ed7-10c0.zip/node_modules/lilconfig/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/lilconfig-npm-3.0.0-6931a31ed7-10c0.zip/node_modules/lilconfig/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["lilconfig", "npm:3.0.0"]\
         ],\
@@ -3916,7 +5256,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["lines-and-columns", [\
       ["npm:1.2.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/lines-and-columns-npm-1.2.4-d6c7cc5799-10c0.zip/node_modules/lines-and-columns/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/lines-and-columns-npm-1.2.4-d6c7cc5799-10c0.zip/node_modules/lines-and-columns/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["lines-and-columns", "npm:1.2.4"]\
         ],\
@@ -3925,7 +5269,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["locate-path", [\
       ["npm:6.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/locate-path-npm-6.0.0-06a1e4c528-10c0.zip/node_modules/locate-path/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/locate-path-npm-6.0.0-06a1e4c528-10c0.zip/node_modules/locate-path/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["locate-path", "npm:6.0.0"],\
           ["p-locate", "npm:5.0.0"]\
@@ -3935,7 +5283,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["lodash.merge", [\
       ["npm:4.6.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/lodash.merge-npm-4.6.2-77cb4416bf-10c0.zip/node_modules/lodash.merge/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/lodash.merge-npm-4.6.2-77cb4416bf-10c0.zip/node_modules/lodash.merge/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["lodash.merge", "npm:4.6.2"]\
         ],\
@@ -3944,7 +5296,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["loose-envify", [\
       ["npm:1.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/loose-envify-npm-1.4.0-6307b72ccf-10c0.zip/node_modules/loose-envify/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/loose-envify-npm-1.4.0-6307b72ccf-10c0.zip/node_modules/loose-envify/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["loose-envify", "npm:1.4.0"],\
           ["js-tokens", "npm:4.0.0"]\
@@ -3954,14 +5310,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["lru-cache", [\
       ["npm:10.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/lru-cache-npm-10.1.0-f3d3a0f0ab-10c0.zip/node_modules/lru-cache/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/lru-cache-npm-10.1.0-f3d3a0f0ab-10c0.zip/node_modules/lru-cache/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["lru-cache", "npm:10.1.0"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:6.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/lru-cache-npm-6.0.0-b4c8668fe1-10c0.zip/node_modules/lru-cache/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/lru-cache-npm-6.0.0-b4c8668fe1-10c0.zip/node_modules/lru-cache/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["lru-cache", "npm:6.0.0"],\
           ["yallist", "npm:4.0.0"]\
@@ -3971,7 +5335,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["make-fetch-happen", [\
       ["npm:13.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/make-fetch-happen-npm-13.0.0-f87a92bb87-10c0.zip/node_modules/make-fetch-happen/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/make-fetch-happen-npm-13.0.0-f87a92bb87-10c0.zip/node_modules/make-fetch-happen/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["make-fetch-happen", "npm:13.0.0"],\
           ["@npmcli/agent", "npm:2.2.0"],\
@@ -3991,7 +5359,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["merge2", [\
       ["npm:1.4.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/merge2-npm-1.4.1-a2507bd06c-10c0.zip/node_modules/merge2/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/merge2-npm-1.4.1-a2507bd06c-10c0.zip/node_modules/merge2/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["merge2", "npm:1.4.1"]\
         ],\
@@ -4000,7 +5372,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["micromatch", [\
       ["npm:4.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/micromatch-npm-4.0.5-cfab5d7669-10c0.zip/node_modules/micromatch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/micromatch-npm-4.0.5-cfab5d7669-10c0.zip/node_modules/micromatch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["micromatch", "npm:4.0.5"],\
           ["braces", "npm:3.0.2"],\
@@ -4011,7 +5387,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minimatch", [\
       ["npm:3.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minimatch-npm-3.1.2-9405269906-10c0.zip/node_modules/minimatch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minimatch-npm-3.1.2-9405269906-10c0.zip/node_modules/minimatch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minimatch", "npm:3.1.2"],\
           ["brace-expansion", "npm:1.1.11"]\
@@ -4019,7 +5399,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:9.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minimatch-npm-9.0.3-69d7d6fad5-10c0.zip/node_modules/minimatch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minimatch-npm-9.0.3-69d7d6fad5-10c0.zip/node_modules/minimatch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minimatch", "npm:9.0.3"],\
           ["brace-expansion", "npm:2.0.1"]\
@@ -4029,7 +5413,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minimist", [\
       ["npm:1.2.8", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minimist-npm-1.2.8-d7af7b1dce-10c0.zip/node_modules/minimist/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minimist-npm-1.2.8-d7af7b1dce-10c0.zip/node_modules/minimist/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minimist", "npm:1.2.8"]\
         ],\
@@ -4038,7 +5426,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minipass", [\
       ["npm:3.3.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minipass-npm-3.3.6-b8d93a945b-10c0.zip/node_modules/minipass/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minipass-npm-3.3.6-b8d93a945b-10c0.zip/node_modules/minipass/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minipass", "npm:3.3.6"],\
           ["yallist", "npm:4.0.0"]\
@@ -4046,14 +5438,22 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:5.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minipass-npm-5.0.0-c64fb63c92-10c0.zip/node_modules/minipass/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minipass-npm-5.0.0-c64fb63c92-10c0.zip/node_modules/minipass/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minipass", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:7.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minipass-npm-7.0.4-eacb4e042e-10c0.zip/node_modules/minipass/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minipass-npm-7.0.4-eacb4e042e-10c0.zip/node_modules/minipass/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minipass", "npm:7.0.4"]\
         ],\
@@ -4062,7 +5462,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minipass-collect", [\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minipass-collect-npm-2.0.1-73d3907e40-10c0.zip/node_modules/minipass-collect/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minipass-collect-npm-2.0.1-73d3907e40-10c0.zip/node_modules/minipass-collect/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minipass-collect", "npm:2.0.1"],\
           ["minipass", "npm:7.0.4"]\
@@ -4072,7 +5476,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minipass-fetch", [\
       ["npm:3.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minipass-fetch-npm-3.0.4-200ac7c66d-10c0.zip/node_modules/minipass-fetch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minipass-fetch-npm-3.0.4-200ac7c66d-10c0.zip/node_modules/minipass-fetch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minipass-fetch", "npm:3.0.4"],\
           ["encoding", "npm:0.1.13"],\
@@ -4085,7 +5493,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minipass-flush", [\
       ["npm:1.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minipass-flush-npm-1.0.5-efe79d9826-10c0.zip/node_modules/minipass-flush/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minipass-flush-npm-1.0.5-efe79d9826-10c0.zip/node_modules/minipass-flush/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minipass-flush", "npm:1.0.5"],\
           ["minipass", "npm:3.3.6"]\
@@ -4095,7 +5507,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minipass-pipeline", [\
       ["npm:1.2.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minipass-pipeline-npm-1.2.4-5924cb077f-10c0.zip/node_modules/minipass-pipeline/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minipass-pipeline-npm-1.2.4-5924cb077f-10c0.zip/node_modules/minipass-pipeline/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minipass-pipeline", "npm:1.2.4"],\
           ["minipass", "npm:3.3.6"]\
@@ -4105,7 +5521,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minipass-sized", [\
       ["npm:1.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minipass-sized-npm-1.0.3-306d86f432-10c0.zip/node_modules/minipass-sized/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minipass-sized-npm-1.0.3-306d86f432-10c0.zip/node_modules/minipass-sized/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minipass-sized", "npm:1.0.3"],\
           ["minipass", "npm:3.3.6"]\
@@ -4115,7 +5535,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["minizlib", [\
       ["npm:2.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minizlib-npm-2.1.2-ea89cd0cfb-10c0.zip/node_modules/minizlib/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/minizlib-npm-2.1.2-ea89cd0cfb-10c0.zip/node_modules/minizlib/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["minizlib", "npm:2.1.2"],\
           ["minipass", "npm:3.3.6"],\
@@ -4126,7 +5550,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["mkdirp", [\
       ["npm:1.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/mkdirp-npm-1.0.4-37f6ef56b9-10c0.zip/node_modules/mkdirp/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/mkdirp-npm-1.0.4-37f6ef56b9-10c0.zip/node_modules/mkdirp/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["mkdirp", "npm:1.0.4"]\
         ],\
@@ -4135,14 +5563,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ms", [\
       ["npm:2.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ms-npm-2.1.2-ec0c1512ff-10c0.zip/node_modules/ms/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ms-npm-2.1.2-ec0c1512ff-10c0.zip/node_modules/ms/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ms", "npm:2.1.2"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:2.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ms-npm-2.1.3-81ff3cfac1-10c0.zip/node_modules/ms/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ms-npm-2.1.3-81ff3cfac1-10c0.zip/node_modules/ms/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ms", "npm:2.1.3"]\
         ],\
@@ -4151,7 +5587,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["mz", [\
       ["npm:2.7.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/mz-npm-2.7.0-ec3cef4ec2-10c0.zip/node_modules/mz/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/mz-npm-2.7.0-ec3cef4ec2-10c0.zip/node_modules/mz/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["mz", "npm:2.7.0"],\
           ["any-promise", "npm:1.3.0"],\
@@ -4163,7 +5603,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["nanoid", [\
       ["npm:3.3.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/nanoid-npm-3.3.7-98824ba130-10c0.zip/node_modules/nanoid/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/nanoid-npm-3.3.7-98824ba130-10c0.zip/node_modules/nanoid/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["nanoid", "npm:3.3.7"]\
         ],\
@@ -4172,7 +5616,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["natural-compare", [\
       ["npm:1.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/natural-compare-npm-1.4.0-97b75b362d-10c0.zip/node_modules/natural-compare/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/natural-compare-npm-1.4.0-97b75b362d-10c0.zip/node_modules/natural-compare/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["natural-compare", "npm:1.4.0"]\
         ],\
@@ -4181,7 +5629,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["negotiator", [\
       ["npm:0.6.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/negotiator-npm-0.6.3-9d50e36171-10c0.zip/node_modules/negotiator/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/negotiator-npm-0.6.3-9d50e36171-10c0.zip/node_modules/negotiator/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["negotiator", "npm:0.6.3"]\
         ],\
@@ -4190,14 +5642,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["next", [\
       ["npm:14.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/next-npm-14.0.4-93c7e4ca0b-10c0.zip/node_modules/next/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/next-npm-14.0.4-93c7e4ca0b-10c0.zip/node_modules/next/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["next", "npm:14.0.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:14.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/next-virtual-764f484408/4/AppData/Local/Yarn/Berry/cache/next-npm-14.0.4-93c7e4ca0b-10c0.zip/node_modules/next/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/next-virtual-764f484408/4/.yarn/berry/cache/next-npm-14.0.4-93c7e4ca0b-10c0.zip/node_modules/next/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["next", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:14.0.4"],\
           ["@next/env", "npm:14.0.4"],\
@@ -4241,7 +5701,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["node-domexception", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/node-domexception-npm-1.0.0-e1e813b76f-10c0.zip/node_modules/node-domexception/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/node-domexception-npm-1.0.0-e1e813b76f-10c0.zip/node_modules/node-domexception/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["node-domexception", "npm:1.0.0"]\
         ],\
@@ -4250,7 +5714,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["node-fetch", [\
       ["npm:3.3.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/node-fetch-npm-3.3.2-5267e015f2-10c0.zip/node_modules/node-fetch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/node-fetch-npm-3.3.2-5267e015f2-10c0.zip/node_modules/node-fetch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["node-fetch", "npm:3.3.2"],\
           ["data-uri-to-buffer", "npm:4.0.1"],\
@@ -4281,7 +5749,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["node-releases", [\
       ["npm:2.0.14", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/node-releases-npm-2.0.14-d39047cad8-10c0.zip/node_modules/node-releases/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/node-releases-npm-2.0.14-d39047cad8-10c0.zip/node_modules/node-releases/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["node-releases", "npm:2.0.14"]\
         ],\
@@ -4290,7 +5762,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["nopt", [\
       ["npm:7.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/nopt-npm-7.2.0-dd734b678d-10c0.zip/node_modules/nopt/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/nopt-npm-7.2.0-dd734b678d-10c0.zip/node_modules/nopt/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["nopt", "npm:7.2.0"],\
           ["abbrev", "npm:2.0.0"]\
@@ -4300,7 +5776,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["normalize-path", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/normalize-path-npm-3.0.0-658ba7d77f-10c0.zip/node_modules/normalize-path/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/normalize-path-npm-3.0.0-658ba7d77f-10c0.zip/node_modules/normalize-path/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["normalize-path", "npm:3.0.0"]\
         ],\
@@ -4309,7 +5789,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["normalize-range", [\
       ["npm:0.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/normalize-range-npm-0.1.2-bec5e259e2-10c0.zip/node_modules/normalize-range/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/normalize-range-npm-0.1.2-bec5e259e2-10c0.zip/node_modules/normalize-range/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["normalize-range", "npm:0.1.2"]\
         ],\
@@ -4318,7 +5802,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["npm-normalize-package-bin", [\
       ["npm:3.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/npm-normalize-package-bin-npm-3.0.1-6c120b50f7-10c0.zip/node_modules/npm-normalize-package-bin/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/npm-normalize-package-bin-npm-3.0.1-6c120b50f7-10c0.zip/node_modules/npm-normalize-package-bin/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["npm-normalize-package-bin", "npm:3.0.1"]\
         ],\
@@ -4327,7 +5815,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object-assign", [\
       ["npm:4.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object-assign-npm-4.1.1-1004ad6dec-10c0.zip/node_modules/object-assign/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object-assign-npm-4.1.1-1004ad6dec-10c0.zip/node_modules/object-assign/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object-assign", "npm:4.1.1"]\
         ],\
@@ -4336,7 +5828,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object-hash", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object-hash-npm-3.0.0-d941e0cabe-10c0.zip/node_modules/object-hash/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object-hash-npm-3.0.0-d941e0cabe-10c0.zip/node_modules/object-hash/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object-hash", "npm:3.0.0"]\
         ],\
@@ -4345,7 +5841,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object-inspect", [\
       ["npm:1.13.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object-inspect-npm-1.13.1-fd038a2f0a-10c0.zip/node_modules/object-inspect/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object-inspect-npm-1.13.1-fd038a2f0a-10c0.zip/node_modules/object-inspect/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object-inspect", "npm:1.13.1"]\
         ],\
@@ -4354,7 +5854,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object-keys", [\
       ["npm:1.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object-keys-npm-1.1.1-1bf2f1be93-10c0.zip/node_modules/object-keys/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object-keys-npm-1.1.1-1bf2f1be93-10c0.zip/node_modules/object-keys/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object-keys", "npm:1.1.1"]\
         ],\
@@ -4363,7 +5867,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object.assign", [\
       ["npm:4.1.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object.assign-npm-4.1.5-aa3b2260ba-10c0.zip/node_modules/object.assign/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object.assign-npm-4.1.5-aa3b2260ba-10c0.zip/node_modules/object.assign/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object.assign", "npm:4.1.5"],\
           ["call-bind", "npm:1.0.5"],\
@@ -4376,7 +5884,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object.entries", [\
       ["npm:1.1.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object.entries-npm-1.1.7-f2a7fea503-10c0.zip/node_modules/object.entries/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object.entries-npm-1.1.7-f2a7fea503-10c0.zip/node_modules/object.entries/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object.entries", "npm:1.1.7"],\
           ["call-bind", "npm:1.0.5"],\
@@ -4388,7 +5900,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object.fromentries", [\
       ["npm:2.0.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object.fromentries-npm-2.0.7-2e38392540-10c0.zip/node_modules/object.fromentries/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object.fromentries-npm-2.0.7-2e38392540-10c0.zip/node_modules/object.fromentries/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object.fromentries", "npm:2.0.7"],\
           ["call-bind", "npm:1.0.5"],\
@@ -4400,7 +5916,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object.groupby", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object.groupby-npm-1.0.1-fc268391fe-10c0.zip/node_modules/object.groupby/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object.groupby-npm-1.0.1-fc268391fe-10c0.zip/node_modules/object.groupby/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object.groupby", "npm:1.0.1"],\
           ["call-bind", "npm:1.0.5"],\
@@ -4413,7 +5933,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object.hasown", [\
       ["npm:1.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object.hasown-npm-1.1.3-84e62d27f5-10c0.zip/node_modules/object.hasown/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object.hasown-npm-1.1.3-84e62d27f5-10c0.zip/node_modules/object.hasown/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object.hasown", "npm:1.1.3"],\
           ["define-properties", "npm:1.2.1"],\
@@ -4424,7 +5948,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["object.values", [\
       ["npm:1.1.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/object.values-npm-1.1.7-deae619f88-10c0.zip/node_modules/object.values/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/object.values-npm-1.1.7-deae619f88-10c0.zip/node_modules/object.values/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["object.values", "npm:1.1.7"],\
           ["call-bind", "npm:1.0.5"],\
@@ -4436,7 +5964,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["once", [\
       ["npm:1.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/once-npm-1.4.0-ccf03ef07a-10c0.zip/node_modules/once/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/once-npm-1.4.0-ccf03ef07a-10c0.zip/node_modules/once/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["once", "npm:1.4.0"],\
           ["wrappy", "npm:1.0.2"]\
@@ -4446,7 +5978,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["optionator", [\
       ["npm:0.9.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/optionator-npm-0.9.3-56c3a4bf80-10c0.zip/node_modules/optionator/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/optionator-npm-0.9.3-56c3a4bf80-10c0.zip/node_modules/optionator/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["optionator", "npm:0.9.3"],\
           ["@aashutoshrathi/word-wrap", "npm:1.2.6"],\
@@ -4461,7 +5997,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["p-limit", [\
       ["npm:3.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/p-limit-npm-3.1.0-05d2ede37f-10c0.zip/node_modules/p-limit/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/p-limit-npm-3.1.0-05d2ede37f-10c0.zip/node_modules/p-limit/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["p-limit", "npm:3.1.0"],\
           ["yocto-queue", "npm:0.1.0"]\
@@ -4471,7 +6011,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["p-locate", [\
       ["npm:5.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/p-locate-npm-5.0.0-92cc7c7a3e-10c0.zip/node_modules/p-locate/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/p-locate-npm-5.0.0-92cc7c7a3e-10c0.zip/node_modules/p-locate/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["p-locate", "npm:5.0.0"],\
           ["p-limit", "npm:3.1.0"]\
@@ -4481,7 +6025,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["p-map", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/p-map-npm-4.0.0-4677ae07c7-10c0.zip/node_modules/p-map/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/p-map-npm-4.0.0-4677ae07c7-10c0.zip/node_modules/p-map/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["p-map", "npm:4.0.0"],\
           ["aggregate-error", "npm:3.1.0"]\
@@ -4491,7 +6039,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["parent-module", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/parent-module-npm-1.0.1-1fae11b095-10c0.zip/node_modules/parent-module/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/parent-module-npm-1.0.1-1fae11b095-10c0.zip/node_modules/parent-module/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["parent-module", "npm:1.0.1"],\
           ["callsites", "npm:3.1.0"]\
@@ -4501,7 +6053,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["parse-json", [\
       ["npm:5.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/parse-json-npm-5.2.0-00a63b1199-10c0.zip/node_modules/parse-json/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/parse-json-npm-5.2.0-00a63b1199-10c0.zip/node_modules/parse-json/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["parse-json", "npm:5.2.0"],\
           ["@babel/code-frame", "npm:7.23.5"],\
@@ -4514,7 +6070,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["path-exists", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/path-exists-npm-4.0.0-e9e4f63eb0-10c0.zip/node_modules/path-exists/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/path-exists-npm-4.0.0-e9e4f63eb0-10c0.zip/node_modules/path-exists/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["path-exists", "npm:4.0.0"]\
         ],\
@@ -4523,7 +6083,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["path-is-absolute", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/path-is-absolute-npm-1.0.1-31bc695ffd-10c0.zip/node_modules/path-is-absolute/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/path-is-absolute-npm-1.0.1-31bc695ffd-10c0.zip/node_modules/path-is-absolute/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["path-is-absolute", "npm:1.0.1"]\
         ],\
@@ -4532,7 +6096,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["path-key", [\
       ["npm:3.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/path-key-npm-3.1.1-0e66ea8321-10c0.zip/node_modules/path-key/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/path-key-npm-3.1.1-0e66ea8321-10c0.zip/node_modules/path-key/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["path-key", "npm:3.1.1"]\
         ],\
@@ -4541,7 +6109,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["path-parse", [\
       ["npm:1.0.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/path-parse-npm-1.0.7-09564527b7-10c0.zip/node_modules/path-parse/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/path-parse-npm-1.0.7-09564527b7-10c0.zip/node_modules/path-parse/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["path-parse", "npm:1.0.7"]\
         ],\
@@ -4550,7 +6122,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["path-scurry", [\
       ["npm:1.10.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/path-scurry-npm-1.10.1-52bd946f2e-10c0.zip/node_modules/path-scurry/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/path-scurry-npm-1.10.1-52bd946f2e-10c0.zip/node_modules/path-scurry/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["path-scurry", "npm:1.10.1"],\
           ["lru-cache", "npm:10.1.0"],\
@@ -4561,7 +6137,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["path-type", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/path-type-npm-4.0.0-10d47fc86a-10c0.zip/node_modules/path-type/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/path-type-npm-4.0.0-10d47fc86a-10c0.zip/node_modules/path-type/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["path-type", "npm:4.0.0"]\
         ],\
@@ -4570,7 +6150,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["picocolors", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/picocolors-npm-1.0.0-d81e0b1927-10c0.zip/node_modules/picocolors/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/picocolors-npm-1.0.0-d81e0b1927-10c0.zip/node_modules/picocolors/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["picocolors", "npm:1.0.0"]\
         ],\
@@ -4579,7 +6163,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["picomatch", [\
       ["npm:2.3.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/picomatch-npm-2.3.1-c782cfd986-10c0.zip/node_modules/picomatch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/picomatch-npm-2.3.1-c782cfd986-10c0.zip/node_modules/picomatch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["picomatch", "npm:2.3.1"]\
         ],\
@@ -4588,7 +6176,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["pify", [\
       ["npm:2.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/pify-npm-2.3.0-8b63310934-10c0.zip/node_modules/pify/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/pify-npm-2.3.0-8b63310934-10c0.zip/node_modules/pify/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["pify", "npm:2.3.0"]\
         ],\
@@ -4597,7 +6189,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["pirates", [\
       ["npm:4.0.6", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/pirates-npm-4.0.6-a8ec571a43-10c0.zip/node_modules/pirates/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/pirates-npm-4.0.6-a8ec571a43-10c0.zip/node_modules/pirates/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["pirates", "npm:4.0.6"]\
         ],\
@@ -4606,7 +6202,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss", [\
       ["npm:8.4.31", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/postcss-npm-8.4.31-385051a82b-10c0.zip/node_modules/postcss/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/postcss-npm-8.4.31-385051a82b-10c0.zip/node_modules/postcss/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss", "npm:8.4.31"],\
           ["nanoid", "npm:3.3.7"],\
@@ -4616,7 +6216,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:8.4.32", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/postcss-npm-8.4.32-2004ba88b8-10c0.zip/node_modules/postcss/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/postcss-npm-8.4.32-2004ba88b8-10c0.zip/node_modules/postcss/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss", "npm:8.4.32"],\
           ["nanoid", "npm:3.3.7"],\
@@ -4628,14 +6232,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss-import", [\
       ["npm:15.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/postcss-import-npm-15.1.0-8b9e86f900-10c0.zip/node_modules/postcss-import/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/postcss-import-npm-15.1.0-8b9e86f900-10c0.zip/node_modules/postcss-import/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-import", "npm:15.1.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:e59fbdee04a5e29c95e6a0a37cd49fbf30625c6d8bf5307dd71527c0fa2f9233fe75a52a538547de099dacf107d7b0840400d6dbfafb630d60b56650f42e3efe#npm:15.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/postcss-import-virtual-856fd88d6f/4/AppData/Local/Yarn/Berry/cache/postcss-import-npm-15.1.0-8b9e86f900-10c0.zip/node_modules/postcss-import/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/postcss-import-virtual-856fd88d6f/4/.yarn/berry/cache/postcss-import-npm-15.1.0-8b9e86f900-10c0.zip/node_modules/postcss-import/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-import", "virtual:e59fbdee04a5e29c95e6a0a37cd49fbf30625c6d8bf5307dd71527c0fa2f9233fe75a52a538547de099dacf107d7b0840400d6dbfafb630d60b56650f42e3efe#npm:15.1.0"],\
           ["@types/postcss", null],\
@@ -4653,14 +6265,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss-js", [\
       ["npm:4.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/postcss-js-npm-4.0.1-2c4ee70bf3-10c0.zip/node_modules/postcss-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/postcss-js-npm-4.0.1-2c4ee70bf3-10c0.zip/node_modules/postcss-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-js", "npm:4.0.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:e59fbdee04a5e29c95e6a0a37cd49fbf30625c6d8bf5307dd71527c0fa2f9233fe75a52a538547de099dacf107d7b0840400d6dbfafb630d60b56650f42e3efe#npm:4.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/postcss-js-virtual-291bd6f2e3/4/AppData/Local/Yarn/Berry/cache/postcss-js-npm-4.0.1-2c4ee70bf3-10c0.zip/node_modules/postcss-js/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/postcss-js-virtual-291bd6f2e3/4/.yarn/berry/cache/postcss-js-npm-4.0.1-2c4ee70bf3-10c0.zip/node_modules/postcss-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-js", "virtual:e59fbdee04a5e29c95e6a0a37cd49fbf30625c6d8bf5307dd71527c0fa2f9233fe75a52a538547de099dacf107d7b0840400d6dbfafb630d60b56650f42e3efe#npm:4.0.1"],\
           ["@types/postcss", null],\
@@ -4676,14 +6296,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss-load-config", [\
       ["npm:4.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/postcss-load-config-npm-4.0.2-319bcff9ca-10c0.zip/node_modules/postcss-load-config/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/postcss-load-config-npm-4.0.2-319bcff9ca-10c0.zip/node_modules/postcss-load-config/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-load-config", "npm:4.0.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:e59fbdee04a5e29c95e6a0a37cd49fbf30625c6d8bf5307dd71527c0fa2f9233fe75a52a538547de099dacf107d7b0840400d6dbfafb630d60b56650f42e3efe#npm:4.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/postcss-load-config-virtual-dbd5a605ff/4/AppData/Local/Yarn/Berry/cache/postcss-load-config-npm-4.0.2-319bcff9ca-10c0.zip/node_modules/postcss-load-config/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/postcss-load-config-virtual-dbd5a605ff/4/.yarn/berry/cache/postcss-load-config-npm-4.0.2-319bcff9ca-10c0.zip/node_modules/postcss-load-config/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-load-config", "virtual:e59fbdee04a5e29c95e6a0a37cd49fbf30625c6d8bf5307dd71527c0fa2f9233fe75a52a538547de099dacf107d7b0840400d6dbfafb630d60b56650f42e3efe#npm:4.0.2"],\
           ["@types/postcss", null],\
@@ -4704,14 +6332,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss-nested", [\
       ["npm:6.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/postcss-nested-npm-6.0.1-5cdc427fe8-10c0.zip/node_modules/postcss-nested/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/postcss-nested-npm-6.0.1-5cdc427fe8-10c0.zip/node_modules/postcss-nested/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-nested", "npm:6.0.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:e59fbdee04a5e29c95e6a0a37cd49fbf30625c6d8bf5307dd71527c0fa2f9233fe75a52a538547de099dacf107d7b0840400d6dbfafb630d60b56650f42e3efe#npm:6.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/postcss-nested-virtual-3371ce9b6b/4/AppData/Local/Yarn/Berry/cache/postcss-nested-npm-6.0.1-5cdc427fe8-10c0.zip/node_modules/postcss-nested/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/postcss-nested-virtual-3371ce9b6b/4/.yarn/berry/cache/postcss-nested-npm-6.0.1-5cdc427fe8-10c0.zip/node_modules/postcss-nested/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-nested", "virtual:e59fbdee04a5e29c95e6a0a37cd49fbf30625c6d8bf5307dd71527c0fa2f9233fe75a52a538547de099dacf107d7b0840400d6dbfafb630d60b56650f42e3efe#npm:6.0.1"],\
           ["@types/postcss", null],\
@@ -4727,7 +6363,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss-selector-parser", [\
       ["npm:6.0.15", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/postcss-selector-parser-npm-6.0.15-0ec4819b4e-10c0.zip/node_modules/postcss-selector-parser/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/postcss-selector-parser-npm-6.0.15-0ec4819b4e-10c0.zip/node_modules/postcss-selector-parser/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-selector-parser", "npm:6.0.15"],\
           ["cssesc", "npm:3.0.0"],\
@@ -4738,7 +6378,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["postcss-value-parser", [\
       ["npm:4.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/postcss-value-parser-npm-4.2.0-3cef602a6a-10c0.zip/node_modules/postcss-value-parser/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/postcss-value-parser-npm-4.2.0-3cef602a6a-10c0.zip/node_modules/postcss-value-parser/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
@@ -4747,7 +6391,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["prelude-ls", [\
       ["npm:1.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/prelude-ls-npm-1.2.1-3e4d272a55-10c0.zip/node_modules/prelude-ls/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/prelude-ls-npm-1.2.1-3e4d272a55-10c0.zip/node_modules/prelude-ls/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["prelude-ls", "npm:1.2.1"]\
         ],\
@@ -4756,7 +6404,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["proc-log", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/proc-log-npm-3.0.0-a8c21c2f0f-10c0.zip/node_modules/proc-log/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/proc-log-npm-3.0.0-a8c21c2f0f-10c0.zip/node_modules/proc-log/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["proc-log", "npm:3.0.0"]\
         ],\
@@ -4765,7 +6417,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["promise-retry", [\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/promise-retry-npm-2.0.1-871f0b01b7-10c0.zip/node_modules/promise-retry/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/promise-retry-npm-2.0.1-871f0b01b7-10c0.zip/node_modules/promise-retry/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["promise-retry", "npm:2.0.1"],\
           ["err-code", "npm:2.0.3"],\
@@ -4776,7 +6432,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["prop-types", [\
       ["npm:15.8.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/prop-types-npm-15.8.1-17c71ee7ee-10c0.zip/node_modules/prop-types/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/prop-types-npm-15.8.1-17c71ee7ee-10c0.zip/node_modules/prop-types/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["prop-types", "npm:15.8.1"],\
           ["loose-envify", "npm:1.4.0"],\
@@ -4788,7 +6448,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["punycode", [\
       ["npm:2.3.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/punycode-npm-2.3.1-97543c420d-10c0.zip/node_modules/punycode/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/punycode-npm-2.3.1-97543c420d-10c0.zip/node_modules/punycode/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["punycode", "npm:2.3.1"]\
         ],\
@@ -4797,7 +6461,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["queue-microtask", [\
       ["npm:1.2.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/queue-microtask-npm-1.2.3-fcc98e4e2d-10c0.zip/node_modules/queue-microtask/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/queue-microtask-npm-1.2.3-fcc98e4e2d-10c0.zip/node_modules/queue-microtask/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["queue-microtask", "npm:1.2.3"]\
         ],\
@@ -4806,7 +6474,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react", [\
       ["npm:18.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-npm-18.2.0-1eae08fee2-10c0.zip/node_modules/react/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-npm-18.2.0-1eae08fee2-10c0.zip/node_modules/react/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react", "npm:18.2.0"],\
           ["loose-envify", "npm:1.4.0"]\
@@ -4816,14 +6488,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-datepicker", [\
       ["npm:4.25.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-datepicker-npm-4.25.0-c8fd6182e9-10c0.zip/node_modules/react-datepicker/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-datepicker-npm-4.25.0-c8fd6182e9-10c0.zip/node_modules/react-datepicker/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-datepicker", "npm:4.25.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:4.25.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-datepicker-virtual-2101900290/4/AppData/Local/Yarn/Berry/cache/react-datepicker-npm-4.25.0-c8fd6182e9-10c0.zip/node_modules/react-datepicker/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-datepicker-virtual-2101900290/4/.yarn/berry/cache/react-datepicker-npm-4.25.0-c8fd6182e9-10c0.zip/node_modules/react-datepicker/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-datepicker", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:4.25.0"],\
           ["@popperjs/core", "npm:2.11.8"],\
@@ -4848,14 +6528,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-dom", [\
       ["npm:18.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-dom-npm-18.2.0-dd675bca1c-10c0.zip/node_modules/react-dom/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-dom-npm-18.2.0-dd675bca1c-10c0.zip/node_modules/react-dom/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-dom", "npm:18.2.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:18.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-dom-virtual-c29d56bf7f/4/AppData/Local/Yarn/Berry/cache/react-dom-npm-18.2.0-dd675bca1c-10c0.zip/node_modules/react-dom/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-c29d56bf7f/4/.yarn/berry/cache/react-dom-npm-18.2.0-dd675bca1c-10c0.zip/node_modules/react-dom/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-dom", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:18.2.0"],\
           ["@types/react", "npm:18.2.46"],\
@@ -4872,7 +6560,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-fast-compare", [\
       ["npm:3.2.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-fast-compare-npm-3.2.2-45b585a872-10c0.zip/node_modules/react-fast-compare/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-fast-compare-npm-3.2.2-45b585a872-10c0.zip/node_modules/react-fast-compare/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-fast-compare", "npm:3.2.2"]\
         ],\
@@ -4881,14 +6573,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-is", [\
       ["npm:16.13.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-is-npm-16.13.1-a9b9382b4f-10c0.zip/node_modules/react-is/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-is-npm-16.13.1-a9b9382b4f-10c0.zip/node_modules/react-is/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-is", "npm:16.13.1"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:18.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-is-npm-18.2.0-0cc5edb910-10c0.zip/node_modules/react-is/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-is-npm-18.2.0-0cc5edb910-10c0.zip/node_modules/react-is/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-is", "npm:18.2.0"]\
         ],\
@@ -4897,14 +6597,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-onclickoutside", [\
       ["npm:6.13.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-onclickoutside-npm-6.13.0-c9116fb62e-10c0.zip/node_modules/react-onclickoutside/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-onclickoutside-npm-6.13.0-c9116fb62e-10c0.zip/node_modules/react-onclickoutside/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-onclickoutside", "npm:6.13.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:2101900290ce8a9f7b9737e6aee5797fa08197c211605befe0a8632351f90f09e45cc08c2e870dd323e731f73d67f426c7238e6fcc63d81f63971f82ce907e61#npm:6.13.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-onclickoutside-virtual-4deac54450/4/AppData/Local/Yarn/Berry/cache/react-onclickoutside-npm-6.13.0-c9116fb62e-10c0.zip/node_modules/react-onclickoutside/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-onclickoutside-virtual-4deac54450/4/.yarn/berry/cache/react-onclickoutside-npm-6.13.0-c9116fb62e-10c0.zip/node_modules/react-onclickoutside/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-onclickoutside", "virtual:2101900290ce8a9f7b9737e6aee5797fa08197c211605befe0a8632351f90f09e45cc08c2e870dd323e731f73d67f426c7238e6fcc63d81f63971f82ce907e61#npm:6.13.0"],\
           ["@types/react", "npm:18.2.46"],\
@@ -4923,14 +6631,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-popper", [\
       ["npm:2.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-popper-npm-2.3.0-1045578379-10c0.zip/node_modules/react-popper/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-popper-npm-2.3.0-1045578379-10c0.zip/node_modules/react-popper/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-popper", "npm:2.3.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:2101900290ce8a9f7b9737e6aee5797fa08197c211605befe0a8632351f90f09e45cc08c2e870dd323e731f73d67f426c7238e6fcc63d81f63971f82ce907e61#npm:2.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-popper-virtual-30dafbc93d/4/AppData/Local/Yarn/Berry/cache/react-popper-npm-2.3.0-1045578379-10c0.zip/node_modules/react-popper/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-popper-virtual-30dafbc93d/4/.yarn/berry/cache/react-popper-npm-2.3.0-1045578379-10c0.zip/node_modules/react-popper/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-popper", "virtual:2101900290ce8a9f7b9737e6aee5797fa08197c211605befe0a8632351f90f09e45cc08c2e870dd323e731f73d67f426c7238e6fcc63d81f63971f82ce907e61#npm:2.3.0"],\
           ["@popperjs/core", "npm:2.11.8"],\
@@ -4953,7 +6669,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["virtual:ae1d0ee53f854007c0719c09414c2b04720e71186ccd59929f82eb9eec99244e1d0bcbcc0d675bfae4418100050bcb359ab2696e40e8dc850ff26019caef3498#npm:2.3.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-popper-virtual-6926331a14/4/AppData/Local/Yarn/Berry/cache/react-popper-npm-2.3.0-1045578379-10c0.zip/node_modules/react-popper/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-popper-virtual-6926331a14/4/.yarn/berry/cache/react-popper-npm-2.3.0-1045578379-10c0.zip/node_modules/react-popper/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-popper", "virtual:ae1d0ee53f854007c0719c09414c2b04720e71186ccd59929f82eb9eec99244e1d0bcbcc0d675bfae4418100050bcb359ab2696e40e8dc850ff26019caef3498#npm:2.3.0"],\
           ["@popperjs/core", "npm:2.11.8"],\
@@ -4978,14 +6698,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-toastify", [\
       ["npm:9.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-toastify-npm-9.1.3-2f82dd0b41-10c0.zip/node_modules/react-toastify/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-toastify-npm-9.1.3-2f82dd0b41-10c0.zip/node_modules/react-toastify/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-toastify", "npm:9.1.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:9.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-f179f1dd94/4/AppData/Local/Yarn/Berry/cache/react-toastify-npm-9.1.3-2f82dd0b41-10c0.zip/node_modules/react-toastify/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-f179f1dd94/4/.yarn/berry/cache/react-toastify-npm-9.1.3-2f82dd0b41-10c0.zip/node_modules/react-toastify/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-toastify", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:9.1.3"],\
           ["@types/react", "npm:18.2.46"],\
@@ -5005,14 +6733,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-transition-group", [\
       ["npm:4.4.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-transition-group-npm-4.4.5-98ea4ef96e-10c0.zip/node_modules/react-transition-group/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/react-transition-group-npm-4.4.5-98ea4ef96e-10c0.zip/node_modules/react-transition-group/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-transition-group", "npm:4.4.5"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:4.4.5", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-transition-group-virtual-4cd1adacff/4/AppData/Local/Yarn/Berry/cache/react-transition-group-npm-4.4.5-98ea4ef96e-10c0.zip/node_modules/react-transition-group/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-transition-group-virtual-4cd1adacff/4/.yarn/berry/cache/react-transition-group-npm-4.4.5-98ea4ef96e-10c0.zip/node_modules/react-transition-group/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["react-transition-group", "virtual:86c9e0ba7622d609d19de21bae26250686abf8d22bd30438cfbee6151fc0344a34fd6bf131258b329cc1c6f99ab073e658ca48f2f4cfe44df88347f23070dbce#npm:4.4.5"],\
           ["@babel/runtime", "npm:7.23.7"],\
@@ -5035,7 +6771,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["read-cache", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/read-cache-npm-1.0.0-00fa89ed05-10c0.zip/node_modules/read-cache/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/read-cache-npm-1.0.0-00fa89ed05-10c0.zip/node_modules/read-cache/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["read-cache", "npm:1.0.0"],\
           ["pify", "npm:2.3.0"]\
@@ -5045,7 +6785,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["read-cmd-shim", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/read-cmd-shim-npm-4.0.0-2339b15fb0-10c0.zip/node_modules/read-cmd-shim/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/read-cmd-shim-npm-4.0.0-2339b15fb0-10c0.zip/node_modules/read-cmd-shim/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["read-cmd-shim", "npm:4.0.0"]\
         ],\
@@ -5054,7 +6798,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["readdirp", [\
       ["npm:3.6.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/readdirp-npm-3.6.0-f950cc74ab-10c0.zip/node_modules/readdirp/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/readdirp-npm-3.6.0-f950cc74ab-10c0.zip/node_modules/readdirp/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["readdirp", "npm:3.6.0"],\
           ["picomatch", "npm:2.3.1"]\
@@ -5064,14 +6812,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["recoil", [\
       ["npm:0.7.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/recoil-npm-0.7.7-4452f58b67-10c0.zip/node_modules/recoil/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/recoil-npm-0.7.7-4452f58b67-10c0.zip/node_modules/recoil/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["recoil", "npm:0.7.7"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:0.7.7", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/recoil-virtual-796ce27ef4/4/AppData/Local/Yarn/Berry/cache/recoil-npm-0.7.7-4452f58b67-10c0.zip/node_modules/recoil/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/recoil-virtual-796ce27ef4/4/.yarn/berry/cache/recoil-npm-0.7.7-4452f58b67-10c0.zip/node_modules/recoil/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["recoil", "virtual:319816add054f8ffead433893a41764ee52b8af70c2431aa61f6db1c7808a5bbd738c0c3ac688d828248419d42d61f4016af08901d732c66f3143094ccd6066d#npm:0.7.7"],\
           ["@types/react", "npm:18.2.46"],\
@@ -5095,7 +6851,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["reflect.getprototypeof", [\
       ["npm:1.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/reflect.getprototypeof-npm-1.0.4-fa901640c3-10c0.zip/node_modules/reflect.getprototypeof/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/reflect.getprototypeof-npm-1.0.4-fa901640c3-10c0.zip/node_modules/reflect.getprototypeof/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["reflect.getprototypeof", "npm:1.0.4"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5110,7 +6870,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["regenerator-runtime", [\
       ["npm:0.14.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/regenerator-runtime-npm-0.14.1-a6c97c609a-10c0.zip/node_modules/regenerator-runtime/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/regenerator-runtime-npm-0.14.1-a6c97c609a-10c0.zip/node_modules/regenerator-runtime/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["regenerator-runtime", "npm:0.14.1"]\
         ],\
@@ -5119,7 +6883,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["regexp.prototype.flags", [\
       ["npm:1.5.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/regexp.prototype.flags-npm-1.5.1-b8faeee306-10c0.zip/node_modules/regexp.prototype.flags/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/regexp.prototype.flags-npm-1.5.1-b8faeee306-10c0.zip/node_modules/regexp.prototype.flags/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["regexp.prototype.flags", "npm:1.5.1"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5131,7 +6899,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["resolve", [\
       ["patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/resolve-patch-4254c24959-10c0.zip/node_modules/resolve/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/resolve-patch-4254c24959-10c0.zip/node_modules/resolve/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["resolve", "patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"],\
           ["is-core-module", "npm:2.13.1"],\
@@ -5141,7 +6913,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/resolve-patch-95f8f5d302-10c0.zip/node_modules/resolve/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/resolve-patch-95f8f5d302-10c0.zip/node_modules/resolve/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["resolve", "patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"],\
           ["is-core-module", "npm:2.13.1"],\
@@ -5153,7 +6929,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["resolve-from", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/resolve-from-npm-4.0.0-f758ec21bf-10c0.zip/node_modules/resolve-from/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/resolve-from-npm-4.0.0-f758ec21bf-10c0.zip/node_modules/resolve-from/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["resolve-from", "npm:4.0.0"]\
         ],\
@@ -5162,7 +6942,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["resolve-pkg-maps", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/resolve-pkg-maps-npm-1.0.0-135b70c854-10c0.zip/node_modules/resolve-pkg-maps/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/resolve-pkg-maps-npm-1.0.0-135b70c854-10c0.zip/node_modules/resolve-pkg-maps/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["resolve-pkg-maps", "npm:1.0.0"]\
         ],\
@@ -5171,7 +6955,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["retry", [\
       ["npm:0.12.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/retry-npm-0.12.0-72ac7fb4cc-10c0.zip/node_modules/retry/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/retry-npm-0.12.0-72ac7fb4cc-10c0.zip/node_modules/retry/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["retry", "npm:0.12.0"]\
         ],\
@@ -5180,7 +6968,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["reusify", [\
       ["npm:1.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/reusify-npm-1.0.4-95ac4aec11-10c0.zip/node_modules/reusify/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/reusify-npm-1.0.4-95ac4aec11-10c0.zip/node_modules/reusify/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["reusify", "npm:1.0.4"]\
         ],\
@@ -5189,7 +6981,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["rimraf", [\
       ["npm:3.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/rimraf-npm-3.0.2-2cb7dac69a-10c0.zip/node_modules/rimraf/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/rimraf-npm-3.0.2-2cb7dac69a-10c0.zip/node_modules/rimraf/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["rimraf", "npm:3.0.2"],\
           ["glob", "npm:7.2.3"]\
@@ -5199,7 +6995,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["run-parallel", [\
       ["npm:1.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/run-parallel-npm-1.2.0-3f47ff2034-10c0.zip/node_modules/run-parallel/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/run-parallel-npm-1.2.0-3f47ff2034-10c0.zip/node_modules/run-parallel/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["run-parallel", "npm:1.2.0"],\
           ["queue-microtask", "npm:1.2.3"]\
@@ -5209,7 +7009,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["safe-array-concat", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/safe-array-concat-npm-1.0.1-8a42907bbf-10c0.zip/node_modules/safe-array-concat/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/safe-array-concat-npm-1.0.1-8a42907bbf-10c0.zip/node_modules/safe-array-concat/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["safe-array-concat", "npm:1.0.1"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5222,7 +7026,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["safe-regex-test", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/safe-regex-test-npm-1.0.0-e94a09b84e-10c0.zip/node_modules/safe-regex-test/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/safe-regex-test-npm-1.0.0-e94a09b84e-10c0.zip/node_modules/safe-regex-test/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["safe-regex-test", "npm:1.0.0"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5234,7 +7042,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["safer-buffer", [\
       ["npm:2.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["safer-buffer", "npm:2.1.2"]\
         ],\
@@ -5243,7 +7055,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["scheduler", [\
       ["npm:0.23.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/scheduler-npm-0.23.0-a379a6bc3b-10c0.zip/node_modules/scheduler/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/scheduler-npm-0.23.0-a379a6bc3b-10c0.zip/node_modules/scheduler/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["scheduler", "npm:0.23.0"],\
           ["loose-envify", "npm:1.4.0"]\
@@ -5253,14 +7069,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["semver", [\
       ["npm:6.3.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/semver-npm-6.3.1-bcba31fdbe-10c0.zip/node_modules/semver/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/semver-npm-6.3.1-bcba31fdbe-10c0.zip/node_modules/semver/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["semver", "npm:6.3.1"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:7.5.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/semver-npm-7.5.4-c4ad957fcd-10c0.zip/node_modules/semver/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/semver-npm-7.5.4-c4ad957fcd-10c0.zip/node_modules/semver/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["semver", "npm:7.5.4"],\
           ["lru-cache", "npm:6.0.0"]\
@@ -5270,7 +7094,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["set-function-length", [\
       ["npm:1.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/set-function-length-npm-1.1.1-d362bf8221-10c0.zip/node_modules/set-function-length/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/set-function-length-npm-1.1.1-d362bf8221-10c0.zip/node_modules/set-function-length/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["set-function-length", "npm:1.1.1"],\
           ["define-data-property", "npm:1.1.1"],\
@@ -5283,7 +7111,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["set-function-name", [\
       ["npm:2.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/set-function-name-npm-2.0.1-a9f970eea0-10c0.zip/node_modules/set-function-name/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/set-function-name-npm-2.0.1-a9f970eea0-10c0.zip/node_modules/set-function-name/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["set-function-name", "npm:2.0.1"],\
           ["define-data-property", "npm:1.1.1"],\
@@ -5295,7 +7127,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["shebang-command", [\
       ["npm:2.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/shebang-command-npm-2.0.0-eb2b01921d-10c0.zip/node_modules/shebang-command/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/shebang-command-npm-2.0.0-eb2b01921d-10c0.zip/node_modules/shebang-command/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["shebang-command", "npm:2.0.0"],\
           ["shebang-regex", "npm:3.0.0"]\
@@ -5305,7 +7141,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["shebang-regex", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/shebang-regex-npm-3.0.0-899a0cd65e-10c0.zip/node_modules/shebang-regex/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/shebang-regex-npm-3.0.0-899a0cd65e-10c0.zip/node_modules/shebang-regex/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["shebang-regex", "npm:3.0.0"]\
         ],\
@@ -5314,7 +7154,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["side-channel", [\
       ["npm:1.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/side-channel-npm-1.0.4-e1f38b9e06-10c0.zip/node_modules/side-channel/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/side-channel-npm-1.0.4-e1f38b9e06-10c0.zip/node_modules/side-channel/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["side-channel", "npm:1.0.4"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5326,7 +7170,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["signal-exit", [\
       ["npm:4.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/signal-exit-npm-4.1.0-61fb957687-10c0.zip/node_modules/signal-exit/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/signal-exit-npm-4.1.0-61fb957687-10c0.zip/node_modules/signal-exit/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["signal-exit", "npm:4.1.0"]\
         ],\
@@ -5335,7 +7183,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["slash", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/slash-npm-3.0.0-b87de2279a-10c0.zip/node_modules/slash/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/slash-npm-3.0.0-b87de2279a-10c0.zip/node_modules/slash/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["slash", "npm:3.0.0"]\
         ],\
@@ -5344,7 +7196,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["smart-buffer", [\
       ["npm:4.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/smart-buffer-npm-4.2.0-5ac3f668bb-10c0.zip/node_modules/smart-buffer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/smart-buffer-npm-4.2.0-5ac3f668bb-10c0.zip/node_modules/smart-buffer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["smart-buffer", "npm:4.2.0"]\
         ],\
@@ -5353,7 +7209,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["socks", [\
       ["npm:2.7.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/socks-npm-2.7.1-17f2b53052-10c0.zip/node_modules/socks/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/socks-npm-2.7.1-17f2b53052-10c0.zip/node_modules/socks/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["socks", "npm:2.7.1"],\
           ["ip", "npm:2.0.0"],\
@@ -5364,7 +7224,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["socks-proxy-agent", [\
       ["npm:8.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/socks-proxy-agent-npm-8.0.2-df165543cf-10c0.zip/node_modules/socks-proxy-agent/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/socks-proxy-agent-npm-8.0.2-df165543cf-10c0.zip/node_modules/socks-proxy-agent/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["socks-proxy-agent", "npm:8.0.2"],\
           ["agent-base", "npm:7.1.0"],\
@@ -5376,7 +7240,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["source-map", [\
       ["npm:0.5.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/source-map-npm-0.5.7-7c3f035429-10c0.zip/node_modules/source-map/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/source-map-npm-0.5.7-7c3f035429-10c0.zip/node_modules/source-map/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["source-map", "npm:0.5.7"]\
         ],\
@@ -5385,7 +7253,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["source-map-js", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/source-map-js-npm-1.0.2-ee4f9f9b30-10c0.zip/node_modules/source-map-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/source-map-js-npm-1.0.2-ee4f9f9b30-10c0.zip/node_modules/source-map-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["source-map-js", "npm:1.0.2"]\
         ],\
@@ -5394,7 +7266,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ssri", [\
       ["npm:10.0.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ssri-npm-10.0.5-1a7557d04d-10c0.zip/node_modules/ssri/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ssri-npm-10.0.5-1a7557d04d-10c0.zip/node_modules/ssri/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ssri", "npm:10.0.5"],\
           ["minipass", "npm:7.0.4"]\
@@ -5404,7 +7280,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["streamsearch", [\
       ["npm:1.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/streamsearch-npm-1.1.0-fc3ad6536d-10c0.zip/node_modules/streamsearch/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/streamsearch-npm-1.1.0-fc3ad6536d-10c0.zip/node_modules/streamsearch/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["streamsearch", "npm:1.1.0"]\
         ],\
@@ -5413,7 +7293,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["string-width", [\
       ["npm:4.2.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/string-width-npm-4.2.3-2c27177bae-10c0.zip/node_modules/string-width/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/string-width-npm-4.2.3-2c27177bae-10c0.zip/node_modules/string-width/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["string-width", "npm:4.2.3"],\
           ["emoji-regex", "npm:8.0.0"],\
@@ -5423,7 +7307,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:5.1.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/string-width-npm-5.1.2-bf60531341-10c0.zip/node_modules/string-width/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/string-width-npm-5.1.2-bf60531341-10c0.zip/node_modules/string-width/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["string-width", "npm:5.1.2"],\
           ["eastasianwidth", "npm:0.2.0"],\
@@ -5435,7 +7323,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["string.prototype.matchall", [\
       ["npm:4.0.10", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/string.prototype.matchall-npm-4.0.10-197e4b9dad-10c0.zip/node_modules/string.prototype.matchall/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/string.prototype.matchall-npm-4.0.10-197e4b9dad-10c0.zip/node_modules/string.prototype.matchall/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["string.prototype.matchall", "npm:4.0.10"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5453,7 +7345,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["string.prototype.trim", [\
       ["npm:1.2.8", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/string.prototype.trim-npm-1.2.8-7ed4517ce8-10c0.zip/node_modules/string.prototype.trim/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/string.prototype.trim-npm-1.2.8-7ed4517ce8-10c0.zip/node_modules/string.prototype.trim/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["string.prototype.trim", "npm:1.2.8"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5465,7 +7361,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["string.prototype.trimend", [\
       ["npm:1.0.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/string.prototype.trimend-npm-1.0.7-159b9dcfbc-10c0.zip/node_modules/string.prototype.trimend/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/string.prototype.trimend-npm-1.0.7-159b9dcfbc-10c0.zip/node_modules/string.prototype.trimend/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["string.prototype.trimend", "npm:1.0.7"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5477,7 +7377,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["string.prototype.trimstart", [\
       ["npm:1.0.7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/string.prototype.trimstart-npm-1.0.7-ae2f803b78-10c0.zip/node_modules/string.prototype.trimstart/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/string.prototype.trimstart-npm-1.0.7-ae2f803b78-10c0.zip/node_modules/string.prototype.trimstart/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["string.prototype.trimstart", "npm:1.0.7"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5489,7 +7393,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["strip-ansi", [\
       ["npm:6.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/strip-ansi-npm-6.0.1-caddc7cb40-10c0.zip/node_modules/strip-ansi/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/strip-ansi-npm-6.0.1-caddc7cb40-10c0.zip/node_modules/strip-ansi/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["strip-ansi", "npm:6.0.1"],\
           ["ansi-regex", "npm:5.0.1"]\
@@ -5497,7 +7405,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:7.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/strip-ansi-npm-7.1.0-7453b80b79-10c0.zip/node_modules/strip-ansi/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/strip-ansi-npm-7.1.0-7453b80b79-10c0.zip/node_modules/strip-ansi/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["strip-ansi", "npm:7.1.0"],\
           ["ansi-regex", "npm:6.0.1"]\
@@ -5507,7 +7419,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["strip-bom", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/strip-bom-npm-3.0.0-71e8f81ff9-10c0.zip/node_modules/strip-bom/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/strip-bom-npm-3.0.0-71e8f81ff9-10c0.zip/node_modules/strip-bom/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["strip-bom", "npm:3.0.0"]\
         ],\
@@ -5516,7 +7432,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["strip-json-comments", [\
       ["npm:3.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/strip-json-comments-npm-3.1.1-dcb2324823-10c0.zip/node_modules/strip-json-comments/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/strip-json-comments-npm-3.1.1-dcb2324823-10c0.zip/node_modules/strip-json-comments/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["strip-json-comments", "npm:3.1.1"]\
         ],\
@@ -5525,14 +7445,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["styled-jsx", [\
       ["npm:5.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/styled-jsx-npm-5.1.1-2557a209ba-10c0.zip/node_modules/styled-jsx/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/styled-jsx-npm-5.1.1-2557a209ba-10c0.zip/node_modules/styled-jsx/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["styled-jsx", "npm:5.1.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:764f484408a73277f723ae8a12d44b0cbecf9aa8c31f107b92e6f64657f33882f7d323868b750cc9d8913ba3d13550c813dd784c259c0aaa950f59c31dca5fc5#npm:5.1.1", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/styled-jsx-virtual-8a29bccbbb/4/AppData/Local/Yarn/Berry/cache/styled-jsx-npm-5.1.1-2557a209ba-10c0.zip/node_modules/styled-jsx/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/styled-jsx-virtual-8a29bccbbb/4/.yarn/berry/cache/styled-jsx-npm-5.1.1-2557a209ba-10c0.zip/node_modules/styled-jsx/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["styled-jsx", "virtual:764f484408a73277f723ae8a12d44b0cbecf9aa8c31f107b92e6f64657f33882f7d323868b750cc9d8913ba3d13550c813dd784c259c0aaa950f59c31dca5fc5#npm:5.1.1"],\
           ["@babel/core", null],\
@@ -5556,7 +7484,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["stylis", [\
       ["npm:4.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/stylis-npm-4.2.0-6b07f11c99-10c0.zip/node_modules/stylis/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/stylis-npm-4.2.0-6b07f11c99-10c0.zip/node_modules/stylis/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["stylis", "npm:4.2.0"]\
         ],\
@@ -5565,7 +7497,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["sucrase", [\
       ["npm:3.35.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/sucrase-npm-3.35.0-60ad876a0c-10c0.zip/node_modules/sucrase/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/sucrase-npm-3.35.0-60ad876a0c-10c0.zip/node_modules/sucrase/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["sucrase", "npm:3.35.0"],\
           ["@jridgewell/gen-mapping", "npm:0.3.3"],\
@@ -5594,7 +7530,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["supports-color", [\
       ["npm:5.5.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/supports-color-npm-5.5.0-183ac537bc-10c0.zip/node_modules/supports-color/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/supports-color-npm-5.5.0-183ac537bc-10c0.zip/node_modules/supports-color/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["supports-color", "npm:5.5.0"],\
           ["has-flag", "npm:3.0.0"]\
@@ -5602,7 +7542,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:7.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/supports-color-npm-7.2.0-606bfcf7da-10c0.zip/node_modules/supports-color/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/supports-color-npm-7.2.0-606bfcf7da-10c0.zip/node_modules/supports-color/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["supports-color", "npm:7.2.0"],\
           ["has-flag", "npm:4.0.0"]\
@@ -5612,7 +7556,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["supports-preserve-symlinks-flag", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-10c0.zip/node_modules/supports-preserve-symlinks-flag/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-10c0.zip/node_modules/supports-preserve-symlinks-flag/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
         ],\
@@ -5621,7 +7569,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tailwindcss", [\
       ["npm:3.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/tailwindcss-npm-3.4.0-e59fbdee04-10c0.zip/node_modules/tailwindcss/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/tailwindcss-npm-3.4.0-e59fbdee04-10c0.zip/node_modules/tailwindcss/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["tailwindcss", "npm:3.4.0"],\
           ["@alloc/quick-lru", "npm:5.2.0"],\
@@ -5652,7 +7604,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tapable", [\
       ["npm:2.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/tapable-npm-2.2.1-8cf5ff3039-10c0.zip/node_modules/tapable/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/tapable-npm-2.2.1-8cf5ff3039-10c0.zip/node_modules/tapable/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["tapable", "npm:2.2.1"]\
         ],\
@@ -5661,7 +7617,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tar", [\
       ["npm:6.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/tar-npm-6.2.0-3eb25205a7-10c0.zip/node_modules/tar/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/tar-npm-6.2.0-3eb25205a7-10c0.zip/node_modules/tar/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["tar", "npm:6.2.0"],\
           ["chownr", "npm:2.0.0"],\
@@ -5708,7 +7668,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["text-table", [\
       ["npm:0.2.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/text-table-npm-0.2.0-d92a778b59-10c0.zip/node_modules/text-table/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/text-table-npm-0.2.0-d92a778b59-10c0.zip/node_modules/text-table/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["text-table", "npm:0.2.0"]\
         ],\
@@ -5717,7 +7681,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["thenify", [\
       ["npm:3.3.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/thenify-npm-3.3.1-030bedb22c-10c0.zip/node_modules/thenify/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/thenify-npm-3.3.1-030bedb22c-10c0.zip/node_modules/thenify/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["thenify", "npm:3.3.1"],\
           ["any-promise", "npm:1.3.0"]\
@@ -5727,7 +7695,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["thenify-all", [\
       ["npm:1.6.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/thenify-all-npm-1.6.0-96309bbc8b-10c0.zip/node_modules/thenify-all/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/thenify-all-npm-1.6.0-96309bbc8b-10c0.zip/node_modules/thenify-all/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["thenify-all", "npm:1.6.0"],\
           ["thenify", "npm:3.3.1"]\
@@ -5737,7 +7709,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["to-fast-properties", [\
       ["npm:2.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/to-fast-properties-npm-2.0.0-0dc60cc481-10c0.zip/node_modules/to-fast-properties/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/to-fast-properties-npm-2.0.0-0dc60cc481-10c0.zip/node_modules/to-fast-properties/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["to-fast-properties", "npm:2.0.0"]\
         ],\
@@ -5746,7 +7722,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["to-regex-range", [\
       ["npm:5.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/to-regex-range-npm-5.0.1-f1e8263b00-10c0.zip/node_modules/to-regex-range/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/to-regex-range-npm-5.0.1-f1e8263b00-10c0.zip/node_modules/to-regex-range/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["to-regex-range", "npm:5.0.1"],\
           ["is-number", "npm:7.0.0"]\
@@ -5756,7 +7736,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tr46", [\
       ["npm:0.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/tr46-npm-0.0.3-de53018915-10c0.zip/node_modules/tr46/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/tr46-npm-0.0.3-de53018915-10c0.zip/node_modules/tr46/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["tr46", "npm:0.0.3"]\
         ],\
@@ -5765,14 +7749,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ts-api-utils", [\
       ["npm:1.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ts-api-utils-npm-1.0.3-992f360d9b-10c0.zip/node_modules/ts-api-utils/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ts-api-utils-npm-1.0.3-992f360d9b-10c0.zip/node_modules/ts-api-utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ts-api-utils", "npm:1.0.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:3391d95ee8b88a0a3d41b5895b9c48d17d1fa247251099876018e2dc453e19bbe9c91d108b9ef79fbdd88230d962db6494eb7a1fb394fcc8da88067222448c59#npm:1.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/ts-api-utils-virtual-44c1c3b7bd/4/AppData/Local/Yarn/Berry/cache/ts-api-utils-npm-1.0.3-992f360d9b-10c0.zip/node_modules/ts-api-utils/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/ts-api-utils-virtual-44c1c3b7bd/4/.yarn/berry/cache/ts-api-utils-npm-1.0.3-992f360d9b-10c0.zip/node_modules/ts-api-utils/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ts-api-utils", "virtual:3391d95ee8b88a0a3d41b5895b9c48d17d1fa247251099876018e2dc453e19bbe9c91d108b9ef79fbdd88230d962db6494eb7a1fb394fcc8da88067222448c59#npm:1.0.3"],\
           ["@types/typescript", null],\
@@ -5787,7 +7779,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ts-interface-checker", [\
       ["npm:0.1.13", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ts-interface-checker-npm-0.1.13-0c7b064494-10c0.zip/node_modules/ts-interface-checker/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ts-interface-checker-npm-0.1.13-0c7b064494-10c0.zip/node_modules/ts-interface-checker/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ts-interface-checker", "npm:0.1.13"]\
         ],\
@@ -5796,7 +7792,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tsconfig-paths", [\
       ["npm:3.15.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/tsconfig-paths-npm-3.15.0-ff68930e0e-10c0.zip/node_modules/tsconfig-paths/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/tsconfig-paths-npm-3.15.0-ff68930e0e-10c0.zip/node_modules/tsconfig-paths/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["tsconfig-paths", "npm:3.15.0"],\
           ["@types/json5", "npm:0.0.29"],\
@@ -5809,7 +7809,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["tslib", [\
       ["npm:2.6.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/tslib-npm-2.6.2-4fc8c068d9-10c0.zip/node_modules/tslib/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/tslib-npm-2.6.2-4fc8c068d9-10c0.zip/node_modules/tslib/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -5818,7 +7822,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["type-check", [\
       ["npm:0.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/type-check-npm-0.4.0-60565800ce-10c0.zip/node_modules/type-check/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/type-check-npm-0.4.0-60565800ce-10c0.zip/node_modules/type-check/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["type-check", "npm:0.4.0"],\
           ["prelude-ls", "npm:1.2.1"]\
@@ -5828,7 +7836,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["type-fest", [\
       ["npm:0.20.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/type-fest-npm-0.20.2-b36432617f-10c0.zip/node_modules/type-fest/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/type-fest-npm-0.20.2-b36432617f-10c0.zip/node_modules/type-fest/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["type-fest", "npm:0.20.2"]\
         ],\
@@ -5837,7 +7849,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["typed-array-buffer", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/typed-array-buffer-npm-1.0.0-95cb610310-10c0.zip/node_modules/typed-array-buffer/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/typed-array-buffer-npm-1.0.0-95cb610310-10c0.zip/node_modules/typed-array-buffer/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["typed-array-buffer", "npm:1.0.0"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5849,7 +7865,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["typed-array-byte-length", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/typed-array-byte-length-npm-1.0.0-94d79975ca-10c0.zip/node_modules/typed-array-byte-length/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/typed-array-byte-length-npm-1.0.0-94d79975ca-10c0.zip/node_modules/typed-array-byte-length/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["typed-array-byte-length", "npm:1.0.0"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5862,7 +7882,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["typed-array-byte-offset", [\
       ["npm:1.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/typed-array-byte-offset-npm-1.0.0-8cbb911cf5-10c0.zip/node_modules/typed-array-byte-offset/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/typed-array-byte-offset-npm-1.0.0-8cbb911cf5-10c0.zip/node_modules/typed-array-byte-offset/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["typed-array-byte-offset", "npm:1.0.0"],\
           ["available-typed-arrays", "npm:1.0.5"],\
@@ -5876,7 +7900,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["typed-array-length", [\
       ["npm:1.0.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/typed-array-length-npm-1.0.4-92771b81fc-10c0.zip/node_modules/typed-array-length/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/typed-array-length-npm-1.0.4-92771b81fc-10c0.zip/node_modules/typed-array-length/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["typed-array-length", "npm:1.0.4"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5888,7 +7916,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["typescript", [\
       ["patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/typescript-patch-4778c7998b-10c0.zip/node_modules/typescript/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/typescript-patch-4778c7998b-10c0.zip/node_modules/typescript/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
@@ -5897,7 +7929,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["unbox-primitive", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/unbox-primitive-npm-1.0.2-cb56a05066-10c0.zip/node_modules/unbox-primitive/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/unbox-primitive-npm-1.0.2-cb56a05066-10c0.zip/node_modules/unbox-primitive/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["unbox-primitive", "npm:1.0.2"],\
           ["call-bind", "npm:1.0.5"],\
@@ -5910,7 +7946,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["undici-types", [\
       ["npm:5.26.5", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/undici-types-npm-5.26.5-de4f7c7bb9-10c0.zip/node_modules/undici-types/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/undici-types-npm-5.26.5-de4f7c7bb9-10c0.zip/node_modules/undici-types/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["undici-types", "npm:5.26.5"]\
         ],\
@@ -5919,7 +7959,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["unique-filename", [\
       ["npm:3.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/unique-filename-npm-3.0.0-77d68e0a45-10c0.zip/node_modules/unique-filename/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/unique-filename-npm-3.0.0-77d68e0a45-10c0.zip/node_modules/unique-filename/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["unique-filename", "npm:3.0.0"],\
           ["unique-slug", "npm:4.0.0"]\
@@ -5929,7 +7973,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["unique-slug", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/unique-slug-npm-4.0.0-e6b08f28aa-10c0.zip/node_modules/unique-slug/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/unique-slug-npm-4.0.0-e6b08f28aa-10c0.zip/node_modules/unique-slug/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["unique-slug", "npm:4.0.0"],\
           ["imurmurhash", "npm:0.1.4"]\
@@ -5939,14 +7987,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["update-browserslist-db", [\
       ["npm:1.0.13", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/update-browserslist-db-npm-1.0.13-ea7b8ee24d-10c0.zip/node_modules/update-browserslist-db/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/update-browserslist-db-npm-1.0.13-ea7b8ee24d-10c0.zip/node_modules/update-browserslist-db/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["update-browserslist-db", "npm:1.0.13"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:87e70d802146e5a0e8f2a12b5ab64004040c6640441dba54229a7db766cb1b88edabd3d3c814ce33d6ba839c4e517b12e9b0a7febfca22ac2a64177042bf3ee6#npm:1.0.13", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/update-browserslist-db-virtual-1f2a8df3c3/4/AppData/Local/Yarn/Berry/cache/update-browserslist-db-npm-1.0.13-ea7b8ee24d-10c0.zip/node_modules/update-browserslist-db/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/update-browserslist-db-virtual-1f2a8df3c3/4/.yarn/berry/cache/update-browserslist-db-npm-1.0.13-ea7b8ee24d-10c0.zip/node_modules/update-browserslist-db/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["update-browserslist-db", "virtual:87e70d802146e5a0e8f2a12b5ab64004040c6640441dba54229a7db766cb1b88edabd3d3c814ce33d6ba839c4e517b12e9b0a7febfca22ac2a64177042bf3ee6#npm:1.0.13"],\
           ["@types/browserslist", null],\
@@ -5963,7 +8019,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["uri-js", [\
       ["npm:4.4.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/uri-js-npm-4.4.1-66d11cbcaf-10c0.zip/node_modules/uri-js/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/uri-js-npm-4.4.1-66d11cbcaf-10c0.zip/node_modules/uri-js/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["uri-js", "npm:4.4.1"],\
           ["punycode", "npm:2.3.1"]\
@@ -5973,7 +8033,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["util-deprecate", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/util-deprecate-npm-1.0.2-e3fe1a219c-10c0.zip/node_modules/util-deprecate/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/util-deprecate-npm-1.0.2-e3fe1a219c-10c0.zip/node_modules/util-deprecate/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["util-deprecate", "npm:1.0.2"]\
         ],\
@@ -5982,7 +8046,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["warning", [\
       ["npm:4.0.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/warning-npm-4.0.3-291e921d6d-10c0.zip/node_modules/warning/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/warning-npm-4.0.3-291e921d6d-10c0.zip/node_modules/warning/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["warning", "npm:4.0.3"],\
           ["loose-envify", "npm:1.4.0"]\
@@ -5992,7 +8060,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["watchpack", [\
       ["npm:2.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/watchpack-npm-2.4.0-7ec4b9cc65-10c0.zip/node_modules/watchpack/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/watchpack-npm-2.4.0-7ec4b9cc65-10c0.zip/node_modules/watchpack/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["watchpack", "npm:2.4.0"],\
           ["glob-to-regexp", "npm:0.4.1"],\
@@ -6003,7 +8075,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["web-streams-polyfill", [\
       ["npm:3.2.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/web-streams-polyfill-npm-3.2.1-835bd3857e-10c0.zip/node_modules/web-streams-polyfill/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/web-streams-polyfill-npm-3.2.1-835bd3857e-10c0.zip/node_modules/web-streams-polyfill/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["web-streams-polyfill", "npm:3.2.1"]\
         ],\
@@ -6012,7 +8088,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["webidl-conversions", [\
       ["npm:3.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/webidl-conversions-npm-3.0.1-60310f6a2b-10c0.zip/node_modules/webidl-conversions/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/webidl-conversions-npm-3.0.1-60310f6a2b-10c0.zip/node_modules/webidl-conversions/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["webidl-conversions", "npm:3.0.1"]\
         ],\
@@ -6021,7 +8101,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["whatwg-url", [\
       ["npm:5.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/whatwg-url-npm-5.0.0-374fb45e60-10c0.zip/node_modules/whatwg-url/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/whatwg-url-npm-5.0.0-374fb45e60-10c0.zip/node_modules/whatwg-url/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["whatwg-url", "npm:5.0.0"],\
           ["tr46", "npm:0.0.3"],\
@@ -6032,7 +8116,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["which", [\
       ["npm:2.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/which-npm-2.0.2-320ddf72f7-10c0.zip/node_modules/which/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/which-npm-2.0.2-320ddf72f7-10c0.zip/node_modules/which/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["which", "npm:2.0.2"],\
           ["isexe", "npm:2.0.0"]\
@@ -6040,7 +8128,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/which-npm-4.0.0-dd31cd4928-10c0.zip/node_modules/which/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/which-npm-4.0.0-dd31cd4928-10c0.zip/node_modules/which/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["which", "npm:4.0.0"],\
           ["isexe", "npm:3.1.1"]\
@@ -6050,7 +8142,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["which-boxed-primitive", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/which-boxed-primitive-npm-1.0.2-e214f9ae5a-10c0.zip/node_modules/which-boxed-primitive/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/which-boxed-primitive-npm-1.0.2-e214f9ae5a-10c0.zip/node_modules/which-boxed-primitive/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["which-boxed-primitive", "npm:1.0.2"],\
           ["is-bigint", "npm:1.0.4"],\
@@ -6064,7 +8160,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["which-builtin-type", [\
       ["npm:1.1.3", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/which-builtin-type-npm-1.1.3-c0bb111ab6-10c0.zip/node_modules/which-builtin-type/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/which-builtin-type-npm-1.1.3-c0bb111ab6-10c0.zip/node_modules/which-builtin-type/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["which-builtin-type", "npm:1.1.3"],\
           ["function.prototype.name", "npm:1.1.6"],\
@@ -6085,7 +8185,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["which-collection", [\
       ["npm:1.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/which-collection-npm-1.0.1-cd2c054585-10c0.zip/node_modules/which-collection/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/which-collection-npm-1.0.1-cd2c054585-10c0.zip/node_modules/which-collection/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["which-collection", "npm:1.0.1"],\
           ["is-map", "npm:2.0.2"],\
@@ -6098,7 +8202,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["which-typed-array", [\
       ["npm:1.1.13", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/which-typed-array-npm-1.1.13-92c18b4878-10c0.zip/node_modules/which-typed-array/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/which-typed-array-npm-1.1.13-92c18b4878-10c0.zip/node_modules/which-typed-array/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["which-typed-array", "npm:1.1.13"],\
           ["available-typed-arrays", "npm:1.0.5"],\
@@ -6112,7 +8220,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["wrap-ansi", [\
       ["npm:7.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/wrap-ansi-npm-7.0.0-ad6e1a0554-10c0.zip/node_modules/wrap-ansi/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/wrap-ansi-npm-7.0.0-ad6e1a0554-10c0.zip/node_modules/wrap-ansi/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["wrap-ansi", "npm:7.0.0"],\
           ["ansi-styles", "npm:4.3.0"],\
@@ -6122,7 +8234,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }],\
       ["npm:8.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/wrap-ansi-npm-8.1.0-26a4e6ae28-10c0.zip/node_modules/wrap-ansi/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/wrap-ansi-npm-8.1.0-26a4e6ae28-10c0.zip/node_modules/wrap-ansi/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["wrap-ansi", "npm:8.1.0"],\
           ["ansi-styles", "npm:6.2.1"],\
@@ -6134,7 +8250,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["wrappy", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/wrappy-npm-1.0.2-916de4d4b3-10c0.zip/node_modules/wrappy/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/wrappy-npm-1.0.2-916de4d4b3-10c0.zip/node_modules/wrappy/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["wrappy", "npm:1.0.2"]\
         ],\
@@ -6143,7 +8263,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["write-file-atomic", [\
       ["npm:5.0.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/write-file-atomic-npm-5.0.1-52283db6ee-10c0.zip/node_modules/write-file-atomic/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/write-file-atomic-npm-5.0.1-52283db6ee-10c0.zip/node_modules/write-file-atomic/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["write-file-atomic", "npm:5.0.1"],\
           ["imurmurhash", "npm:0.1.4"],\
@@ -6154,14 +8278,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["ws", [\
       ["npm:8.16.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/ws-npm-8.16.0-46943f6199-10c0.zip/node_modules/ws/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/ws-npm-8.16.0-46943f6199-10c0.zip/node_modules/ws/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ws", "npm:8.16.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:47ad538a128da7bc016dca1dd2e2b98d52099103cd2f8260d4cdf97143dab15f30f2f47598bb5b1b94ffb2887bc554696405736c6669148ed6c418a48be1baf8#npm:8.16.0", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/ws-virtual-5097dac895/4/AppData/Local/Yarn/Berry/cache/ws-npm-8.16.0-46943f6199-10c0.zip/node_modules/ws/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/ws-virtual-5097dac895/4/.yarn/berry/cache/ws-npm-8.16.0-46943f6199-10c0.zip/node_modules/ws/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["ws", "virtual:47ad538a128da7bc016dca1dd2e2b98d52099103cd2f8260d4cdf97143dab15f30f2f47598bb5b1b94ffb2887bc554696405736c6669148ed6c418a48be1baf8#npm:8.16.0"],\
           ["@types/bufferutil", null],\
@@ -6180,7 +8312,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["yallist", [\
       ["npm:4.0.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/yallist-npm-4.0.0-b493d9e907-10c0.zip/node_modules/yallist/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/yallist-npm-4.0.0-b493d9e907-10c0.zip/node_modules/yallist/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["yallist", "npm:4.0.0"]\
         ],\
@@ -6189,14 +8325,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["yaml", [\
       ["npm:1.10.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/yaml-npm-1.10.2-0e780aebdf-10c0.zip/node_modules/yaml/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/yaml-npm-1.10.2-0e780aebdf-10c0.zip/node_modules/yaml/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["yaml", "npm:1.10.2"]\
         ],\
         "linkType": "HARD"\
       }],\
       ["npm:2.3.4", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/yaml-npm-2.3.4-8bb6dc2c0d-10c0.zip/node_modules/yaml/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/yaml-npm-2.3.4-8bb6dc2c0d-10c0.zip/node_modules/yaml/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["yaml", "npm:2.3.4"]\
         ],\
@@ -6205,7 +8349,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["yocto-queue", [\
       ["npm:0.1.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/yocto-queue-npm-0.1.0-c6c9a7db29-10c0.zip/node_modules/yocto-queue/",\
+=======
+        "packageLocation": "../../../.yarn/berry/cache/yocto-queue-npm-0.1.0-c6c9a7db29-10c0.zip/node_modules/yocto-queue/",\
+>>>>>>> 14df8fd (my goal dummy deleted)
         "packageDependencies": [\
           ["yocto-queue", "npm:0.1.0"]\
         ],\
