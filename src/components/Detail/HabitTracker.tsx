@@ -3,7 +3,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 // resolutions
 // checkedList
 function HabitTracker({ onClickModalHandler, decimalDate, id, title }: any) {
-  const { data }: any = useQuery({
+  const { data } = useQuery({
     queryKey: ['resolutions', id],
     queryFn: fetchCheckListData,
   });
