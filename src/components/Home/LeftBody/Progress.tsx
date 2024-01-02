@@ -1,10 +1,19 @@
+import { fetchProgressData } from '@/pages/api/resolutions';
 import { Box, LinearProgress, Typography } from '@mui/material';
+import { useQuery } from '@tanstack/react-query';
 
 type Props = {
   progress: number;
+  id: number;
 };
 
-const Progress = ({ progress }: Props) => {
+const Progress = ({ progress, id }: Props) => {
+  // const { data }:any = useQuery({
+  //   queryKey: ['checkedList', id],
+  //   queryFn: fetchProgressData,
+  // })
+  // console.log(data[0].progress)
+
   return (
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ width: '100%', mr: 1 }}>
