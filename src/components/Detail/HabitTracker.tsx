@@ -9,7 +9,7 @@ type Props = {
 };
 
 function HabitTracker({ onClickModalHandler, decimalDate, id, title }: Props) {
-  const { data } = useQuery({
+  const { data }: any = useQuery({
     queryKey: ['resolutions', id],
     queryFn: fetchCheckListData,
   });
