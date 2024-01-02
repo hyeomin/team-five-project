@@ -7,13 +7,7 @@ type Props = {
   id: number;
 };
 
-const Progress = ({ progress, id }: Props) => {
-  // const { data }:any = useQuery({
-  //   queryKey: ['checkedList', id],
-  //   queryFn: fetchProgressData,
-  // })
-  // console.log(data[0].progress)
-
+const Progress = ({ progress }: Props) => {
   return (
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ width: '100%', mr: 1 }}>
