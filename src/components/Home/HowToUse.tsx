@@ -9,8 +9,8 @@ const HowToUse = () => {
         <Image
           src={numberLine}
           alt='line'
-          width={10} // Replace with actual width
-          height={10} // Replace with actual height
+          width={10}
+          height={10}
           layout='responsive'
         />
       </div>

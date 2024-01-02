@@ -27,14 +27,6 @@ const MyGoalList = () => {
       .filter((item) => item.user === loggedInUser)
       .filter((item) => item.progress >= 100);
 
-  console.log(
-    'resolution 이 뭘로 들어오지?',
-    inProgressResolution,
-    completeResolution,
-  );
-
-  console.log('현재 세션>>', currentSession);
-
   return (
     <div className='p-4 border-b my-8'>
       <h2 className='font-orbitron text-5xl font-semibold py-6'>

@@ -2,7 +2,7 @@ import { isLoggedInState } from '@/recoil/atom';
 import Link from 'next/link';
 import { useRecoilValue } from 'recoil';
 import Login from '../Auth/Login';
-import SingUp from '../Auth/SingUp';
+import SignUp from '../Auth/SignUp';
 
 const NavBar = () => {
   const isLoggedIn = useRecoilValue(isLoggedInState);
@@ -11,7 +11,7 @@ const NavBar = () => {
       <Link href='/'>HOME</Link>
       <Link href='/community'>COMMUNITY</Link>
       <Link href='/about'>ABOUT</Link>
-      {!isLoggedIn && <SingUp />}
+      {!isLoggedIn && <SignUp />}
       <Login />
     </nav>
   );

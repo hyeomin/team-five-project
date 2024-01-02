@@ -71,7 +71,6 @@ const AddGoal = () => {
           className='flex flex-col my-auto gap-y-4'
           onSubmit={onSubmitHandler}
         >
-          {/* <h3 className='text-xl'>목표 추가하기</h3> */}
           <div className='flex gap-x-4'>
             <span className='w-12'>목표</span>
             <input

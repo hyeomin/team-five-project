@@ -1,9 +1,15 @@
 import { editProgress, fetchCheckListData } from '@/pages/api/resolutions';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-// resolutions
-// checkedList
-function HabitTracker({ onClickModalHandler, decimalDate, id, title }: any) {
-  const { data }: any = useQuery({
+
+type Props = {
+  onClickModalHandler: () => void;
+  decimalDate: number;
+  id: number;
+  title: string;
+};
+
+function HabitTracker({ onClickModalHandler, decimalDate, id, title }: Props) {
+  const { data } = useQuery({
     queryKey: ['resolutions', id],
     queryFn: fetchCheckListData,
   });
@@ -33,7 +39,6 @@ function HabitTracker({ onClickModalHandler, decimalDate, id, title }: any) {
   };
 
   const checkBoxRendering = () => {
-    // 최대한 forEach or 안되면 for of
     const result = [];
     for (let i = 1; i <= decimalDate; i++) {
       result.push(
@@ -77,7 +82,7 @@ function HabitTracker({ onClickModalHandler, decimalDate, id, title }: any) {
         className='w-[800px] h-[600px] bg-white rounded-[15px]'
         onClick={(e) => e.stopPropagation()}
       >
-        <div className='flex border-2 h-[100px] justify-around m-10 rounded-[15px] items-center text-black text-[30px] font-bold text-gray-600	'>
+        <div className='flex border-2 h-[100px] justify-around m-10 rounded-[15px] items-center text-[30px] font-bold text-gray-600	'>
           {title}
         </div>
         <div
@@ -85,10 +90,7 @@ function HabitTracker({ onClickModalHandler, decimalDate, id, title }: any) {
           className='grid grid-cols-10 place-items-center auto-rows-[minmax(50px,_50px)]
                 text-black border-2 h-[350px] m-10 rounded-[15px] overflow-auto	overflow-x-hidden'
         >
-          {
-            checkBoxRendering()
-            // 컴포넌트로 만드는게 나음
-          }
+          {checkBoxRendering()}
         </div>
       </div>
     </div>

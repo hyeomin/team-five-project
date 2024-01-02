@@ -18,7 +18,6 @@ export default function Login() {
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
 
-  // const setIsLoggedIn = useSetRecoilState(isLoggedInState);
   const [isLoggedIn, setIsLoggedIn] = useRecoilState(isLoggedInState);
 
   const handleOpen = () => {
@@ -41,7 +40,6 @@ export default function Login() {
 
   const signInHelperFn = async () => {
     const res = await signInHndlr(email, password);
-    console.log('뭐라고 나오지?', res);
     if (res instanceof Error) {
       toast.warn('로그인 실패. 다시 시도해 주세요', {
         position: 'top-center',
@@ -96,12 +94,6 @@ export default function Login() {
     <React.Fragment>
       <React.Fragment>
         {!isLoggedIn && (
-          // <Button
-          //   onClick={handleOpen}
-          //   className='text-white font-bebas text-xl'
-          // >
-          //   Login
-          // </Button>
           <button
             onClick={handleOpen}
             className='text-white font-bebas text-xl'
@@ -111,12 +103,6 @@ export default function Login() {
         )}
 
         {isLoggedIn && (
-          // <Button
-          //   onClick={signOutHelperFn}
-          //   className='text-white font-bebas text-xl'
-          // >
-          //   Log out
-          // </Button>
           <button
             onClick={signOutHelperFn}
             className='text-white font-bebas text-xl'

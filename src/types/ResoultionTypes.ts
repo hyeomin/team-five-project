@@ -13,3 +13,14 @@ export type Form = {
   content: string;
   dueDate: Date;
 };
+
+export interface editResolutionType {
+  id: number;
+  content: string;
+}
+
+export interface editProgressType {
+  id: number;
+  progress: number;
+  checkedList: [];
+}

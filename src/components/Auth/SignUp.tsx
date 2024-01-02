@@ -110,9 +110,6 @@ export default function Login() {
 
   return (
     <React.Fragment>
-      {/* <Button className='text-white text-xl font-bebas' onClick={handleOpen}>
-        Join
-      </Button> */}
       <button className='text-white text-xl font-bebas' onClick={handleOpen}>
         Join
       </button>

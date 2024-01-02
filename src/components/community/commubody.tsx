@@ -16,13 +16,10 @@ const Commubody = () => {
 
   const loggedInUser = currentSession && currentSession.user.email;
 
-  console.log('loggedInUser >>', loggedInUser);
-
   const filteredResolutions =
     resoultionList &&
     resoultionList.filter((item) => item.user !== loggedInUser);
 
-  console.log('쿼리에서 읽어온거', resoultionList);
   return (
     <>
       <div className='flex flex-col items-center gap-3 p-16'>

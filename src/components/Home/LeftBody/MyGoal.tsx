@@ -20,7 +20,6 @@ const MyGoal = ({ resolution }: Props) => {
     queryFn: fetchData,
   });
 
-  // UpDate
   const [editState, setEditState] = useState(false);
   const [editValueState, setEditValueState] = useState('');
   const onChangeHandler = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -50,8 +49,6 @@ const MyGoal = ({ resolution }: Props) => {
     }
   };
 
-  // Delete
-
   const deleteMutation = useMutation({
     mutationFn: deleteResolution,
     onSuccess: async () => {
@@ -78,7 +75,6 @@ const MyGoal = ({ resolution }: Props) => {
     return `${year}년 ${month}월 ${day}일`;
   };
 
-  // Modal
   const onClickModalHandler = () => {
     setModalState(!modalState);
   };
@@ -93,7 +89,7 @@ const MyGoal = ({ resolution }: Props) => {
   };
 
   const onInputClick = (e: React.MouseEvent) => {
-    e.stopPropagation(); // Prevent event from propagating to parent elements
+    e.stopPropagation();
   };
 
   return (
