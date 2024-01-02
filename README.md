@@ -44,3 +44,48 @@
 ## 협업툴
 
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+
+# 모멘텀(M5MENTUM) 페이지 소개
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F97161161-a225-4815-ac89-f95b0e904fe2%2FUntitled.png?table=block&id=be387d07-7a05-43d5-9d17-849bcc6854fa&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+
+첫 메인 화면으로 로그인 시 기능을 이용할 수 있다.
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F414a4a85-5433-4571-828a-08dd7382dc1f%2FUntitled.png?table=block&id=3dd8f467-41a4-443a-9808-ff69e5c713c5&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=770&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+
+JOIN 과 LOGIN을 선택할 수 있다.
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F7103581c-e381-4d47-8370-2ac6dd9ba091%2FUntitled.png?table=block&id=284d8743-9815-41fb-8996-8f694f410b1b&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+
+JOIN 화면
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F6805f5b7-7f6a-49d6-aadf-2b4951ef794b%2FUntitled.png?table=block&id=be4c6bcb-1cee-4366-a59a-96f95a4a5016&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+
+LOGIN 화면
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Ffb94678a-1253-4076-abaa-ff44a0b2b64d%2FUntitled.png?table=block&id=ce4e7f9d-6732-4e03-be45-802caaec3961&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+
+로그인 시 Navbar에 로그아웃 버튼이 생성된다.
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Fe8b70eee-9ca8-4412-a76b-551d94cd36af%2FUntitled.png?table=block&id=e66673b0-185e-4735-9379-a04fa054bfcb&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+
+목표 추가하기를 누르면 목표, 내용, 목표일을 설정해서 추가할 수 있다.
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F318ae24e-aefd-433d-a546-173f57965aa4%2FUntitled.png?table=block&id=6cbd80f0-39ee-4c09-89c2-44a5dce74bbc&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+
+목표 추가 시 제목, 내용, 목표일과 함께 D-day와 달성 현황을 볼 수 있으며
+
+수정 및 삭제 기능을 사용할 수 있다.
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F1bc5000d-e33e-4aa0-8ef5-b03a4db9f24b%2FUntitled.png?table=block&id=e64b023b-412c-4798-8848-4814eb045413&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+목표를 누르면 모달창에서 해빗 트래커를 볼 수 있다.
+
+D-day 일자 개수만큼 생성되어 체크할 때마다 달성 현황이 올라가게 된다.
+
+(커뮤니티 더미데이터 사진)
+
+COMMUNITY 페이지는 자신의 계정 제외 다른 이용자의 목표를 확인할 수 있다.
+
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F6c2faa9b-c8d2-424c-9e96-6f8c70412f4f%2FUntitled.png?table=block&id=e2164de3-c941-43c1-9e98-4856be7a983e&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=8e32b0bc-12b9-4f09-87b3-1fb2fd1c412d&cache=v2"></br>
+
+ABOUT 페이지에서 M5MENTUM의 소개와 서비스 이유를 소개하고 있다.
