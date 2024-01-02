@@ -14,13 +14,13 @@ const MyGoalList = () => {
     resoultionList && resoultionList.filter((item) => item.progress >= 100);
 
   return (
-    <div className='border border-current p-4'>
+    <div className='p-4'>
       <h2 className='font-orbitron text-5xl font-semibold py-6'>
         MY NEW YEAR&apos;S RESOLUTION
       </h2>
       <div className='flex flex-col gap-y-4'>
         <p className='font-orbitron text-2xl'>In Progress</p>
-        <p className='font-orbitron text-xl'>잘하고 있어요!</p>
+        <p className='text-xl'>잘하고 있어요!</p>
       </div>
       <ul className='flex flex-col gap-y-4 my-4'>
         {inProgressResolution &&
