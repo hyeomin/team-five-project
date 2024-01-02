@@ -3,16 +3,16 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import React from 'react'
 // resolutions
 // checkedList
-function HabitTracker({ onClickModalHandler, decimalDate, createdAt, id, title }: any) {
+function HabitTracker({ onClickModalHandler, decimalDate, id, title }: any) {
     const { data }: any = useQuery({
-        queryKey: ['checkedList', id],
+        queryKey: ['resolutions', id],
         queryFn: fetchCheckListData,
     })
     const queryClient = useQueryClient();
     const editProgressMutation = useMutation({
         mutationFn: editProgress,
         onSuccess: () => {
-            queryClient.invalidateQueries({ queryKey: ['checkedList'] })
+            queryClient.invalidateQueries({ queryKey: ['resolutions'] })
         }
     })
 

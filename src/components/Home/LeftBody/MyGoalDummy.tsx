@@ -119,7 +119,7 @@ const MyGoalDummy = ({ resolution }: Props) => {
           </span>
           <div className=''>
             <span>달성 현황:</span>
-            <Progress progress={resolution.progress} />
+            <Progress progress={resolution.progress} id={resolution.id} />
           </div>
         </section>
         <div className='flex items-center gap-x-4'>
@@ -142,7 +142,6 @@ const MyGoalDummy = ({ resolution }: Props) => {
           <HabitTracker
             onClickModalHandler={onClickModalHandler}
             decimalDate={diffDateHandler(resolution.dueDate, true)}
-            createdAt={resolution.created_at}
             id={resolution.id}
             title={resolution.title}
           />

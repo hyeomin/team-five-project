@@ -724,7 +724,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/postgrest-js@npm:^1.8.6":
+"@supabase/postgrest-js@npm:^1.9.0":
   version: 1.9.0
   resolution: "@supabase/postgrest-js@npm:1.9.0"
   dependencies:
@@ -754,16 +754,16 @@ __metadata:
   linkType: hard
 
 "@supabase/supabase-js@npm:^2.39.1":
-  version: 2.39.1
-  resolution: "@supabase/supabase-js@npm:2.39.1"
+  version: 2.39.2
+  resolution: "@supabase/supabase-js@npm:2.39.2"
   dependencies:
     "@supabase/functions-js": "npm:^2.1.5"
     "@supabase/gotrue-js": "npm:^2.60.0"
     "@supabase/node-fetch": "npm:^2.6.14"
-    "@supabase/postgrest-js": "npm:^1.8.6"
+    "@supabase/postgrest-js": "npm:^1.9.0"
     "@supabase/realtime-js": "npm:^2.8.4"
     "@supabase/storage-js": "npm:^2.5.4"
-  checksum: e6323c95671b90687ddbe219f91552bca4dfc7b74ef88e1be862a98a44133def1509d948f27853a05a34bb7d4b2e19eda0effe6dbb437be2b5e50284f649d876
+  checksum: c502ebd6b62b9a02e0abd4f5349906e70a19c35201d973ff1218e983ee92953bf5fe8689312f07f1a0a6a8d4e2a24d16f9604c277dfa6384aa1df86f46c02e8e
   languageName: node
   linkType: hard
 
