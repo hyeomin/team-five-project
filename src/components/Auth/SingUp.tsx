@@ -1,3 +1,5 @@
+import { signUpHndlr } from '@/pages/api/login';
+import { isLoggedInState } from '@/recoil/atom';
 import {
   Button,
   Dialog,
@@ -8,9 +10,7 @@ import {
   TextField,
 } from '@mui/material';
 import React, { useEffect } from 'react';
-import { signInHndlr, signOutHndlr, signUpHndlr } from '@/pages/api/login';
 import { useSetRecoilState } from 'recoil';
-import { isLoggedInState } from '@/recoil/atom';
 
 export default function Login() {
   const [isUser, setIsUser] = React.useState(false);
@@ -75,7 +75,10 @@ export default function Login() {
 
   return (
     <React.Fragment>
-      <Button className='text-base text-white font-sans' onClick={handleOpen}>
+      <Button
+        className='text-base text-white text-xl font-bebas'
+        onClick={handleOpen}
+      >
         Join
       </Button>
       <Dialog open={open} onClose={handleCancel}>
