@@ -1,7 +1,7 @@
+import { getCurrentSession } from '@/pages/api/login';
 import { fetchData } from '@/pages/api/resolutions';
 import { useQuery } from '@tanstack/react-query';
-import MyGoalDummy from './MyGoalDummy';
-import { getCurrentSession } from '@/pages/api/login';
+import MyGoal from './MyGoal';
 
 const MyGoalList = () => {
   const { data: resoultionList, isLoading } = useQuery({
@@ -55,7 +55,7 @@ const MyGoalList = () => {
           .map((resolution) => {
             return (
               <>
-                <MyGoalDummy resolution={resolution} />
+                <MyGoal resolution={resolution} />
               </>
             );
           })}
@@ -72,7 +72,7 @@ const MyGoalList = () => {
           .map((resolution) => {
             return (
               <>
-                <MyGoalDummy resolution={resolution} />
+                <MyGoal resolution={resolution} />
               </>
             );
           })}
