@@ -7,15 +7,11 @@ import {
   DialogTitle,
   TextField,
 } from '@mui/material';
-import Snackbar from '@mui/material/Snackbar';
-import MuiAlert, { AlertProps } from '@mui/material/Alert';
 
-import Alert from '@mui/material/Alert';
-import React, { useCallback, useEffect } from 'react';
-import { signUpHndlr } from '@/pages/api/login';
+import React, { useCallback } from 'react';
+import { signUpHandler } from '@/pages/api/login';
 import { useSetRecoilState } from 'recoil';
 import { isLoggedInState } from '@/recoil/atom';
-import { supabase } from '@/pages/api/login';
 
 export default function Login() {
   const [open, setOpen] = React.useState(false);
@@ -26,9 +22,6 @@ export default function Login() {
   const [emailMsg, setEmailMsg] = React.useState('');
   const [pwdMsg, setPwdMsg] = React.useState('');
   const [nicknameMsg, setNicknameMsg] = React.useState('');
-
-  const [checkMail, setCheckMail] = React.useState(false);
-  const [checkNickname, setCheckNickname] = React.useState(false);
 
   const setIsLoggedIn = useSetRecoilState(isLoggedInState);
 
@@ -46,7 +39,6 @@ export default function Login() {
         /([\w-.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/,
       );
   };
-  console.log(email);
 
   const validatePwd = (password: string) => {
     return password
@@ -63,8 +55,8 @@ export default function Login() {
   const isNicknameValid = validateNickname(nickname);
 
   // 이메일 유효성 검사
-  const onChagneEmail = useCallback(
-    async (e: React.ChangeEvent<HTMLInputElement>) => {
+  const onChangeEmail = useCallback(
+    async (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
       const currEmail = e.target.value;
       setEmail(currEmail);
 
@@ -78,20 +70,23 @@ export default function Login() {
   );
 
   // 비밀번호 유효성 검사
-  const onChangePwd = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    const currPwd = e.target.value;
-    setPwdMsg(currPwd);
+  const onChangePwd = useCallback(
+    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+      const currPwd = e.target.value;
+      setPassword(currPwd); // Update the state with the correct value
 
-    if (!validatePwd(currPwd)) {
-      setPwdMsg('영문, 숫자, 특수 기호 조합으로 6자리 이상 입력해주세요.');
-    } else {
-      setPwdMsg('안전한 비밀번호 입니다.');
-    }
-  }, []);
+      if (!validatePwd(currPwd)) {
+        setPwdMsg('영문, 숫자, 특수 기호 조합으로 6자리 이상 입력해주세요.');
+      } else {
+        setPwdMsg('안전한 비밀번호 입니다.');
+      }
+    },
+    [],
+  );
 
   // 닉네임 유효성 검사
   const onChangeNickname = useCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
+    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
       const currNickname = e.target.value;
       setNickname(currNickname);
 
@@ -107,7 +102,7 @@ export default function Login() {
   const singUpHelperFn = async () => {
     try {
       // signUpHndlr 함수가 성공적으로 가입되었는지 여부를 확인
-      await signUpHndlr(email, password, nickname);
+      await signUpHandler(email, password, nickname);
       setIsLoggedIn(true);
     } catch (error) {
       // 가입이 실패한 경우에 대한 처리 (에러 핸들링 등)
@@ -135,10 +130,10 @@ export default function Login() {
               label='Email'
               type='email'
               variant='standard'
-              error={!validateEmail(email)}
+              error={!isEmailValid}
               helperText={emailMsg}
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => onChangeEmail(e)}
               required
             />
             <TextField
@@ -149,8 +144,10 @@ export default function Login() {
               label='Password'
               type='password'
               variant='standard'
+              error={!isPwdValid}
+              helperText={pwdMsg}
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(e) => onChangePwd(e)}
               required
             />
             <TextField
@@ -161,8 +158,10 @@ export default function Login() {
               label='닉네임'
               type='text'
               variant='standard'
+              error={!isNicknameValid}
+              helperText={nicknameMsg}
               value={nickname}
-              onChange={(e) => setNickname(e.target.value)}
+              onChange={(e) => onChangeNickname(e)}
               required
             />
           </DialogContent>

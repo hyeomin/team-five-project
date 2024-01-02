@@ -1,7 +1,7 @@
 import { supabase } from './supabase';
 
-//회원가입
-export const signUpHndlr = async (id: string, pw: string, nick: string) => {
+// 회원가입
+export const signUpHandler = async (id: string, pw: string, nick: string) => {
   try {
     const { data, error } = await supabase.auth.signUp({
       email: id,
@@ -12,8 +12,9 @@ export const signUpHndlr = async (id: string, pw: string, nick: string) => {
         },
       },
     });
-    if (error) console.error(error);
-    console.log(data);
+    console.log('data: ', data);
+    // if (error) console.error(error);
+    // console.log(data);
   } catch (error) {
     console.error(error);
   }
@@ -26,27 +27,20 @@ export const signInHndlr = async (id: string, pw: string) => {
       email: id,
       password: pw,
     });
-    if (data) {
-      return data;
-    }
-    if (error) {
-      console.error('로그인 실패:', error.message);
-      return error;
-    } else {
-      console.log('로그인 성공:', data);
-    }
+    console.log('data: ', data);
+    // if (data) {
+    //   return data;
+    // }
+    // if (error) {
+    //   console.error('로그인 실패:', error.message);
+    //   return error;
+    // } else {
+    //   console.log('로그인 성공:', data);
+    // }
   } catch (error) {
     console.error('데이터', error);
   }
 };
-
-// //소셜로그인
-// const signInWithKakao = async () => {
-//   const { data, error } = await supabase.auth.signInWithOAuth({
-//     provider: 'kakao',
-//   });
-//   console.log('카카오로그인정보', data);
-// };
 
 // //로그아웃
 export const signOutHndlr = async () => {
