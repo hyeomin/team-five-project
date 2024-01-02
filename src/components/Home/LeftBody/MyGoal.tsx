@@ -22,7 +22,7 @@ const MyGoalDummy = ({ resolution }: Props) => {
 
   // UpDate
   const [editState, setEditState] = useState(false);
-  const [editValueState, setEditValueState] = useState(resolution.content);
+  const [editValueState, setEditValueState] = useState('');
   const onChangeHandler = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     setEditValueState(e.target.value);
   };
@@ -111,7 +111,7 @@ const MyGoalDummy = ({ resolution }: Props) => {
               onClick={onInputClick}
             ></textarea>
           ) : (
-            <p>{editValueState}</p>
+            <p>{resolution.content}</p>
           )}
           <span>
             목표일: {formatDate(resolution.dueDate)} / D- 
