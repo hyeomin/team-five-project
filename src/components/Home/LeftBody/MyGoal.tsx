@@ -13,7 +13,7 @@ type Props = {
   resolution: resolutionType;
 };
 
-const MyGoalDummy = ({ resolution }: Props) => {
+const MyGoal = ({ resolution }: Props) => {
   const [modalState, setModalState] = useState(false);
 
   const { data: resolutionList } = useQuery({
@@ -149,4 +149,4 @@ const MyGoalDummy = ({ resolution }: Props) => {
   );
 };
 
-export default MyGoalDummy;
+export default MyGoal;

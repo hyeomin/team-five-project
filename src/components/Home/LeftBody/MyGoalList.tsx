@@ -36,46 +36,49 @@ const MyGoalList = () => {
   console.log('현재 세션>>', currentSession);
 
   return (
-    <div className='p-4'>
+    <div className='p-4 border-b mb-16'>
       <h2 className='font-orbitron text-5xl font-semibold py-6'>
         MY NEW YEAR&apos;S RESOLUTION
       </h2>
-      <div className='flex flex-col gap-y-4'>
+      <div className='flex flex-col gap-y-4 border-t pt-8'>
         <p className='font-orbitron text-2xl'>In Progress</p>
         <p className='text-xl'>잘하고 있어요!</p>
       </div>
       <ul className='flex flex-col gap-y-4 my-4'>
         {inProgressResolution &&
           inProgressResolution
-          .sort((a, b) => {
-            const aDate:any = new Date(a.created_at)
-            const bDate:any = new Date(b.created_at)
-            return bDate - aDate
-          })
-          .map((resolution) => {
-            return (
-              <>
-                <MyGoal resolution={resolution} />
-              </>
-            );
-          })}
+            .sort((a, b) => {
+              const aDate: any = new Date(a.created_at);
+              const bDate: any = new Date(b.created_at);
+              return bDate - aDate;
+            })
+            .map((resolution) => {
+              return (
+                <>
+                  <MyGoal key={resolution.id} resolution={resolution} />
+                </>
+              );
+            })}
       </ul>
-      <span className='font-orbitron text-2xl'>Completed</span>
+      <div className='flex flex-col gap-y-4'>
+        <p className='font-orbitron text-2xl'>Completed</p>
+        <p className='text-xl'>대단하네요!</p>
+      </div>
       <ul className='flex flex-col gap-y-4 my-4'>
         {completeResolution &&
           completeResolution
-          .sort((a, b) => {
-            const aDate:any = new Date(a.created_at)
-            const bDate:any = new Date(b.created_at)
-            return bDate - aDate
-          })
-          .map((resolution) => {
-            return (
-              <>
-                <MyGoal resolution={resolution} />
-              </>
-            );
-          })}
+            .sort((a, b) => {
+              const aDate: any = new Date(a.created_at);
+              const bDate: any = new Date(b.created_at);
+              return bDate - aDate;
+            })
+            .map((resolution) => {
+              return (
+                <>
+                  <MyGoal key={resolution.id} resolution={resolution} />
+                </>
+              );
+            })}
       </ul>
     </div>
   );
