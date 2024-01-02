@@ -57,6 +57,8 @@ export default function Login() {
 
     setLogin(true);
     setIsLoggedIn(true);
+    setEmail('');
+    setPassword('');
   };
 
   const signOutHelperFn = async () => {
