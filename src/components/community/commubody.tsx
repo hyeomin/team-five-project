@@ -25,7 +25,7 @@ const Commubody = () => {
   console.log('쿼리에서 읽어온거', resoultionList);
   return (
     <>
-      <div className='flex flex-col items-center gap-3 p-8'>
+      <div className='flex flex-col items-center gap-3 p-16'>
         <h2 className='text-[30px]'>
           다른 사람들은 어떤 새해 목표를 세웠을까요?
         </h2>

@@ -97,15 +97,18 @@ export default function Login() {
         {!isLoggedIn && (
           <Button
             onClick={handleOpen}
-            className='text-base text-white font-sans'
+            className='text-base text-white font-bebas text-xl'
           >
             Login
           </Button>
         )}
         {isLoggedIn && (
           <Button
-            onClick={signOutHelperFn}
-            className='text-base text-white font-sans'
+            onClick={
+              // signOutHndlr.bind(null, setLogin)
+              signOutHelperFn
+            }
+            className='text-base text-white font-bebas text-xl'
           >
             Log out
           </Button>

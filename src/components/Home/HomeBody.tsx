@@ -1,15 +1,15 @@
 import { isLoggedInState } from '@/recoil/atom';
 import { useRecoilValue } from 'recoil';
+import HowToUse from './HowToUse';
 import MyGoalList from './LeftBody/MyGoalList';
 import NotLoggedIn from './RightBody/NotLoggedIn';
 import UserProfile from './RightBody/UserProfile';
-import NotLoggedInGoalList from './LeftBody/NotLoggedInGoalList';
 
 const HomeBody = () => {
   const isLoggedIn = useRecoilValue(isLoggedInState);
 
   if (!isLoggedIn) {
-    return <NotLoggedInGoalList />;
+    return <HowToUse />;
   }
 
   return (

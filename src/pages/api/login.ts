@@ -13,8 +13,8 @@ export const signUpHndlr = async (id: string, pw: string, nick: string) => {
       },
     });
     console.log('data: ', data);
-    // if (error) console.error(error);
-    // console.log(data);
+    if (error) console.error(error);
+    console.log(data);
   } catch (error) {
     console.error(error);
   }

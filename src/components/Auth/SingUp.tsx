@@ -1,3 +1,4 @@
+import { isLoggedInState } from '@/recoil/atom';
 import {
   Button,
   Dialog,
@@ -7,11 +8,9 @@ import {
   DialogTitle,
   TextField,
 } from '@mui/material';
-
 import React, { useCallback } from 'react';
 import { signUpHndlr } from '@/pages/api/login';
 import { useSetRecoilState } from 'recoil';
-import { isLoggedInState } from '@/recoil/atom';
 
 export default function Login() {
   const [open, setOpen] = React.useState(false);
@@ -111,76 +110,74 @@ export default function Login() {
   };
 
   return (
-    <>
-      <React.Fragment>
-        <Button className='text-base text-white font-sans' onClick={handleOpen}>
-          Join
-        </Button>
-        <Dialog open={open} onClose={handleCancel}>
-          <DialogTitle>Join </DialogTitle>
-          <DialogContent>
-            <DialogContentText>
-              M5MENTOM에 오신 것을 환영합니다.
-            </DialogContentText>
-            <TextField
-              fullWidth
-              autoFocus
-              margin='dense'
-              id='email'
-              label='Email'
-              type='email'
-              variant='standard'
-              error={!isEmailValid}
-              helperText={emailMsg}
-              value={email}
-              onChange={(e) => onChangeEmail(e)}
-              required
-            />
-            <TextField
-              fullWidth
-              autoFocus
-              margin='dense'
-              id='password'
-              label='Password'
-              type='password'
-              variant='standard'
-              error={!isPwdValid}
-              helperText={pwdMsg}
-              value={password}
-              onChange={(e) => onChangePwd(e)}
-              required
-            />
-            <TextField
-              fullWidth
-              autoFocus
-              margin='dense'
-              id='nickname'
-              label='닉네임'
-              type='text'
-              variant='standard'
-              error={!isNicknameValid}
-              helperText={nicknameMsg}
-              value={nickname}
-              onChange={(e) => onChangeNickname(e)}
-              required
-            />
-          </DialogContent>
-          <DialogActions className='flex justify-end pl-6'>
-            <button
-              className='mr-2 bg-gray-200 w-14 h-8 text-black text-xs'
-              onClick={handleCancel}
-            >
-              취소
-            </button>
-            <button
-              className='mr-4 bg-violet-900 w-14 h-8 text-white text-xs'
-              onClick={singUpHelperFn}
-            >
-              join
-            </button>
-          </DialogActions>
-        </Dialog>
-      </React.Fragment>
-    </>
+    <React.Fragment>
+      <Button
+        className='text-base text-white text-xl font-bebas'
+        onClick={handleOpen}
+      >
+        Join
+      </Button>
+      <Dialog open={open} onClose={handleCancel}>
+        <DialogTitle>Join </DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            M5MENTOM에 오신 것을 환영합니다.
+          </DialogContentText>
+          <TextField
+            fullWidth
+            autoFocus
+            margin='dense'
+            id='email'
+            label='Email'
+            type='email'
+            variant='standard'
+            error={!isEmailValid}
+            helperText={emailMsg}
+            value={email}
+            onChange={(e) => onChangeEmail(e)}
+          />
+          <TextField
+            fullWidth
+            autoFocus
+            margin='dense'
+            id='password'
+            label='Password'
+            type='password'
+            variant='standard'
+            error={!isPwdValid}
+            helperText={pwdMsg}
+            value={password}
+            onChange={(e) => onChangePwd(e)}
+          />
+          <TextField
+            fullWidth
+            autoFocus
+            margin='dense'
+            id='nickname'
+            label='닉네임'
+            type='text'
+            variant='standard'
+            error={!isNicknameValid}
+            helperText={nicknameMsg}
+            value={nickname}
+            onChange={(e) => onChangeNickname(e)}
+          />
+        </DialogContent>
+        <DialogActions className='flex justify-end pl-6'>
+          <button
+            className='mr-2 bg-gray-200 w-14 h-8 text-black text-xs'
+            onClick={handleCancel}
+          >
+            취소
+          </button>
+          <button
+            className='mr-4 bg-violet-900 w-14 h-8 text-white text-xs'
+            onClick={singUpHelperFn}
+          >
+            join
+          </button>
+        </DialogActions>
+      </Dialog>
+    </React.Fragment>
   );
 }
