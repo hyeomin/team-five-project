@@ -1,4 +1,3 @@
-import { signUpHndlr } from '@/pages/api/login';
 import { isLoggedInState } from '@/recoil/atom';
 import {
   Button,
@@ -10,6 +9,7 @@ import {
   TextField,
 } from '@mui/material';
 import React, { useCallback } from 'react';
+import { signUpHndlr } from '@/pages/api/login';
 import { useSetRecoilState } from 'recoil';
 
 export default function Login() {
@@ -111,7 +111,10 @@ export default function Login() {
 
   return (
     <React.Fragment>
-      <Button className='text-white text-xl font-bebas' onClick={handleOpen}>
+      <Button
+        className='text-base text-white text-xl font-bebas'
+        onClick={handleOpen}
+      >
         Join
       </Button>
       <Dialog open={open} onClose={handleCancel}>
