@@ -1,7 +1,6 @@
 import { signUpHndlr } from '@/pages/api/login';
 import { isLoggedInState } from '@/recoil/atom';
 import {
-  Button,
   Dialog,
   DialogActions,
   DialogContent,
@@ -111,9 +110,12 @@ export default function Login() {
 
   return (
     <React.Fragment>
-      <Button className='text-white text-xl font-bebas' onClick={handleOpen}>
+      {/* <Button className='text-white text-xl font-bebas' onClick={handleOpen}>
         Join
-      </Button>
+      </Button> */}
+      <button className='text-white text-xl font-bebas' onClick={handleOpen}>
+        Join
+      </button>
       <Dialog open={open} onClose={handleCancel}>
         <DialogTitle>Join </DialogTitle>
         <DialogContent>
